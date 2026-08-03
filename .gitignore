@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+data/fetched_raw.json
+data/candidates.json
+data/panelized.json

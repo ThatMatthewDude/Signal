@@ -1,0 +1,249 @@
+# Single source of truth for what gets fetched and how it's tagged.
+# Adding/removing a source should only ever require editing this file.
+#
+# Each entry:
+#   name        - display name shown in the post header
+#   tag         - the one category badge shown on the card (see README for the fixed tag list)
+#   type        - rss | atom | api
+#   feed_url    - RSS/Atom URL (omit for type: api)
+#   snippet_only - true if the feed never carries full body text (paywalled, etc).
+#                  panelize.py will render a single "read the rest at <source>" slide.
+#   status      - confirmed | todo  (todo = URL is a guess or a manual step is still needed)
+
+sources:
+  # --- News & Happenings ---
+  - name: Tangle
+    tag: news
+    type: rss
+    feed_url: https://readtangle.com/feed/
+    status: confirmed
+
+  - name: The New York Times
+    tag: news
+    type: rss
+    feed_url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+    status: confirmed
+
+  - name: Reuters
+    tag: news
+    type: rss
+    feed_url: "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"
+    status: confirmed
+    notes: >
+      Reuters discontinued its own public RSS in 2020. This is a Google News
+      query-based feed scoped to reuters.com as the closest working substitute.
+
+  - name: ProPublica
+    tag: news
+    type: rss
+    feed_url: https://www.propublica.org/feeds/propublica/main
+    status: confirmed
+
+  - name: The Economist
+    tag: news
+    type: rss
+    feed_url: https://www.economist.com/latest/rss.xml
+    snippet_only: true
+    status: confirmed
+    notes: Paywalled beyond the RSS snippet, as expected.
+
+  # --- Financial ---
+  - name: Apricitas Economics
+    tag: financial
+    type: rss
+    feed_url: https://www.apricitas.io/feed
+    status: confirmed
+    notes: Publication moved off Substack to a custom domain (apricitas.io).
+
+  - name: The Overshoot
+    tag: financial
+    type: rss
+    feed_url: https://theovershoot.co/feed
+    status: confirmed
+
+  - name: Noahpinion
+    tag: financial
+    type: rss
+    feed_url: https://www.noahpinion.blog/feed
+    status: confirmed
+    notes: Runs on custom domain noahpinion.blog, not noahpinion.substack.com.
+
+  - name: Net Interest
+    tag: financial
+    type: rss
+    feed_url: https://www.netinterest.co/feed
+    status: confirmed
+
+  - name: Money Stuff
+    tag: financial
+    type: rss
+    feed_url: https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/77e6a3a7-290d-4a82-8164-b14001353ef2/podcast.rss
+    snippet_only: true
+    status: confirmed
+    notes: >
+      The written newsletter is Bloomberg-paywalled with no public RSS. This
+      is the official "Money Stuff: The Podcast" audio feed instead (episode
+      notes only, no full text) — closest legitimate substitute.
+
+  # --- Analytical Philosophy & Metaphysics ---
+  - name: Daily Nous
+    tag: philosophy
+    type: rss
+    feed_url: https://dailynous.com/feed
+    status: confirmed
+
+  - name: PhilPapers
+    tag: philosophy
+    type: rss
+    feed_url: https://philpapers.org/feeds/newpapers.rss
+    status: todo
+    notes: >
+      This is the general new-papers feed, not filtered to Metaphysics. A
+      category-specific feed requires visiting philpapers.org/browse/metaphysics
+      while logged in and using the "Monitor this page" link to generate a
+      personal feed URL, then replacing feed_url above.
+
+  - name: Aeon
+    tag: philosophy
+    type: rss
+    feed_url: https://aeon.co/feed.rss
+    status: confirmed
+
+  - name: Psyche
+    tag: philosophy
+    type: rss
+    feed_url: https://psyche.co/feed.rss
+    status: confirmed
+
+  - name: "3:16am"
+    tag: philosophy
+    type: rss
+    feed_url: null
+    status: todo
+    notes: >
+      Site (3-16am.co.uk) runs on a no-code builder with no native RSS.
+      Options: point a third-party page-to-feed generator (e.g. RSS.app) at
+      it and drop the resulting URL here, or drop this source. Currently
+      skipped by fetch.py (no feed_url).
+
+  - name: The Splintered Mind
+    tag: philosophy
+    type: atom
+    feed_url: https://schwitzsplinters.blogspot.com/feeds/posts/default
+    status: confirmed
+
+  - name: r/askphilosophy
+    tag: philosophy
+    type: rss
+    feed_url: https://www.reddit.com/r/askphilosophy/.rss
+    status: confirmed
+
+  - name: Mindscape
+    tag: philosophy
+    type: rss
+    feed_url: https://rss.libsyn.com/shows/604590/destinations/5264190.xml
+    snippet_only: true
+    status: confirmed
+    notes: Podcast episode descriptions only, not full transcripts.
+
+  - name: Closer to Truth
+    tag: philosophy
+    type: atom
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCl9StMQ79LtEvlrskzjoYbQ"
+    snippet_only: true
+    status: confirmed
+    notes: YouTube video descriptions only.
+
+  # --- Engineering & Tech ---
+  - name: The Orbital Index
+    tag: engineering
+    type: rss
+    feed_url: https://orbitalindexextendedmission.substack.com/feed
+    status: confirmed
+    notes: >
+      Original weekly newsletter at orbitalindex.com ended Jan 2026 (issue
+      #350). Authors continue sporadically on this new Substack.
+
+  - name: Casey Handmer's Blog
+    tag: engineering
+    type: rss
+    feed_url: https://caseyhandmer.wordpress.com/feed/
+    status: confirmed
+
+  - name: Ars Technica — Rocket Report
+    tag: engineering
+    type: rss
+    feed_url: https://arstechnica.com/tag/rocket-report/feed/
+    status: confirmed
+
+  - name: Construction Physics
+    tag: engineering
+    type: rss
+    feed_url: https://www.construction-physics.com/feed
+    status: confirmed
+    notes: Runs on custom domain construction-physics.com, not Substack subdomain.
+
+  - name: Hacker News
+    tag: engineering
+    type: api
+    provider: hacker_news
+    api_base: https://hacker-news.firebaseio.com/v0/
+    keywords: [space, rocket, satellite, orbit, robot, robotics, aerospace, hardware, drone]
+    status: confirmed
+
+  - name: arXiv
+    tag: engineering
+    type: api
+    provider: arxiv
+    api_base: http://export.arxiv.org/api/query
+    categories: [astro-ph, physics.space-ph, cs.RO]
+    status: confirmed
+
+  # --- Fun ---
+  - name: r/Minecraft
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/Minecraft/.rss
+    status: confirmed
+
+  - name: r/Helldivers
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/Helldivers/.rss
+    status: confirmed
+
+  - name: r/Stellaris
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/Stellaris/.rss
+    status: confirmed
+
+  - name: r/Pathfinder_RPG
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/Pathfinder_RPG/.rss
+    status: confirmed
+
+  - name: r/Starfinder_RPG
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/Starfinder_RPG/.rss
+    status: confirmed
+
+  - name: Rock Paper Shotgun
+    tag: fun
+    type: rss
+    feed_url: https://www.rockpapershotgun.com/feed
+    status: confirmed
+
+  - name: r/hiking
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/hiking/.rss
+    status: confirmed
+
+  - name: r/CampingandHiking
+    tag: fun
+    type: rss
+    feed_url: https://www.reddit.com/r/CampingandHiking/.rss
+    status: confirmed

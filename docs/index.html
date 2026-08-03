@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal</title>
+<style>
+:root {
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a { color: inherit; }
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: rgba(0,0,0,0.92);
+  border-bottom: 1px solid #262626;
+  backdrop-filter: blur(6px);
+}
+.wordmark {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #f5f5f5;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+}
+.icon-btn svg { width: 24px; height: 24px; }
+
+main {
+  max-width: 470px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.post {
+  border-bottom: 1px solid #1c1c1c;
+  padding: 14px 0 22px;
+  margin-bottom: 8px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 0 14px 10px;
+  gap: 10px;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ccc;
+  flex-shrink: 0;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  min-width: 0;
+}
+.source-name {
+  font-weight: 600;
+  font-size: 13.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header-meta {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.tag-pill {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #1e1e1e;
+  color: #aaa;
+  border: 1px solid #2c2c2c;
+  white-space: nowrap;
+}
+.timestamp {
+  font-size: 12px;
+  color: #8a8a8a;
+  white-space: nowrap;
+}
+
+.media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #0c0c0c;
+  overflow: hidden;
+}
+.carousel-track {
+  display: flex;
+  height: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.carousel-track::-webkit-scrollbar { display: none; }
+.panel {
+  min-width: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  overflow-y: auto;
+}
+.panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.panel-text {
+  font-size: 15px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: #eee;
+  align-self: flex-start;
+  margin: auto 0;
+}
+.panel-snippet {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-self: center;
+}
+.panel-snippet p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #eee;
+  margin: 0;
+}
+.read-more {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #4ea1ff;
+  text-decoration: none;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.35);
+}
+.dot.active { background: #fff; }
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px 0;
+  gap: 12px;
+}
+.save-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #f5f5f5;
+  padding: 4px;
+  margin-left: auto;
+}
+.save-btn svg { width: 22px; height: 22px; }
+.caption {
+  padding: 8px 14px 0;
+  font-size: 13.5px;
+  color: #ccc;
+  line-height: 1.5;
+}
+.caption .caption-source {
+  font-weight: 600;
+  color: #f5f5f5;
+  margin-right: 6px;
+}
+.caption a {
+  color: #4ea1ff;
+  text-decoration: none;
+}
+
+#saved-view {
+  display: none;
+}
+#saved-view.active { display: block; }
+#feed-view.hidden { display: none; }
+.empty-state {
+  text-align: center;
+  color: #777;
+  padding: 60px 20px;
+  font-size: 14px;
+}
+.saved-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 14px 14px;
+}
+.saved-header h2 {
+  font-size: 16px;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wordmark" id="wordmark-btn">Signal</div>
+  <button class="icon-btn" id="saved-toggle-btn" aria-label="Saved posts">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3c-1.1 0-2 .9-2 2v16l8-5.333L20 21V5c0-1.1-.9-2-2-2H6z"/></svg>
+  </button>
+</div>
+
+<main>
+  <div id="feed-view"></div>
+  <div id="saved-view">
+    <div class="saved-header">
+      <button class="icon-btn" id="back-btn" aria-label="Back to feed">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <h2>Saved</h2>
+    </div>
+    <div id="saved-list"></div>
+  </div>
+</main>
+
+<script type="application/json" id="feed-data">[{"id": "d5204a0e07069470", "title": "od czego zacząć naukę filozofii?", "url": "https://www.reddit.com/r/askphilosophy/comments/1velbac/od_czego_zacząć_naukę_filozofii/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T02:15:17+00:00", "panels": [{"type": "text_post", "content": "wiem, że jest pare kierunków, ale od kogo powinnam zacząć, co na początek? ciekawi mnie stoicyzm, tylko czy powinnam iść chronologicznie, czy kolejność nie ma znaczenia? submitted by /u/Grymum [link] [comments]"}], "text_post": true}, {"id": "7ce2bffc9907e511", "title": "What are some solid English-Speaking Continental Philosophy Faculties?", "url": "https://www.reddit.com/r/askphilosophy/comments/1vel6l3/what_are_some_solid_englishspeaking_continental/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T02:10:30+00:00", "panels": [{"type": "text_post", "content": "I’m applying to university for a philosophy undergrad soon, and am much more interested in Continental philosophy compared to analytic. (I understand that the distinction isn’t the best, but I feel it works alright qualitatively.) I live in the US and only speak English (and a tiny bit of German, but nowhere near enough to take philosophy courses taught in it; my High School’s German program was very casual). I’m open to universities in the US and abroad, as long as classes are primarily taught in English. Are there any faculties that you could recommend? submitted by /u/Acceptable_Escape_13 ["}], "text_post": true}, {"id": "983577dcf2092ff1", "title": "At what point are Defense contractors evil?", "url": "https://www.reddit.com/r/askphilosophy/comments/1vel3pl/at_what_point_are_defense_contractors_evil/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T02:07:31+00:00", "panels": [{"type": "text_post", "content": "I see nothing but hate for engineers that work at defense contractors like lockheed martin. I think it’s mostly justified, but at what point does the blame for the deaths caused by weapons stop? In my head theres levels to it, but according to the internet it seems like anyone associated in any capacity is evil (even more so than the militaries that use the weapons). Is their a philosophical answer to this? At what point are employees of these companies to blame? The categories of people involved seem to be split like so to me: Facilites/Maintenance/ office admin / security: least blame Engine"}], "text_post": true}, {"id": "6bee31b8d31da29f", "title": "Russia says Ukrainian drone attack on holiday-makers killed seven, including 3 children - Reuters", "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdTc3YWtLb1FlNGE3dDlBMnFwajJ2T0tHaExndUEwa1dubGQwMnRiUnBpdHc1aDdKREh2VUpHSF9YaDVDRVprdmdLOGRWcXlaRlAzaWZOSHdWdXh5aDQ5R2JzVFptMzhHaXR6UzV0Qm5zdzhYQVNaR2RxME1VX2xCOXBFcS1feGVyWnp5ZFRVajFXOWJxVnBzbUFHcEJoenZ5em00RUc3M0hMZF92T0k1eVVBWnYyRmxpWXZVY3ZERDVzZmdF?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T01:57:52+00:00", "panels": [{"type": "snippet", "content": "Russia says Ukrainian drone attack on holiday-makers killed seven, including 3 children Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdTc3YWtLb1FlNGE3dDlBMnFwajJ2T0tHaExndUEwa1dubGQwMnRiUnBpdHc1aDdKREh2VUpHSF9YaDVDRVprdmdLOGRWcXlaRlAzaWZOSHdWdXh5aDQ5R2JzVFptMzhHaXR6UzV0Qm5zdzhYQVNaR2RxME1VX2xCOXBFcS1feGVyWnp5ZFRVajFXOWJxVnBzbUFHcEJoenZ5em00RUc3M0hMZF92T0k1eVVBWnYyRmxpWXZVY3ZERDVzZmdF?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "140f0e423fb82e97", "title": "Y'all think this is enough copper or nah", "url": "https://www.reddit.com/r/Minecraft/comments/1vektg0/yall_think_this_is_enough_copper_or_nah/", "source": "r/Minecraft", "tag": "fun", "published_at": "2026-08-04T01:57:25+00:00", "panels": [{"type": "text_post", "content": "submitted by /u/Radthadthe4th20 [link] [comments]"}], "text_post": true}, {"id": "6ac85aacac115764", "title": "Jay Clayton Sworn In as Director of National Intelligence", "url": "https://www.nytimes.com/2026/08/03/us/politics/jay-clayton-national-intelligence-director.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T01:55:53+00:00", "panels": [{"type": "snippet", "content": "Mr. Clayton’s delayed swearing-in ceremony gave Bill Pulte, a key ally of President Trump, a few more days as acting director of the office he boasted about shrinking.", "read_more_url": "https://www.nytimes.com/2026/08/03/us/politics/jay-clayton-national-intelligence-director.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "cbb0dcb111c11250", "title": "For Trump, the Year Is Always 2020", "url": "https://www.nytimes.com/2026/08/03/us/politics/trump-2020-covid-fauci-election.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T01:53:28+00:00", "panels": [{"type": "snippet", "content": "President Trump insists on revisiting and rewriting much of what happened six years ago, including the coronavirus pandemic and the election he lost. Many voters would rather he focus on 2026.", "read_more_url": "https://www.nytimes.com/2026/08/03/us/politics/trump-2020-covid-fauci-election.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "42e325e069dc648b", "title": "Will the study of physics ever replace metaphysics as the fundamental study of higher realities, or can they co-exist?", "url": "https://www.reddit.com/r/askphilosophy/comments/1vekg9a/will_the_study_of_physics_ever_replace/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T01:44:25+00:00", "panels": [{"type": "text_post", "content": "Would metaphysics be replaced by theoretical physics and mathematics as the primary ways of investigating the most fundamental questions about reality and the universe? Can those fields work together, or do they simply operate on \"different planes\"? (For example, where is the room for metaphysics in String Theories or other studies in cosmology / higher-dimensional realities that they explore in theoretical physics?) Are there still bigger questions about reality that physics or mathematics cannot explore by nature, but metaphysics could? In doing so, can we still take seriously the metaphysic"}], "text_post": true}, {"id": "23276f20aec5ba24", "title": "Meet the Bee Vet, Now Making Hive Calls", "url": "https://www.nytimes.com/2026/08/03/science/honeybees-veterinary-medicine.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T01:37:52+00:00", "panels": [{"type": "snippet", "content": "Veterinarians are gingerly embracing the honeybee, a vital pollinator for agriculture but one that’s in increasing danger.", "read_more_url": "https://www.nytimes.com/2026/08/03/science/honeybees-veterinary-medicine.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "62766ad4432d2994", "title": "Millions play padel. Will anyone watch it?", "url": "https://www.economist.com/britain/2026/08/03/millions-play-padel-will-anyone-watch-it", "source": "The Economist", "tag": "news", "published_at": "2026-08-04T01:34:16+00:00", "panels": [{"type": "snippet", "content": "Britain is a test case", "read_more_url": "https://www.economist.com/britain/2026/08/03/millions-play-padel-will-anyone-watch-it", "read_more_source": "The Economist"}], "text_post": false}, {"id": "81033e98d4d4ce72", "title": "Brown’s President Will Resign after a Tenure that Included Trump Deal", "url": "https://www.nytimes.com/2026/08/03/us/brown-president-christina-paxson-resign.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T01:31:55+00:00", "panels": [{"type": "snippet", "content": "The president, Christina H. Paxson, led the campus for over a decade, but in recent years faced protests, political pressure and a shooting that killed two students.", "read_more_url": "https://www.nytimes.com/2026/08/03/us/brown-president-christina-paxson-resign.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "a21d481ffb991835", "title": "Greek crews fight wildfire northwest of Athens for fourth day - Reuters", "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUGIyNjVnT0dMdTN2aXQ3V0x4WmtGdlRYbmtZZW0wcDFtTEJsaWRzTXVjZTdwcjRjU2phNFduMEdINlZpaTNfZmZBU3lnNVI0QW1vendwdGdEVjFJd2k0cklkQ3g0NV9tWU1lbThLTXRiNVZqSnVOdWV6YWNQUm9TRndKME9jXy00b2QzSzFTbl9idlpPVURiSThxbUlfSkFWdExNZDdZd0xfbU1QOUw1WmZnQmxTTzFyamc?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T01:26:48+00:00", "panels": [{"type": "snippet", "content": "Greek crews fight wildfire northwest of Athens for fourth day Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUGIyNjVnT0dMdTN2aXQ3V0x4WmtGdlRYbmtZZW0wcDFtTEJsaWRzTXVjZTdwcjRjU2phNFduMEdINlZpaTNfZmZBU3lnNVI0QW1vendwdGdEVjFJd2k0cklkQ3g0NV9tWU1lbThLTXRiNVZqSnVOdWV6YWNQUm9TRndKME9jXy00b2QzSzFTbl9idlpPVURiSThxbUlfSkFWdExNZDdZd0xfbU1QOUw1WmZnQmxTTzFyamc?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "fc3e05d350bb1bbe", "title": "How Democratic Socialists Are Wrestling With Their Next Moves", "url": "https://www.nytimes.com/2026/08/03/us/politics/democratic-socialists-midterms-democrats-republicans.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T01:26:39+00:00", "panels": [{"type": "snippet", "content": "After notching primary victories, D.S.A. members in Chicago debated whether socialist candidates should be free to distance themselves from goals like abolishing prisons as they chase more seats this fall.", "read_more_url": "https://www.nytimes.com/2026/08/03/us/politics/democratic-socialists-midterms-democrats-republicans.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "89171e751066d71d", "title": "Star Wars warbond concept", "url": "https://www.reddit.com/r/Helldivers/comments/1vejwuo/star_wars_warbond_concept/", "source": "r/Helldivers", "tag": "fun", "published_at": "2026-08-04T01:24:46+00:00", "panels": [{"type": "text_post", "content": "So I know that famous image of where the line is in terms of crossover, this is just a fun little concept, don’t take it seriously. The armor passive is Environmental Conditioning. It provides a higher armor rating and reduces the visual penalties from weather events like blizzards and sandstorms, while completing nullifying the movement penalties of said weather events. The LAS-21 Scalpel is a medium armor penetrating laser marksman rifle. That’s pretty much it. The CB/LAS-77 Laser Crossbow is based on a Bowcaster. It’s a high damage, heavy armor penetrating crossbow that shoots large bolts o"}], "text_post": true}, {"id": "acb65a85b5a2d13b", "title": "I Need Help with Aristotle's Unmoved Mover", "url": "https://www.reddit.com/r/askphilosophy/comments/1vejuuk/i_need_help_with_aristotles_unmoved_mover/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T01:22:42+00:00", "panels": [{"type": "text_post", "content": "I've just started to skim his Unmoved Mover argument, along with his Four Causes. Could anyone give me some review or context for his points? I'm struggling to find a layman-intended source other than AI, and I'd rather not go there. submitted by /u/Capable-Occasion-924 [link] [comments]"}], "text_post": true}, {"id": "7392f88922ee3fb5", "title": "Why do laypeople panic upon hearing of moral anti-realism?", "url": "https://www.reddit.com/r/askphilosophy/comments/1vejtfc/why_do_laypeople_panic_upon_hearing_of_moral/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T01:21:18+00:00", "panels": [{"type": "text_post", "content": "I think when laypeople hear about moral anti-realism, they probably hear, \"there is no morality\", and they think this leads to moral decay and radical relativism. I think that line actually is the answer to this. Whenever I see people on the internet debate this topic they are often not debating meta-ethics, but rather condemning certain normative frameworks. Is this the problem or is the panic legitimate? submitted by /u/Acceptable-Run3755 [link] [comments]"}], "text_post": true}, {"id": "ea781009082d332f", "title": "MC Plus! for macOS!", "url": "https://www.reddit.com/r/Minecraft/comments/1vejtbg/mc_plus_for_macos/", "source": "r/Minecraft", "tag": "fun", "published_at": "2026-08-04T01:21:12+00:00", "panels": [{"type": "text_post", "content": "Ported the \"Minecraft Plus!\" screensaver to macOS since there was never an official Mac version runs as a real System Settings screensaver with an options panel to pick which modules show up or just let it cycle randomly. Download it for free at https://mc-plus.ztxi.de/ would be nice if you could give me feedback submitted by /u/Normal_Cherry8936 [link] [comments]"}], "text_post": true}, {"id": "2887ebbda51a6e4a", "title": "Documents Undercut Trump’s Claims About Bears Ears National Monument", "url": "https://www.nytimes.com/2026/08/03/climate/trump-bears-ears-monument-recreation.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T01:20:59+00:00", "panels": [{"type": "snippet", "content": "President Trump said recreation in Bears Ears National Monument was virtually impossible. Documents reviewed by The New York Times show officials knew otherwise.", "read_more_url": "https://www.nytimes.com/2026/08/03/climate/trump-bears-ears-monument-recreation.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "083fba5fc6ecc229", "title": "What does dialectic mean for Plato (Republic book VII)? Why is it the highest science/knowledge and how is it better than reasoning off hypotheses?", "url": "https://www.reddit.com/r/askphilosophy/comments/1vejoyp/what_does_dialectic_mean_for_plato_republic_book/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-04T01:16:52+00:00", "panels": [{"type": "text_post", "content": "In book VII Plato/Socrates really wants to distinguish between reasoning where one argues to conclusions based on premises which are simply taken for granted (and so are just based on hypotheses) and reasoning where one instead reaches a first principle which is not hypothetical. Dialectic is supposed to be the latter. This confused me because I always understood dialectic as having the former character: one takes certain premises, usually of one's opponent, for granted in order to show that something follows from them (usually something that the opponent does not want to be true and so this p"}], "text_post": true}, {"id": "e6548f0749720892", "title": "China won’t apologise for overcapacity", "url": "https://www.economist.com/china/2026/08/03/china-wont-apologise-for-overcapacity", "source": "The Economist", "tag": "news", "published_at": "2026-08-04T01:16:49+00:00", "panels": [{"type": "snippet", "content": "Its industrial policy rests on a simple principle: might makes right", "read_more_url": "https://www.economist.com/china/2026/08/03/china-wont-apologise-for-overcapacity", "read_more_source": "The Economist"}], "text_post": false}, {"id": "b53d5b926ee526b1", "title": "How China gets better bang for its buck than America in AI", "url": "https://www.economist.com/finance-and-economics/2026/08/03/how-china-gets-better-bang-for-its-buck-than-america-in-ai", "source": "The Economist", "tag": "news", "published_at": "2026-08-04T01:15:13+00:00", "panels": [{"type": "snippet", "content": "Its investment lags far behind America’s. Its models do not", "read_more_url": "https://www.economist.com/finance-and-economics/2026/08/03/how-china-gets-better-bang-for-its-buck-than-america-in-ai", "read_more_source": "The Economist"}], "text_post": false}, {"id": "65030b18d9465ff1", "title": "Acatenango and El Fuego in Guatemala", "url": "https://www.reddit.com/r/hiking/comments/1vejmxj/acatenango_and_el_fuego_in_guatemala/", "source": "r/hiking", "tag": "fun", "published_at": "2026-08-04T01:14:50+00:00", "panels": [{"type": "text_post", "content": "Near Antigua, Guatemala. Active volcano: El Fuego. Multiple eruptions captured on film but not sure how to post them here. 13,000ft summit, slept at base camp for 1 night which is about 11,200ft. Ask any questions you’d like, first post here, I probably already broke rules and upset people sorry submitted by /u/DinoTh3Dinosaur [link] [comments]"}], "text_post": true}, {"id": "01b138b412692392", "title": "EU can give Morocco more border support, von der Leyen tells Spain after Ceuta spat - Reuters", "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNC1XNmpUMjU2RUMyZE04eEY4VFp0eU5YUUZ0bDdLTExPR3BPT3ExOFpmSmVaOHdzQjVmNllkalBHMVlVVHB4LWZGWFM5S3hkeElyMXhWN05aczJKMjI1SUdQakt1dmFjYXVTZTkteVRmTXVQVDFjeTNNQWY0T0lQVFB3TC1EMEFHcGx2NDVHSjJva0t3ZzhsTC1pWThVUFBNejNLYUNGX0pfR0lsZFBFQllldWdfeDNDTi1zWHpZTTJsRDFKRHhwcQ?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:58:40+00:00", "panels": [{"type": "snippet", "content": "EU can give Morocco more border support, von der Leyen tells Spain after Ceuta spat Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNC1XNmpUMjU2RUMyZE04eEY4VFp0eU5YUUZ0bDdLTExPR3BPT3ExOFpmSmVaOHdzQjVmNllkalBHMVlVVHB4LWZGWFM5S3hkeElyMXhWN05aczJKMjI1SUdQakt1dmFjYXVTZTkteVRmTXVQVDFjeTNNQWY0T0lQVFB3TC1EMEFHcGx2NDVHSjJva0t3ZzhsTC1pWThVUFBNejNLYUNGX0pfR0lsZFBFQllldWdfeDNDTi1zWHpZTTJsRDFKRHhwcQ?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "41040ea7e2d6dfe3", "title": "Mexico’s president stops turning the other cheek", "url": "https://www.economist.com/the-americas/2026/08/03/mexicos-president-stops-turning-the-other-cheek", "source": "The Economist", "tag": "news", "published_at": "2026-08-04T00:48:45+00:00", "panels": [{"type": "snippet", "content": "Claudia Sheinbaum has abandoned her cool demeanor as Donald Trump attacks her political party", "read_more_url": "https://www.economist.com/the-americas/2026/08/03/mexicos-president-stops-turning-the-other-cheek", "read_more_source": "The Economist"}], "text_post": false}, {"id": "21d557712b11551b", "title": "First US deaths in cyclosporiasis outbreak recorded in Michigan - Reuters", "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbW9icDFxQ3hEUUY5eV9ubnhsUURuNnpiX0RKbW1BUWRkRGp5ZWVXdnEzdklrMUdtODByVC02T0NxZG9YRGlWYklzNkN3X21kRTNDZlo0Um50Q2hDY0JreUFHcXUwZHh4TFZMVjVheVB0N2lPd0c5RzZNQ05relhmNnhlaUx6NU5MNXQxS0pJY0lOc1hsOHlYbGJYVTZHRy1xRmFOLXlMU1BWUEZ4SmNiOXNmNkFyNlVmZnR1bXVqWlZ4WFdnTzBDZEpBOA?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:48:26+00:00", "panels": [{"type": "snippet", "content": "First US deaths in cyclosporiasis outbreak recorded in Michigan Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbW9icDFxQ3hEUUY5eV9ubnhsUURuNnpiX0RKbW1BUWRkRGp5ZWVXdnEzdklrMUdtODByVC02T0NxZG9YRGlWYklzNkN3X21kRTNDZlo0Um50Q2hDY0JreUFHcXUwZHh4TFZMVjVheVB0N2lPd0c5RzZNQ05relhmNnhlaUx6NU5MNXQxS0pJY0lOc1hsOHlYbGJYVTZHRy1xRmFOLXlMU1BWUEZ4SmNiOXNmNkFyNlVmZnR1bXVqWlZ4WFdnTzBDZEpBOA?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "35db0110b872d840", "title": "How do I improve my hiking skills?", "url": "https://www.reddit.com/r/hiking/comments/1veisko/how_do_i_improve_my_hiking_skills/", "source": "r/hiking", "tag": "fun", "published_at": "2026-08-04T00:45:18+00:00", "panels": [{"type": "text_post", "content": "On my vacation I went to hike not big hills/mountains. Last one I tracked my time of getting up , it was mountain called Khom'yak. I wouldn’t say I was stopping that much, yet did to stabilise my heartbeat. It took me three hours and let’s say 10 minutes to get on the top. I never went hiking before, just walked around sometimes. Must admit my legs was cooked from other two hills (two days in a row, one was mount. Bukovel , second - Dovha,then day off and Khom'yak). I saw people do 5 mountains of 2k meters in 17 hrs and for me one of 1500 took me 3 hours.. I am a slow hiker I must say, and wan"}], "text_post": true}, {"id": "43f714aee71dc675", "title": "US manufacturing activity hits more than four-year high; input prices elevated - Reuters", "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS1pRYktWWVFTT181ekNrN3VSNXR5WGJBTG1PVlRkNl9HZlk0TUxvaXhpRVp6bXZwQUc5MzdPWXEzTGN2U1lUY3BPdEtLOEtvQlhCUDVpekMzVlpMZy1ra010ZW1pYkdSdTMwUHRCa1VNckNaUnVsRWRJdGNxZlMwSnREWWk1eVpyUUo0NWdIZzU5VlpSeWtNa25LUTFXcnFGd1lFYkV2elpEQQ?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:42:38+00:00", "panels": [{"type": "snippet", "content": "US manufacturing activity hits more than four-year high; input prices elevated Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS1pRYktWWVFTT181ekNrN3VSNXR5WGJBTG1PVlRkNl9HZlk0TUxvaXhpRVp6bXZwQUc5MzdPWXEzTGN2U1lUY3BPdEtLOEtvQlhCUDVpekMzVlpMZy1ra010ZW1pYkdSdTMwUHRCa1VNckNaUnVsRWRJdGNxZlMwSnREWWk1eVpyUUo0NWdIZzU5VlpSeWtNa25LUTFXcnFGd1lFYkV2elpEQQ?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "de03e6e9b01f7a4f", "title": "Serbia, Sweden follow Wales in withdrawing support for Infantino re-election - Reuters", "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQm1tTGRXdDNDdFJ6UjEtVU9hOGpEY0RPZG1feFlLU09pdnF3OTZjNnYzZ0RoX1oxUC1MdHNjRnR4S0J6R3BMamFVeU9aUFFpZkpYTGZzWEo1RnJjZ0dNbXNnWlF6c2F4TnpKaDNncXh3djF5OURvaU9Qc2lZX3I2NFd4RGJ5NmRGcmswTGpnNmpmdExTS1hBQ0V3Y2ZVT1pkWnF4YXJ3SG01SHFKWGR1QlVzWU5KTkk?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:40:11+00:00", "panels": [{"type": "snippet", "content": "Serbia, Sweden follow Wales in withdrawing support for Infantino re-election Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQm1tTGRXdDNDdFJ6UjEtVU9hOGpEY0RPZG1feFlLU09pdnF3OTZjNnYzZ0RoX1oxUC1MdHNjRnR4S0J6R3BMamFVeU9aUFFpZkpYTGZzWEo1RnJjZ0dNbXNnWlF6c2F4TnpKaDNncXh3djF5OURvaU9Qc2lZX3I2NFd4RGJ5NmRGcmswTGpnNmpmdExTS1hBQ0V3Y2ZVT1pkWnF4YXJ3SG01SHFKWGR1QlVzWU5KTkk?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "d04a4ab355c07036", "title": "Federal Aviation Administration certifies Boeing 737 MAX 7 - Reuters", "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObm5abmxuWVVCMWR2ZDdDaTFWSnJ5SEYxZnc5MFg0Qko5RkJWMGZpTndzclotOVAza0ZYRHJoTmpUZk1yclB4MnZxUFlYanVwbnlGd3JaNk5sZ2YxbjliM3EyVk55bUtEZU9mQWNRR214WTlQRVdTRXAwbVdGRzdYdE1CY0hrOXlIWjRlV0V0VGg2d05qLUJzT05iQ0oyaS13UFM4azRFMXF2T2ZOUEhPT2hJblN1bUozNlc1SkNn?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:39:04+00:00", "panels": [{"type": "snippet", "content": "Federal Aviation Administration certifies Boeing 737 MAX 7 Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObm5abmxuWVVCMWR2ZDdDaTFWSnJ5SEYxZnc5MFg0Qko5RkJWMGZpTndzclotOVAza0ZYRHJoTmpUZk1yclB4MnZxUFlYanVwbnlGd3JaNk5sZ2YxbjliM3EyVk55bUtEZU9mQWNRR214WTlQRVdTRXAwbVdGRzdYdE1CY0hrOXlIWjRlV0V0VGg2d05qLUJzT05iQ0oyaS13UFM4azRFMXF2T2ZOUEhPT2hJblN1bUozNlc1SkNn?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "1a732fb199daa705", "title": "Checks and Balance newsletter: Democrats are in a state of convulsion", "url": "https://www.economist.com/united-states/2026/08/03/checks-and-balance-newsletter-democrats-are-in-a-state-of-convulsion", "source": "The Economist", "tag": "news", "published_at": "2026-08-04T00:37:32+00:00", "panels": [{"type": "snippet", "content": "Charlotte Howard, our US editor, on the battle between the party’s moderates and its left", "read_more_url": "https://www.economist.com/united-states/2026/08/03/checks-and-balance-newsletter-democrats-are-in-a-state-of-convulsion", "read_more_source": "The Economist"}], "text_post": false}, {"id": "772388a5393f404a", "title": "Max Miller, Accused of Abuse, Is Not Stepping Aside. Here’s What We Know.", "url": "https://www.nytimes.com/2026/08/03/us/politics/max-miller-ohio-moreno-election-republicans.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T00:29:34+00:00", "panels": [{"type": "snippet", "content": "The Ohio Republican who is seeking a third term defiantly denied domestic abuse allegations ahead of a deadline to replace him on the ballot.", "read_more_url": "https://www.nytimes.com/2026/08/03/us/politics/max-miller-ohio-moreno-election-republicans.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "392a2f378d28ff6e", "title": "Trump expected to attend State Department roundtable with mining CEOs amid critical minerals push - Reuters", "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUV9DajRkYmdWaDR1ekNVVEhGektuN2VxMTREcFNIVjU1alh5SmRGWkt6R0ZYYUx6Z2VBLVJyY2taVVRCamVzY3hpbDlGV0hHU19QZmtOWFJjNGEyQkxsTk9mNlFYMVNQZnFLeDZ2V1ZPOGw2ekNmMThUcGxGSjExTXdFaFl3bFIwRUk4RmJzQ1EzYkkyakpHYVJKRmE0TDY5UlBZR0FaRGJVcWpNVzBHS1VsTEpqNVlDbnpNOTg4ZEc0bGM?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:27:43+00:00", "panels": [{"type": "snippet", "content": "Trump expected to attend State Department roundtable with mining CEOs amid critical minerals push Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUV9DajRkYmdWaDR1ekNVVEhGektuN2VxMTREcFNIVjU1alh5SmRGWkt6R0ZYYUx6Z2VBLVJyY2taVVRCamVzY3hpbDlGV0hHU19QZmtOWFJjNGEyQkxsTk9mNlFYMVNQZnFLeDZ2V1ZPOGw2ekNmMThUcGxGSjExTXdFaFl3bFIwRUk4RmJzQ1EzYkkyakpHYVJKRmE0TDY5UlBZR0FaRGJVcWpNVzBHS1VsTEpqNVlDbnpNOTg4ZEc0bGM?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "b773da044ce1e279", "title": "Trump demands lower gas prices from oil companies, chides Chevron CEO - Reuters", "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSlhBWjU3Vnk4RkhNa1N0cExPUjhxenRiTGVQbVVzakwxRWdhMU9ieVZvSm5fZU4yYkJaREVJR3ltYUhXZW1JYkx6c1lJS1ZYVkM4WVZZSGQza3ZQMDVTYVg5ZktqbGh6RjhWN2wzRTNZUDg0U0JEU2R3N3U2NkVmYjNlOFhHTHFUYmd1QzFGRlg1V2lzWnhabkVVLUt3YmVQS0dGeUwtUnVKb2xMZjQzOGZvY0NKQQ?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:26:59+00:00", "panels": [{"type": "snippet", "content": "Trump demands lower gas prices from oil companies, chides Chevron CEO Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSlhBWjU3Vnk4RkhNa1N0cExPUjhxenRiTGVQbVVzakwxRWdhMU9ieVZvSm5fZU4yYkJaREVJR3ltYUhXZW1JYkx6c1lJS1ZYVkM4WVZZSGQza3ZQMDVTYVg5ZktqbGh6RjhWN2wzRTNZUDg0U0JEU2R3N3U2NkVmYjNlOFhHTHFUYmd1QzFGRlg1V2lzWnhabkVVLUt3YmVQS0dGeUwtUnVKb2xMZjQzOGZvY0NKQQ?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "fc828740b01b5be6", "title": "Samsung, who've been accused of worsening the RAM crisis via price fixing, reckon components will only get more expensive in 2027", "url": "https://www.rockpapershotgun.com/samsung-whove-been-accused-of-worsening-the-ram-crisis-via-price-fixing-reckon-components-will-only-get-more-expensive-in-2027", "source": "Rock Paper Shotgun", "tag": "fun", "published_at": "2026-08-04T00:22:35+00:00", "panels": [{"type": "snippet", "content": "Samsung have become the latest company to declare that the ongoing memory crisis isn't going away or getting better any time soon. The chip makers think the RAM shortage will only get worse in 2027 and supply of the tech won't stop being squeezed until 2028 at the earliest. Read more", "read_more_url": "https://www.rockpapershotgun.com/samsung-whove-been-accused-of-worsening-the-ram-crisis-via-price-fixing-reckon-components-will-only-get-more-expensive-in-2027", "read_more_source": "Rock Paper Shotgun"}], "text_post": false}, {"id": "590464395a56a11e", "title": "Naryn city, Kyrgyzstan foothills", "url": "https://www.reddit.com/r/hiking/comments/1vei5o0/naryn_city_kyrgyzstan_foothills/", "source": "r/hiking", "tag": "fun", "published_at": "2026-08-04T00:22:20+00:00", "panels": [{"type": "text_post", "content": "Hi, everyone. These are photos from a jaunt I took into the foothills in Naryn city Kyrgyzstan. The hike was about six hours total and required no specialized gear although it was chilly (around 60 Fahrenheit) and windy even in the summer further up. Elevation was probably about 2300 feet above sea level (Naryn is in the highlands). The amazing thing about Kyrgyzstan is you can wander outside most villages and cities and catch views like these. Additionally, the people are amazing, warm, and hospitable. Please go if you have the chance and try to find individuals and businesses via WhatsApp an"}], "text_post": true}, {"id": "2334d2d467b246e0", "title": "Made a not-so-hideous looking mob farm.", "url": "https://www.reddit.com/r/Minecraft/comments/1vei4rw/made_a_notsohideous_looking_mob_farm/", "source": "r/Minecraft", "tag": "fun", "published_at": "2026-08-04T00:21:28+00:00", "panels": [{"type": "text_post", "content": "I built this in my realm some time ago last year. I just absolutely hate ugly looking farms, so I decided to make it fit into the worlds without building it somewhere too far away. I just messed around for and finally managed to make one that's pretty and works perfectly fine too (although it's a little show because it's only one layer). But if you ever wanna build something similar, you can always add more layers:) submitted by /u/lmao_getrekt [link] [comments]"}], "text_post": true}, {"id": "aa04d67f96742f17", "title": "Tongue your friends in Big Hops Together, the froggy platformer's new eight player co-op update, which was inspired by Mario mods", "url": "https://www.rockpapershotgun.com/tongue-your-friends-in-big-hops-together-the-froggy-platformers-new-eight-player-co-op-update-which-was-inspired-by-mario-mods", "source": "Rock Paper Shotgun", "tag": "fun", "published_at": "2026-08-04T00:19:55+00:00", "panels": [{"type": "snippet", "content": "Big Hops is the cool 3D platform game with the frog who can use their tongue as a grappling hook. Despite much questing and fervent prayer, I have yet to encounter a frog that can do this in reality. Real-life frogs are a slothful, unimaginative bunch, content to use their tongues purely to catch food with. Some frogs, like the African dwarf frog, don't even have tongues at all . What foul sorcery is here! It's just as well, then, that we have Big Hops, which is being updated with the ability to play through the whole campaign in eight player co-op. With eight frogs in the field, the tactical ", "read_more_url": "https://www.rockpapershotgun.com/tongue-your-friends-in-big-hops-together-the-froggy-platformers-new-eight-player-co-op-update-which-was-inspired-by-mario-mods", "read_more_source": "Rock Paper Shotgun"}], "text_post": false}, {"id": "f761623b6ca85365", "title": "Iran Says No Current Talks With U.S. After Trump Cites Progress on the Strait of Hormuz", "url": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T00:11:52+00:00", "panels": [{"type": "snippet", "content": "President Trump cited progress in the negotiations when canceling a threatened attack on Iran over the weekend. Iran said there were no current talks with the United States.", "read_more_url": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "613c833143741d08", "title": "Spain's Ceuta overwhelmed as thousands remain after migrant border rush - Reuters", "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa3RUUGplUHRFOElCUjBiQUNPYWgyNDM5MTlLT3ZyVEN2dDBnRk5JOGIyWkkzYWpQdjNGQ253WlZCbk9OeHNWZmo4djllSmRGQVRZbXA4eEQ0TldYMnJFOV95ZzRvODJJb2xySTA5eFNiMFJGc0VnX29MSmRBODZ0QjNuaHpxTVUxcXJXa2FXaFFvdkQtRmdnS0FnTlRWZVhTTGY4QzVrbVV5TkVic0o1UGJaVnhpa1J0SDdv?oc=5", "source": "Reuters", "tag": "news", "published_at": "2026-08-04T00:08:35+00:00", "panels": [{"type": "snippet", "content": "Spain's Ceuta overwhelmed as thousands remain after migrant border rush Reuters", "read_more_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa3RUUGplUHRFOElCUjBiQUNPYWgyNDM5MTlLT3ZyVEN2dDBnRk5JOGIyWkkzYWpQdjNGQ253WlZCbk9OeHNWZmo4djllSmRGQVRZbXA4eEQ0TldYMnJFOV95ZzRvODJJb2xySTA5eFNiMFJGc0VnX29MSmRBODZ0QjNuaHpxTVUxcXJXa2FXaFFvdkQtRmdnS0FnTlRWZVhTTGY4QzVrbVV5TkVic0o1UGJaVnhpa1J0SDdv?oc=5", "read_more_source": "Reuters"}], "text_post": false}, {"id": "15e57afa19d08a88", "title": "ICE Killed Him. A.I. Helped Turn Him Into a Folk Ballad, Fast.", "url": "https://www.nytimes.com/2026/08/03/us/ai-corridos-song-music-texas-ice-shooting.html", "source": "The New York Times", "tag": "news", "published_at": "2026-08-04T00:07:10+00:00", "panels": [{"type": "snippet", "content": "Artificial Intelligence is helping people write corridos within hours, accelerating a century-old tradition of memorializing tragedy through song.", "read_more_url": "https://www.nytimes.com/2026/08/03/us/ai-corridos-song-music-texas-ice-shooting.html", "read_more_source": "The New York Times"}], "text_post": false}, {"id": "3dd1d8f821f93249", "title": "Does Consciousness Require New Physics? | Ivette Fuentes", "url": "https://www.youtube.com/watch?v=e1ZvfRqy7Nw", "source": "Closer to Truth", "tag": "philosophy", "published_at": "2026-08-04T00:00:01+00:00", "panels": [{"type": "snippet", "content": "*Can today's physics ever explain consciousness?*\n\nIvette Fuentes discusses Roger Penrose's quantum theory of consciousness while arguing that solving the mystery of consciousness may require a profound revolution in physics itself.\n\n0:00 Why Consciousness Drew Me to Physics\n3:35 Roger Penrose and Quantum Consciousness\n5:43 Why Physics May Need a Revolution\n8:25 Is Consciousness Fundamental?\n10:20 How Penrose Explains Consciousness\n12:44 Testing Quantum Collapse\n\n*Ivette Fuentes* is a Professor of Quantum Physics at the University of Southampton and Emmy Fellow at Keble College, University of ", "read_more_url": "https://www.youtube.com/watch?v=e1ZvfRqy7Nw", "read_more_source": "Closer to Truth"}], "text_post": false}, {"id": "e6954bbc2e54625a", "title": "The War Room newsletter: Inside a 38-tonne armoured beast", "url": "https://www.economist.com/international/2026/08/03/the-war-room-newsletter-inside-a-38-tonne-armoured-beast", "source": "The Economist", "tag": "news", "published_at": "2026-08-03T23:58:16+00:00", "panels": [{"type": "snippet", "content": "Jonathan Rosenthal, our international editor, takes an infantry fighting vehicle for a spin", "read_more_url": "https://www.economist.com/international/2026/08/03/the-war-room-newsletter-inside-a-38-tonne-armoured-beast", "read_more_source": "The Economist"}], "text_post": false}, {"id": "2fe4540b9ca4857d", "title": "What do philosophers reason on what is AI in 2026?", "url": "https://www.reddit.com/r/askphilosophy/comments/1vehgrt/what_do_philosophers_reason_on_what_is_ai_in_2026/", "source": "r/askphilosophy", "tag": "philosophy", "published_at": "2026-08-03T23:57:57+00:00", "panels": [{"type": "text_post", "content": "Curious about what do current philosophers reason it is? I am not asking what it could be or what it says about humans. More what it is as currently stands in 2026. Noam Chomsky said it’s like asking a submarine can swim. They are sophisticated statistical prediction tools. Is it an advanced pattern matcher? A probabilistic stochastic parrot? Is it basically a 21st century version of a mean of production ) in that instead of producing steel or a product it’s producing what would normally be mental outputs ? Or is it something else ? Geoffrey Hinton argues it’s emergence or a by product of comp"}], "text_post": true}, {"id": "bff1e401f421cc07", "title": "July warbond is no longer delayed, just skipped", "url": "https://www.reddit.com/r/Helldivers/comments/1vehb3k/july_warbond_is_no_longer_delayed_just_skipped/", "source": "r/Helldivers", "tag": "fun", "published_at": "2026-08-03T23:52:09+00:00", "panels": [{"type": "text_post", "content": "Really curious to know what it is they've been working on Edit: I meant JUNE submitted by /u/LowTale909 [link] [comments]"}], "text_post": true}, {"id": "1e4100b670d5d2be", "title": "A potential breakthrough in Gaza.", "url": "https://www.readtangle.com/gaza-peace-process-august-2026/", "source": "Tangle", "tag": "news", "published_at": "2026-08-03T23:51:33+00:00", "panels": [{"type": "image", "src": "https://storage.ghost.io/c/4a/93/4a939b47-6a19-4b38-a13c-89d5a0f0d6dd/content/images/2026/08/Hamas.png", "alt": "A potential breakthrough in Gaza."}, {"type": "text", "content": "Happy August. I’m Isaac Saul, and this has to be the fastest summer on record. I know we always say this , but I feel like I blinked in late May and woke up in August, suddenly calculating how much beach time, seafood, and ice cream I can fit into the next 30 days. I’m trying to remind myself that September is (mostly) summer. That should be a hashtag. #SeptemberIsSummer. Please join me in not letting summer die ’til the crisp fall air truly rolls in.\n\nAnyway, while I attempt to slow down time, today we are putting a milemarker down on the war in Gaza . On Thursday, Trump announced that the Board of Peace had reached an agreement for Hamas to disarm. We’ll break down exactly what happened and where things are headed. Also, a reader question about the investigation into Gavin Newsom and an under-the-radar story on Trump’s boat strikes . It’s a 14-minute read ."}, {"type": "text", "content": "Two weeks ago, Managing Editor Ari Weitzman wrote a take on the Canadian wildfires, arguing that climate change was the lead driver of the increased fires but that Canada could still do more to mitigate them. Some Tangle readers pushed back on both claims, so Ari put their questions to climate scientist (and author of the newsletter The Climate Brink ) Zeke Haufather. Zeke weighed in on the science and the policy, as well as the role data centers will play in climate change in the coming years. You can listen here .\n\nYour personal info is everywhere. Here’s how to erase it.\n\nYour personal data is scattered across hundreds of websites right now.\n\nHome addresses, phone numbers, emails, even your family members’ details — all sitting online for anyone who knows where to look."}, {"type": "text", "content": "And it doesn’t stop with data brokers. It’s on public records sites, obscure forums, and random people search engines you’ve never heard of.\n\nThe internet never forgets. But you don’t have to leave your personal info out there.\n\nWith Incogni , you can remove your private data from hundreds of sites and keep it from showing up again. Take back control today with:\n\nUse code TANGLE today to get an exclusive 55% discount on unlimited removals from anywhere that exposes your data.\n\nThe latest on the Gaza peace plan. On Thursday, President Donald Trump said that the Board of Peace, a U.S.-led international body aiming to achieve peace in the Gaza Strip, had reached an agreement for Hamas and other armed groups in Gaza to disarm. The next day, the board shared a 15-point “roadmap” for a multi-step peace plan, outlining actions that Hamas and Israel would take to eventually transfer control of the strip to the National Committee for the Administration of Gaza (NCAG). Hamas officials said the group’s disarmament was contingent on Israel withdrawing from Gaza, while Israeli officials have expressed skepticism about Hamas’s commitment to disarming."}, {"type": "text", "content": "Back up: In January, President Trump established the Board of Peace to oversee Gaza’s reconstruction and post-war governance, as well as support peace globally. The board is backed by a United Nations mandate and is composed of over 20 member states, though several U.S. allies in Europe have opted not to join.\n\nThe 15-point plan requires Israel to cease military operations in Gaza while Hamas cedes control of civilian governance and security functions to the NCAG (which the Board of Peace oversees). Eventually, the plan says that Hamas will disarm completely, and Israel will begin a structured military withdrawal from the strip.\n\nHamas official Basem Naim confirmed that the group had agreed to the plan but said “the ball is now in the enemy’s court to fulfill its obligations according to the agreement, as well as for the mediators and guarantors to compel it to its duties.” Another Hamas official, Ghazi Hamad, added , “We will not take any steps regarding disarmament before Israel withdraws from the Gaza Strip,” a demand that appears to break from the Board of Peace’s plan."}, {"type": "text", "content": "Israeli Prime Minister Benjamin Netanyahu has not commented on the plan, but a spokesperson for the prime minister said that Hamas must disarm before Israel considers a military withdrawal. “Our assessment is that if we redeploy before Hamas is truly disarmed, it will quickly expand its presence throughout Gaza, rebuild its terrorist infrastructure, once again threaten Israeli communities, and seek to carry out another Oct. 7-style attack,” the spokesperson said.\n\nOn Sunday, Israel carried out airstrikes in Gaza for a second consecutive day, reportedly killing 26 people over the weekend. In response, Hamas accused the Israeli government of attempting to derail the peace plan. “This escalation, coinciding with progress on ​the political track, clearly demonstrates that the occupation government is seeking to undermine efforts aimed at ending the war and to impose facts ‌on the ground by force,” Naim said."}, {"type": "text", "content": "Today, we’ll share perspectives on these developments from the right, left, and writers in the Middle East. Then, Executive Editor Isaac Saul’s take.\n\nThe New York Post editorial board offered “a few questions about the new hopeful Gaza peace plan.”\n\n“Fine, Hamas has said it’s agreed to lay down its arms as per that 15-point plan from President Donald Trump’s Board of Peace, but color us skeptical. We absolutely hope it proves to be a genuine step toward bringing permanent peace to Gaza, but before we deem it a ‘historic agreement’ as the prez announced, we need some questions answered,” the board wrote. “For starters, who decides that Israel and Hamas and its allied terror groups have ceased ‘all military operations’? We guarantee that some terrorists will keep shooting at Israel forces.”"}, {"type": "text", "content": "“More generally, what parts of the Hamas-controlled government will transfer over to the new one under the National Committee for the Administration of Gaza, and again who does the vetting of these ‘civil servants’ selected by various gangs of terrorists?” the board asked. “Hamas hasn’t surrendered, renounced its commitments to armed resistance and Israel’s destruction… The new 15-point plan doesn’t seem to come with actual mechanisms that can change any of that; the only force in the region able to make the terrorists do anything remains the IDF.”\n\nIn National Review, Noah Rothman wrote about “the Gaza peace deal that isn’t.”\n\n“Somewhat inauspiciously, the Board of Peace revealed on Friday its ‘roadmap’ for peace in the Middle East (perhaps its authors were unaware of the context and provenance of that turn of phrase). Even more disconcertingly, the board described the terms that have supposedly been agreed to as mere ‘principles,’” Rothman said. “[The deal outlines] the financial rewards for Gaza that will follow the implementation of this agreement over the next three years. But there will be no progress unless Israel goes first.”"}, {"type": "text", "content": "“Hamas’s sources contend that the terrorist organization will not surrender any of its weapons until Israel ceases defensive operations in Gaza and withdraws to the ‘yellow line’ in the Strip,” Rothman wrote. “Point 2 of this deal notes that a variety of non-state observers must certify that all parties to this agreement will have met ‘their commitments under the Roadmap before proceeding to the implementation of Phase 2.’ That may be the most important line in this document. More often than not, ‘phase 2’ never comes.”\n\nThe Le Monde editorial board said “any progress in [Gaza] depends entirely on Israeli authorities.”\n\n“On July 30, US President Donald Trump announced what could be a major breakthrough in Gaza: Hamas's acceptance of disarmament. On August 2, health authorities in the enclave reported that 18 people had died in the preceding hours due to Israeli airstrikes, while a minister from the coalition led by Benjamin Netanyahu declared that Israel's objective was to take control of the entire Gaza Strip,” the board wrote. “This tragic contradiction between rhetoric and reality reflects the immense difficulty of restoring even a semblance of normalcy to Gaza, where more than two million people continue to survive in extremely precarious conditions amid ruins, garbage and rats.”"}, {"type": "text", "content": "“Trump’s announcement underscored a sense of understandable impatience. Since the ceasefire agreement that ended the war more than nine months ago, over 1,200 Palestinians have died in Israeli strikes. Meanwhile, the Israeli army has tightened its grip,” the board said. “At no point has the team of Palestinian technocrats selected to manage Gaza's day-to-day administration been authorized by Israel to enter the territory. The plan to deploy an international force to keep order and prevent the return of armed groups has also failed to materialize. Nothing has moved forward.”\n\nIn The New Arab, Olivia Hooper argued “Trump’s Board of Peace for Gaza has delivered anything but.”\n\n“Despite Hamas’ recent disarmament agreement and compliance with the peace plan, Israel continues to violate the terms, showing no signs of military withdrawal and signalling that illegal Jewish settlements will soon reach Gaza,” Hooper said. “Donald Trump’s promise of ‘lasting peace’ is lying in tatters, just months after its launch; his peace board and initiative have withered into a delayed, small-scale pilot project near Rafah.”"}, {"type": "text", "content": "“When peace is authored by arms brokers, funded by foreign oligarchs, and overseen by an occupying power, it cannot deliver justice,” Hooper wrote. “What is meant by ‘building a better Gaza’ is not clear, nor is the role that Palestinians will be allowed to play in this alleged recovery effort. Considering that not a single Palestinian is on the founding or executive board, the future involving Palestinians seems bleak.”\n\nIn Arab News, Tarek Ali Ahmad asked “does Hamas’ declaration change the equation in Gaza?”\n\n“For nearly four decades, Hamas has presented itself as an armed resistance movement whose military wing is inseparable from its political identity… That is why its recent declaration expressing a willingness to discuss disarmament as part of a broader political settlement has attracted global attention,” Ahmad said. “Although the proposal is heavily qualified and contingent on Israeli withdrawal, a permanent ceasefire and the establishment of a Palestinian state, it is the first time since the current war began that Hamas has publicly entertained the prospect of giving up the military capability that has defined it for decades."}, {"type": "text", "content": "“Whether the statement represents a genuine strategic shift or simply another negotiating position remains fiercely debated. But it has nevertheless injected a new variable into a conflict that, until now, has largely revolved around military operations, hostage negotiations and humanitarian access,” Ahmad wrote. “Even previous ceasefire negotiations brokered by Egypt, Qatar and the US focused largely on temporary truces, prisoner exchanges and humanitarian arrangements. The future of Hamas’ weapons was generally considered a red line. That appears to be changing — at least in theory.”\n\nThe Jerusalem Post editorial board wrote “Hamas disarmament cannot wait for the IDF’s withdrawal from Gaza.”"}, {"type": "text", "content": "“Hamas has spent the period since October 7 using every negotiation to gain time, preserve control, and push the most difficult questions into the next phase. Deals have produced real achievements — above all the return of hostages — and that matters. But Hamas’s military power has remained largely untouched by diplomacy,” the board said. “The negotiations show the same risk, with Hamas already presenting its obligations as conditional on Israeli steps that would come first in practice. It has repeatedly rejected disarmament, qualified it, or offered formulations that leave its weapons under a different name or authority.\n\n“The latest proposal may be more serious, but it still depends on sequencing. If Hamas is allowed to remain armed while a new Palestinian committee enters Gaza, while international bodies begin work, and while Israeli forces pull back, the result may be a civilian structure operating under the same threat that has shaped Gaza for years,” the board wrote. “The United States should be careful not to mistake a framework for implementation. Titles, ceremonies, international boards, and public declarations may help move negotiations forward, but they do not remove a single rocket, destroy a single tunnel, or prevent Hamas from rebuilding.”"}, {"type": "image", "src": "https://storage.ghost.io/c/4a/93/4a939b47-6a19-4b38-a13c-89d5a0f0d6dd/content/images/2025/05/Isaac.jpg", "alt": "A potential breakthrough in Gaza."}, {"type": "text", "content": "In December 2023, as I called for Israel to show some restraint in its response to October 7, I wrote that Israeli Prime Minister Benjamin Netanyahu only seemed open to more killing, the expulsion of Gazans, expanding settlements in the West Bank, and re-occupying Gaza with Israeli forces when the war “ended.”\n\nI remember the blowback from that sentence specifically — how many Israelis or fellow Zionists and Jews wrote in to tell me that I was penning “blood libel” or how biased I was against Israel, a country I loved. I also remember how many people told me I was naive to believe the count of the dead and injured being shared by the Gaza Health Ministry, even though those numbers were confirmed by outside groups."}, {"type": "text", "content": "Yet, nearly three years later, the reality on the ground is hard to dispute. The Gaza Health Ministry’s death toll — over 70,000 — is now officially accepted by Israeli authorities . The Israeli military has expanded its physical control to cover roughly 70% of the Gaza Strip. Israeli settlers have continued to expand in the West Bank , where violence is the worst it has been in years, all while Israel’s security cabinet has approved measures to make it easier for Israelis to appropriate Palestinian property. Despite the purported October 2025 ceasefire, over 1,200 Palestinians have been killed since it was signed, including a couple and their 9-year-old son this past weekend .\n\nIt has also been more than two years since I wrote “ The Zionist case for a ceasefire ,” arguing for a stop to the war as someone who believes in the right of the Jewish people to self-determination and statehood. With each passing month, my hope for peace in the region has diminished more and more. In February, Israel threw itself into the Iran war with vigor, sensing a moment to topple a longtime threat to its security but destabilizing the entire region in the process. It is now fighting fronts in Iran, Lebanon, and Gaza. Simultaneously, global support for Israel has plummeted, and the American public is turning further away from its long-time ally with each passing day. For reasons related and unrelated, it’s a precarious time to be a Jew. And whether you are an Israeli, Jew, Zionist or all three, it’s a more dangerous time to say so now than it has been for decades."}, {"type": "text", "content": "I feared all these things when I wrote my piece two years ago, and all have come to fruition.\n\nMeanwhile, it’s impossible to describe the living hell that is Gaza. Roughly 1.7 million displaced people are taking shelter across thousands of makeshift sites and camps. Piles of destroyed buildings dominate the landscape. Sanitation issues are ubiquitous and access to clean drinking water is scarce. Dozens of hospitals , which Israel identified as military targets housing Hamas fighters during the war, are destroyed or only partially functional. That means finding treatment for chronic illness or acute injuries from ongoing Israeli strikes can be difficult if not impossible. Work is scarce. Pregnant women and children under five are facing severe malnutrition ."}, {"type": "text", "content": "Writing these words gives you an idea, but the only real way to comprehend it is to see it — to watch the videos and look at the photographs . My worst fears from October 8 have long ago come true , and I’m devastated that the situation has still not really improved even amid a supposed ceasefire.\n\nSo, after the news broke that Hamas agreed to disarm, I read details of the plan with increasing skepticism. It just feels like more of the same promises and plans we’ve heard a million times before, and any time I allowed myself to feel hopeful, those hopes were quickly dashed by broken promises and more violence. As I said in our 2025 review, the “peace deal” has not actually produced any peace for Gazans and has only marginally improved the safety of Israelis."}, {"type": "text", "content": "Any sliver of hope I could have had for this deal didn’t even make it through the weekend. On Saturday, two days after Trump’s announcement, Israel carried out new airstrikes in Gaza. After a second day of strikes on Sunday, Palestinian authorities reported that 18 people had been killed.\n\nHow could any person realistically believe in progress against that kind of backdrop? The U.S. says Hamas is agreeing to disarm; Hamas says it will do so when Israel withdraws from Gaza; Israel says it won’t withdraw until it sees proof of disarmament. Meanwhile, Israel continues shelling Gaza, leading Hamas to say Israel is violating peace terms and ensuring no such peace plan will ever be delivered. It actually reminds me a lot of what is happening in Iran, which Trump is accusing of violating ceasefire terms and where he is still proclaiming — now, in August 2026 — that we are pausing our strikes to allow for the opening of the Strait of Hormuz, months after his administration claimed the war was won."}, {"type": "text", "content": "Still, with the announcement of Hamas disarming, the appeal of hope is hard to resist. Could Hamas really give up its weapons? Could Israel really withdraw? Could Gaza really be rebuilt? Could we take a baby step forward to two independent, self-determined states living side-by-side?\n\nIt’s hard to imagine, and we only have tea leaves to read. But what we can see shows nothing but more of the same “no, you first” attitude from two sides deeply distrustful of one another. Hamas has now said Israel must meet the terms of the ceasefire deal and stop its attacks in Gaza for them to disarm. Israel believes any pause in fighting will allow Hamas to re-arm and re-group. One former Fatah official said in a Facebook post that Jared Kushner had told him he was trying to get Israel to stop its attacks on Gaza."}, {"type": "text", "content": "Let’s just say I’m skeptical. Netanyahu is facing an election in October, and he is both unpopular and highly motivated to hold onto power. Having an enemy to fight has been good for his reelection campaign, but he now faces an incredible challenge to build the coalition he needs to survive. Any peace deal that does not end with Israel taking over the Gaza Strip and expelling Palestinians is going to infuriate his far-right base. Meanwhile, he’s alienating moderates by continuing to block an independent investigation into how October 7 happened and has angered more secular Israelis by not forcing Orthodox Jews in Israel to enlist while the army struggles to meet its enlistment needs.\n\nIs this the kind of leader looking to strike a deal and bring peace to the region? Have we seen even an inkling of evidence that’s where Netanyahu’s focus is?"}, {"type": "text", "content": "When I went looking for my past writing on the Israel–Gaza war this morning, it shocked me to realize that we had not dedicated a full edition to the war since January of this year — more than six months ago. In 2023, 2024 and 2025, it was one of our most covered stories, consistently getting attention from our editorial team. But after war broke out in Iran, and with so many stories popping up domestically, it’s fallen into the background.\n\nLooking back on that January piece, though, I had some optimism: I conceded that it would probably be dashed, but insisted (again) that the 2025 peace plan the Trump administration had constructed was actually reasonable — that it gave both the Palestinians and the Israelis the right carrots and sticks. I didn’t expect things to stay on track, yet despite the escalating land grabs in the West Bank and the documented violations of the ceasefire by Israel, the peace plan held. Hamas returned all of the hostages, alive and dead, marking the first time since 2014 that Hamas held no Israeli captives. At the same time, 100% of Gazans’ basic food needs were being met for the first time since the war started in 2023, and only four Israeli soldiers had been killed between October and December — a sign the fighting was really winding down. In July, the UN reported that the Gaza Strip’s humanitarian situation had remained stable throughout the ceasefire."}, {"type": "text", "content": "I want to hold onto that optimism, even as I know it’s misplaced. So maybe, just maybe, there’s a path. Maybe Hamas really does feel boxed in and will put its weapons down. Maybe Israeli troops really will withdraw from Gaza and allow reconstruction to begin. Maybe an international coalition of actors can somehow manifest a political body that the Palestinian people will trust. Maybe, after October 7 and 70,000 dead in the Gaza War, Israelis and Palestinians find some way to inch toward generational healing. Maybe.\n\nBut for now, my skepticism and sadness remain.\n\nTake the survey: Could this plan be a breakthrough for peace? Let us know .\n\nDisagree? That ’ s okay. Our opinion is just one of many. Write in and let us know why, and we ’ ll consider publishing your feedback."}, {"type": "text", "content": "Q: The LA Times (and Newsom) claim Trump is going after Newsom’s wife for political reasons. Republicans say this is nonsense, the investigation began with a whistleblower complaint out of California during the Biden admin. Who is telling the truth?\n\n— Anonymous\n\nTangle: To catch up, in mid-June, California Gov. Gavin Newsom (D) announced that the Justice Department (DOJ) had launched an investigation into him and his wife, Jennifer Siebel Newsom. In a video statement , Newsom claimed the DOJ had been politicized and was leading a partisan investigation. However, the timeline of the probe appeared unclear, and many commentators claimed that it started under President Joe Biden.\n\nSo, which is it: a Trump administration vendetta, or the continuation of a Biden-era investigation?"}, {"type": "text", "content": "It could actually be both. The DOJ has conducted at least two investigations — not into Newsom himself, but different people in the governor’s orbit.\n\nIn 2022, the DOJ began an investigation into Newsom’s former chief of staff, Dana Williamson, under the Biden administration. In May of 2026, Williamson pleaded guilty to fraud charges related to a conspiracy to steal campaign money from former Health and Human Services Secretary Xavier Becerra’s past campaign for California attorney general.\n\nAnother probe — the one Newsom appears to be referencing in the video statement — appears to be investigating his wife’s tax returns. That case reportedly began in the U.S. Attorney’s Office in Sacramento in 2025, following a whistleblower report. Despite Newsom’s statements, some accounts maintain that senior political leaders were not involved in the decision to begin the investigation."}, {"type": "text", "content": "The investigation into Siebel Newsom may have a legitimate basis. On the other hand, the Trump administration has pursued investigations into the president’s political enemies for seemingly political reasons. With these two factors pulling against each other, we’re all better off waiting until more details of the case come out.\n\nWant to have a question answered in the newsletter? You can reply to this email (it goes straight to our inbox) or fill out this form .\n\nLast week, The Washington Post reported that an internal Drug Enforcement Administration (DEA) assessment found that the Trump administration’s strikes on boats allegedly trafficking cocaine have not impacted the supply or price of the drug in the United States. The assessment noted that traffickers have changed tactics in response to the strikes — altering routes and using different kinds of boats — but were still successfully transporting narcotics. The Pentagon maintains that the strikes have been effective. “Transnational criminal organizations have continually adapted their tactics for decades,” Chief Pentagon spokesman Sean Parnell said. “It demonstrates that we are imposing systemic friction on their operations.” The Washington Post has the story ."}, {"type": "image", "src": "https://storage.ghost.io/c/4a/93/4a939b47-6a19-4b38-a13c-89d5a0f0d6dd/content/images/2026/08/data-src-image-8052cfe0-a0f3-414f-9ab7-a3e38e450d90.png", "alt": "A potential breakthrough in Gaza."}, {"type": "text", "content": "You may love dogs, but do you love dogs as much as Nehemiah Turner? The 11-year-old from Jacksonville, Florida, made history last week when he became the first child to log 100 volunteer hours at the Jacksonville Humane Society, where he reads books aloud to shelter pups as part of the shelter’s Pawsitive Reading program. Turner said he likes to help keep the dogs comfortable as they wait to get adopted. Jacksonville Humane Society CEO Lawrence Nicolas added, “[Turner] has not only helped homeless pets but also inspired those around him to see the difference one person can make.” ABC News has the story ."}], "text_post": false}]</script>
+<script>
+
+const FEED_ITEMS = JSON.parse(document.getElementById('feed-data').textContent);
+const SAVE_KEY = 'signal-saved';
+
+function getSaved() {
+  try {
+    return JSON.parse(localStorage.getItem(SAVE_KEY)) || [];
+  } catch (e) {
+    return [];
+  }
+}
+function setSaved(list) {
+  localStorage.setItem(SAVE_KEY, JSON.stringify(list));
+}
+function isSaved(id) {
+  return getSaved().some(p => p.id === id);
+}
+function toggleSave(item) {
+  const saved = getSaved();
+  const idx = saved.findIndex(p => p.id === item.id);
+  if (idx >= 0) {
+    saved.splice(idx, 1);
+  } else {
+    saved.unshift(item);
+  }
+  setSaved(saved);
+}
+
+function relativeTime(iso) {
+  const then = new Date(iso).getTime();
+  const now = Date.now();
+  const diffSec = Math.max(0, Math.floor((now - then) / 1000));
+  if (diffSec < 60) return 'now';
+  const diffMin = Math.floor(diffSec / 60);
+  if (diffMin < 60) return diffMin + 'm';
+  const diffHr = Math.floor(diffMin / 60);
+  if (diffHr < 24) return diffHr + 'h';
+  const diffDay = Math.floor(diffHr / 24);
+  if (diffDay < 7) return diffDay + 'd';
+  const diffWeek = Math.floor(diffDay / 7);
+  if (diffWeek < 5) return diffWeek + 'w';
+  const diffMonth = Math.floor(diffDay / 30);
+  return diffMonth + 'mo';
+}
+
+function initials(name) {
+  const clean = name.replace(/^r\//, '');
+  return clean.slice(0, 1).toUpperCase();
+}
+
+function renderPanel(panel) {
+  if (panel.type === 'image') {
+    const img = document.createElement('img');
+    img.src = panel.src;
+    img.alt = panel.alt || '';
+    img.loading = 'lazy';
+    return img;
+  }
+  if (panel.type === 'snippet') {
+    const wrap = document.createElement('div');
+    wrap.className = 'panel-snippet';
+    const p = document.createElement('p');
+    p.textContent = panel.content;
+    wrap.appendChild(p);
+    const a = document.createElement('a');
+    a.className = 'read-more';
+    a.href = panel.read_more_url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = 'Read the rest at ' + panel.read_more_source + ' →';
+    wrap.appendChild(a);
+    return wrap;
+  }
+  const div = document.createElement('div');
+  div.className = 'panel-text';
+  div.textContent = panel.content;
+  return div;
+}
+
+function buildCard(item) {
+  const post = document.createElement('article');
+  post.className = 'post';
+
+  const header = document.createElement('div');
+  header.className = 'post-header';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'avatar';
+  avatar.textContent = initials(item.source);
+  header.appendChild(avatar);
+
+  const headerText = document.createElement('div');
+  headerText.className = 'header-text';
+  const sourceName = document.createElement('div');
+  sourceName.className = 'source-name';
+  sourceName.textContent = item.source;
+  headerText.appendChild(sourceName);
+  header.appendChild(headerText);
+
+  const meta = document.createElement('div');
+  meta.className = 'header-meta';
+  const tagPill = document.createElement('span');
+  tagPill.className = 'tag-pill';
+  tagPill.textContent = item.tag;
+  meta.appendChild(tagPill);
+  const ts = document.createElement('span');
+  ts.className = 'timestamp';
+  ts.textContent = relativeTime(item.published_at);
+  meta.appendChild(ts);
+  header.appendChild(meta);
+
+  post.appendChild(header);
+
+  const isTextPost = item.text_post;
+  const hasCarousel = !isTextPost;
+
+  if (hasCarousel) {
+    const media = document.createElement('div');
+    media.className = 'media';
+    const track = document.createElement('div');
+    track.className = 'carousel-track';
+    item.panels.forEach(panel => {
+      const panelEl = document.createElement('div');
+      panelEl.className = 'panel';
+      panelEl.appendChild(renderPanel(panel));
+      track.appendChild(panelEl);
+    });
+    media.appendChild(track);
+
+    if (item.panels.length > 1) {
+      const dots = document.createElement('div');
+      dots.className = 'dots';
+      item.panels.forEach((_, i) => {
+        const dot = document.createElement('span');
+        dot.className = 'dot' + (i === 0 ? ' active' : '');
+        dots.appendChild(dot);
+      });
+      media.appendChild(dots);
+
+      track.addEventListener('scroll', () => {
+        const idx = Math.round(track.scrollLeft / track.clientWidth);
+        [...dots.children].forEach((d, i) => d.classList.toggle('active', i === idx));
+      }, { passive: true });
+    }
+
+    post.appendChild(media);
+  }
+
+  const footer = document.createElement('div');
+  footer.className = 'post-footer';
+  const saveBtn = document.createElement('button');
+  saveBtn.className = 'save-btn';
+  saveBtn.setAttribute('aria-label', 'Save post');
+  const outlineIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3c-1.1 0-2 .9-2 2v16l8-5.333L20 21V5c0-1.1-.9-2-2-2H6z"/></svg>';
+  const filledIcon = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3c-1.1 0-2 .9-2 2v16l8-5.333L20 21V5c0-1.1-.9-2-2-2H6z"/></svg>';
+  const setSaveIcon = () => { saveBtn.innerHTML = isSaved(item.id) ? filledIcon : outlineIcon; };
+  setSaveIcon();
+  saveBtn.addEventListener('click', () => {
+    toggleSave({
+      id: item.id,
+      title: item.title,
+      url: item.url,
+      source: item.source,
+      tag: item.tag,
+      published_at: item.published_at,
+      panels: item.panels,
+      text_post: item.text_post,
+      saved_at: new Date().toISOString(),
+    });
+    setSaveIcon();
+    if (document.getElementById('saved-view').classList.contains('active')) {
+      renderSavedView();
+    }
+  });
+  footer.appendChild(saveBtn);
+  post.appendChild(footer);
+
+  const caption = document.createElement('div');
+  caption.className = 'caption';
+  if (isTextPost) {
+    caption.textContent = item.panels[0].content;
+  } else {
+    const sourceSpan = document.createElement('span');
+    sourceSpan.className = 'caption-source';
+    sourceSpan.textContent = item.source;
+    caption.appendChild(sourceSpan);
+    const link = document.createElement('a');
+    link.href = item.url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = item.title;
+    caption.appendChild(link);
+  }
+  post.appendChild(caption);
+
+  return post;
+}
+
+function renderFeed() {
+  const container = document.getElementById('feed-view');
+  container.innerHTML = '';
+  if (FEED_ITEMS.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'empty-state';
+    empty.textContent = 'Nothing new since the last refresh.';
+    container.appendChild(empty);
+    return;
+  }
+  FEED_ITEMS.forEach(item => container.appendChild(buildCard(item)));
+}
+
+function renderSavedView() {
+  const list = document.getElementById('saved-list');
+  list.innerHTML = '';
+  const saved = getSaved();
+  if (saved.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'empty-state';
+    empty.textContent = 'Nothing saved yet.';
+    list.appendChild(empty);
+    return;
+  }
+  saved.forEach(item => {
+    const card = buildCard(item);
+    const saveBtn = card.querySelector('.save-btn');
+    saveBtn.addEventListener('click', () => renderSavedView());
+    list.appendChild(card);
+  });
+}
+
+document.getElementById('saved-toggle-btn').addEventListener('click', () => {
+  document.getElementById('feed-view').classList.add('hidden');
+  document.getElementById('saved-view').classList.add('active');
+  renderSavedView();
+});
+document.getElementById('back-btn').addEventListener('click', () => {
+  document.getElementById('saved-view').classList.remove('active');
+  document.getElementById('feed-view').classList.remove('hidden');
+});
+document.getElementById('wordmark-btn').addEventListener('click', () => {
+  document.getElementById('saved-view').classList.remove('active');
+  document.getElementById('feed-view').classList.remove('hidden');
+});
+
+renderFeed();
+
+</script>
+</body>
+</html>
