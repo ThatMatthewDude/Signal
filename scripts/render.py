@@ -10,7 +10,7 @@ import sys
 from datetime import datetime, timezone
 from dateutil import parser as date_parser
 
-from common import DOCS_DIR, FEED_DISPLAY_CAP, PANELIZED_PATH, load_json
+from common import DOCS_DIR, FEED_DISPLAY_CAP, MIN_SLOTS_PER_TAG, PANELIZED_PATH, TAGS, load_json
 
 
 def log(msg: str) -> None:
@@ -24,9 +24,42 @@ def parse_dt(value: str):
         return datetime.now(timezone.utc)
 
 
-def build_feed_items(all_items: list) -> list:
+def select_capped_items(all_items: list) -> list:
+    """Pick which items make the cut: each tag gets its own most-recent
+    MIN_SLOTS_PER_TAG items guaranteed a slot first, then whatever's left up
+    to FEED_DISPLAY_CAP fills by pure global recency across everything.
+    Membership only - final display order below is still strict
+    reverse-chronological regardless of which phase picked an item.
+    """
     sorted_items = sorted(all_items, key=lambda it: parse_dt(it["published_at"]), reverse=True)
-    capped = sorted_items[:FEED_DISPLAY_CAP]
+
+    selected = []
+    selected_ids = set()
+
+    for tag in TAGS:
+        if len(selected) >= FEED_DISPLAY_CAP:
+            break
+        tag_items = [it for it in sorted_items if it["tag"] == tag]
+        for item in tag_items[:MIN_SLOTS_PER_TAG]:
+            if len(selected) >= FEED_DISPLAY_CAP:
+                break
+            if item["id"] not in selected_ids:
+                selected.append(item)
+                selected_ids.add(item["id"])
+
+    for item in sorted_items:
+        if len(selected) >= FEED_DISPLAY_CAP:
+            break
+        if item["id"] not in selected_ids:
+            selected.append(item)
+            selected_ids.add(item["id"])
+
+    selected.sort(key=lambda it: parse_dt(it["published_at"]), reverse=True)
+    return selected
+
+
+def build_feed_items(all_items: list) -> list:
+    capped = select_capped_items(all_items)
 
     feed_items = []
     for item in capped:

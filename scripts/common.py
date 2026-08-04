@@ -25,6 +25,16 @@ SEEN_STORE_MAX_AGE_DAYS = 30      # prune items older than this from the rolling
 SEEN_STORE_MAX_SIZE = 400         # hard cap on rolling store size regardless of age
 FEED_DISPLAY_CAP = 45             # items actually rendered in the published feed
 
+# The fixed set of tags sources.yml entries may use (also the badge text shown on
+# each card). Low-frequency tags would otherwise be crowded out of a pure
+# reverse-chronological cap by high-frequency ones (news/financial post many times
+# a day; philosophy/engineering/fun blogs post far less) - MIN_SLOTS_PER_TAG is a
+# static, transparent floor: each tag gets this many of its own most-recent items
+# guaranteed a slot, and whatever's left up to FEED_DISPLAY_CAP fills by pure
+# global recency across everything. Tune either constant to rebalance.
+TAGS = ["news", "financial", "philosophy", "engineering", "fun"]
+MIN_SLOTS_PER_TAG = 7
+
 
 def item_id(url: str) -> str:
     return hashlib.sha1(url.strip().encode("utf-8")).hexdigest()[:16]
