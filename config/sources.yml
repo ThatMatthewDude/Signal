@@ -24,14 +24,20 @@ sources:
     feed_url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
     status: confirmed
 
-  - name: Reuters
+  - name: BBC News
     tag: news
     type: rss
-    feed_url: "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"
+    feed_url: https://feeds.bbci.co.uk/news/world/rss.xml
+    snippet_only: true
     status: confirmed
     notes: >
-      Reuters discontinued its own public RSS in 2020. This is a Google News
-      query-based feed scoped to reuters.com as the closest working substitute.
+      Replaces the Reuters/Google-News proxy (2026-08-04): that feed only
+      ever repeated the headline as its "summary" and linked through a
+      news.google.com redirect. BBC's own World feed, verified live
+      2026-08-04: real per-item dates, direct bbc.co.uk links, and a genuine
+      one-line editorial summary distinct from the headline on every entry.
+      No full article body in the public feed (never has been, not a
+      paywall thing) - snippet + "read the rest" like The Economist below.
 
   - name: ProPublica
     tag: news
@@ -77,13 +83,15 @@ sources:
   - name: Money Stuff
     tag: financial
     type: rss
-    feed_url: https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/77e6a3a7-290d-4a82-8164-b14001353ef2/podcast.rss
+    feed_url: https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss
     snippet_only: true
     status: confirmed
     notes: >
-      The written newsletter is Bloomberg-paywalled with no public RSS. This
-      is the official "Money Stuff: The Podcast" audio feed instead (episode
-      notes only, no full text) — closest legitimate substitute.
+      Matt Levine's own author-page RSS (he has confirmed on the record that
+      this exists). Verified live 2026-08-04: valid feed, items link to
+      bloomberg.com/opinion/newsletters/... (the actual Money Stuff
+      newsletter, not the podcast). Bloomberg-paywalled beyond the
+      one-paragraph description, same as The Economist below.
 
   # --- Analytical Philosophy & Metaphysics ---
   - name: Daily Nous
@@ -95,13 +103,18 @@ sources:
   - name: PhilPapers
     tag: philosophy
     type: rss
-    feed_url: https://philpapers.org/feeds/newpapers.rss
-    status: todo
+    feed_url: "https://philpapers.org/browse/metaphysics?recent=1&sort=added&format=rss"
+    status: confirmed
     notes: >
-      This is the general new-papers feed, not filtered to Metaphysics. A
-      category-specific feed requires visiting philpapers.org/browse/metaphysics
-      while logged in and using the "Monitor this page" link to generate a
-      personal feed URL, then replacing feed_url above.
+      Category-scoped, no login needed: PhilPapers' category browse pages
+      accept &format=rss and return only that category's papers. Verified
+      live 2026-08-04 (500 metaphysics-only entries, correctly excludes
+      other categories). The old /feeds/newpapers.rss general feed used
+      previously is now 404 (dead) — this source was silently fetching zero
+      items before this fix, unrelated to the category-filtering ask.
+      Caveat: PhilPapers' feed output never includes a per-item date (true of
+      this feed and the old one alike), so fetch.py's now() fallback applies
+      and these items always sort as "just published" each cycle.
 
   - name: Aeon
     tag: philosophy
@@ -115,16 +128,51 @@ sources:
     feed_url: https://psyche.co/feed.rss
     status: confirmed
 
-  - name: "3:16am"
+  - name: Edward Feser's Blog
+    tag: philosophy
+    type: atom
+    feed_url: https://edwardfeser.blogspot.com/feeds/posts/default
+    status: confirmed
+    notes: >
+      Thomist philosopher (Pasadena City College); classical theism and
+      metaphysics. Blogspot native feed, verified live 2026-08-04, full
+      post content.
+
+  - name: David Bentley Hart — Leaves in the Wind
+    tag: philosophy
+    type: rss
+    feed_url: https://davidbentleyhart.substack.com/feed
+    status: confirmed
+    notes: >
+      Eastern Orthodox theologian/philosopher. Substack feed, verified live
+      2026-08-04, full post content. Some posts are short link-roundups
+      rather than essays — that's Hart's actual mix, not a feed problem.
+
+  - name: Alexander Pruss's Blog
+    tag: philosophy
+    type: atom
+    feed_url: https://alexanderpruss.blogspot.com/feeds/posts/default
+    status: confirmed
+    notes: >
+      Baylor philosopher; metaphysics and philosophy of religion, multiple
+      posts/week. Blogspot native feed, verified live 2026-08-04, full post
+      content.
+
+  - name: Prosblogion
     tag: philosophy
     type: rss
     feed_url: null
     status: todo
     notes: >
-      Site (3-16am.co.uk) runs on a no-code builder with no native RSS.
-      Options: point a third-party page-to-feed generator (e.g. RSS.app) at
-      it and drop the resulting URL here, or drop this source. Currently
-      skipped by fetch.py (no feed_url).
+      Group philosophy-of-religion blog (contributors incl. Pruss), revived
+      at prosblogion.com after a 2018 shutdown — the older
+      prosblogion.ektopos.com is dead. Could not verify prosblogion.com/feed/
+      live: this dev sandbox's network (eero Secure) blocks the domain
+      outright as a security risk, and fetching it via a different path
+      (Claude's own WebFetch, off this network) got a "Loading..."
+      JS-placeholder instead of XML rather than a clean result either way.
+      Needs a human check from a normal browser/network before adding a
+      feed_url here. Currently skipped by fetch.py (no feed_url).
 
   - name: The Splintered Mind
     tag: philosophy
@@ -141,10 +189,15 @@ sources:
   - name: Mindscape
     tag: philosophy
     type: rss
-    feed_url: https://rss.libsyn.com/shows/604590/destinations/5264190.xml
-    snippet_only: true
+    feed_url: https://www.preposterousuniverse.com/feed/
     status: confirmed
-    notes: Podcast episode descriptions only, not full transcripts.
+    notes: >
+      Sean Carroll posts full episode transcripts as blog posts on his own
+      site — switched from the podcast audio feed per the text-over-audio
+      preference. Verified live 2026-08-04: matches podcast numbering/titles,
+      full transcript body text (tens of thousands of chars/entry), not just
+      show notes. This is his general blog feed; in practice it's ~entirely
+      numbered episodes + monthly AMA posts, both genuine Mindscape content.
 
   - name: Closer to Truth
     tag: philosophy
@@ -152,7 +205,14 @@ sources:
     feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCl9StMQ79LtEvlrskzjoYbQ"
     snippet_only: true
     status: confirmed
-    notes: YouTube video descriptions only.
+    notes: >
+      YouTube video descriptions only. Checked 2026-08-04 for a text
+      alternative per the text-over-audio/video preference: closertotruth.com
+      is fundamentally a video-interview library (5,000+ videos, PBS-broadcast
+      show) with no article/transcript RSS and no feed link anywhere on the
+      site; the only other feed is a Podbean audio-podcast repackaging of the
+      same video content. No text option exists to switch to — flagging
+      rather than substituting.
 
   # --- Engineering & Tech ---
   - name: The Orbital Index
