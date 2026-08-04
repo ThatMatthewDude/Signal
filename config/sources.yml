@@ -4,6 +4,12 @@
 # Each entry:
 #   name        - display name shown in the post header
 #   tag         - the one category badge shown on the card (see README for the fixed tag list)
+#   cadence     - live | weekly. Which tab the source's items compete in (see README).
+#                 Measured 2026-08-04 from each source's own last ~20-25 fetched items:
+#                 median gap between consecutive items (or, where same-day paired posts
+#                 skewed that, between distinct posting days) >= ~4 days -> weekly,
+#                 otherwise -> live. Not a guess from reputation - see notes below on
+#                 the handful of sources this was genuinely hard to measure.
 #   type        - rss | atom | api
 #   feed_url    - RSS/Atom URL (omit for type: api)
 #   snippet_only - true if the feed never carries full body text (paywalled, etc).
@@ -14,18 +20,21 @@ sources:
   # --- News & Happenings ---
   - name: Tangle
     tag: news
+    cadence: live
     type: rss
     feed_url: https://readtangle.com/feed/
     status: confirmed
 
   - name: The New York Times
     tag: news
+    cadence: live
     type: rss
     feed_url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
     status: confirmed
 
   - name: BBC News
     tag: news
+    cadence: live
     type: rss
     feed_url: https://feeds.bbci.co.uk/news/world/rss.xml
     snippet_only: true
@@ -41,12 +50,14 @@ sources:
 
   - name: ProPublica
     tag: news
+    cadence: live
     type: rss
     feed_url: https://www.propublica.org/feeds/propublica/main
     status: confirmed
 
   - name: The Economist
     tag: news
+    cadence: live
     type: rss
     feed_url: https://www.economist.com/latest/rss.xml
     snippet_only: true
@@ -56,6 +67,7 @@ sources:
   # --- Financial ---
   - name: Apricitas Economics
     tag: financial
+    cadence: weekly
     type: rss
     feed_url: https://www.apricitas.io/feed
     status: confirmed
@@ -63,25 +75,32 @@ sources:
 
   - name: The Overshoot
     tag: financial
+    cadence: weekly
     type: rss
     feed_url: https://theovershoot.co/feed
     status: confirmed
 
   - name: Noahpinion
     tag: financial
+    cadence: live
     type: rss
     feed_url: https://www.noahpinion.blog/feed
     status: confirmed
-    notes: Runs on custom domain noahpinion.blog, not noahpinion.substack.com.
+    notes: >
+      Runs on custom domain noahpinion.blog, not noahpinion.substack.com.
+      Cadence measured 2026-08-04: median ~2 days between posts - faster than
+      "weekly" reputation might suggest, so it stays in the Live tab.
 
   - name: Net Interest
     tag: financial
+    cadence: weekly
     type: rss
     feed_url: https://www.netinterest.co/feed
     status: confirmed
 
   - name: Money Stuff
     tag: financial
+    cadence: live
     type: rss
     feed_url: https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss
     snippet_only: true
@@ -96,12 +115,14 @@ sources:
   # --- Analytical Philosophy & Metaphysics ---
   - name: Daily Nous
     tag: philosophy
+    cadence: live
     type: rss
     feed_url: https://dailynous.com/feed
     status: confirmed
 
   - name: PhilPapers
     tag: philosophy
+    cadence: live
     type: rss
     feed_url: "https://philpapers.org/browse/metaphysics?recent=1&sort=added&format=rss"
     status: confirmed
@@ -114,52 +135,73 @@ sources:
       items before this fix, unrelated to the category-filtering ask.
       Caveat: PhilPapers' feed output never includes a per-item date (true of
       this feed and the old one alike), so fetch.py's now() fallback applies
-      and these items always sort as "just published" each cycle.
+      and these items always sort as "just published" each cycle. Cadence
+      could not be measured from the feed itself for that reason; measured
+      instead from the human-facing HTML listing's visible "added" dates
+      (2026-08-04): 15-18 new metaphysics papers/day, unambiguously live.
 
   - name: Aeon
     tag: philosophy
+    cadence: live
     type: rss
     feed_url: https://aeon.co/feed.rss
     status: confirmed
 
   - name: Psyche
     tag: philosophy
+    cadence: live
     type: rss
     feed_url: https://psyche.co/feed.rss
     status: confirmed
 
   - name: Edward Feser's Blog
     tag: philosophy
+    cadence: weekly
     type: atom
     feed_url: https://edwardfeser.blogspot.com/feeds/posts/default
     status: confirmed
     notes: >
       Thomist philosopher (Pasadena City College); classical theism and
       metaphysics. Blogspot native feed, verified live 2026-08-04, full
-      post content.
+      post content. Cadence measured same day: median ~6 days between
+      posts, unambiguously weekly - this is the source that motivated the
+      Live/Weekly split in the first place (was being permanently outposted
+      by r/askphilosophy under a single reverse-chron pool).
 
   - name: David Bentley Hart — Leaves in the Wind
     tag: philosophy
+    cadence: weekly
     type: rss
     feed_url: https://davidbentleyhart.substack.com/feed
     status: confirmed
     notes: >
       Eastern Orthodox theologian/philosopher. Substack feed, verified live
       2026-08-04, full post content. Some posts are short link-roundups
-      rather than essays — that's Hart's actual mix, not a feed problem.
+      rather than essays, often paired same-day with a main post - that's
+      Hart's actual mix, not a feed problem, but it means the naive
+      item-to-item median gap (~2 days) reads faster than his real posting
+      rhythm. Measuring by distinct posting *days* instead gives a median
+      of exactly 4 days - right at the weekly threshold, resolved to weekly.
 
   - name: Alexander Pruss's Blog
     tag: philosophy
+    cadence: live
     type: atom
     feed_url: https://alexanderpruss.blogspot.com/feeds/posts/default
     status: confirmed
     notes: >
-      Baylor philosopher; metaphysics and philosophy of religion, multiple
-      posts/week. Blogspot native feed, verified live 2026-08-04, full post
-      content.
+      Baylor philosopher; metaphysics and philosophy of religion. Blogspot
+      native feed, verified live 2026-08-04, full post content. Same
+      same-day-pairing pattern as Hart above, so measured by distinct
+      posting days: median ~3 days between posting days - genuinely more
+      active than "weekly," stays in Live. (May still lose the Live tab's
+      philosophy floor to r/askphilosophy, which posts far more than daily -
+      the tab split fixes the weekly-vs-daily mismatch, not every
+      moderately-active-vs-extremely-active mismatch within Live.)
 
   - name: Prosblogion
     tag: philosophy
+    cadence: weekly
     type: rss
     feed_url: null
     status: todo
@@ -172,22 +214,27 @@ sources:
       (Claude's own WebFetch, off this network) got a "Loading..."
       JS-placeholder instead of XML rather than a clean result either way.
       Needs a human check from a normal browser/network before adding a
-      feed_url here. Currently skipped by fetch.py (no feed_url).
+      feed_url here. Currently skipped by fetch.py (no feed_url), so cadence
+      is an unmeasured placeholder (same genre/pace as Feser/Hart) pending
+      that check, not a real measurement like its siblings above.
 
   - name: The Splintered Mind
     tag: philosophy
+    cadence: weekly
     type: atom
     feed_url: https://schwitzsplinters.blogspot.com/feeds/posts/default
     status: confirmed
 
   - name: r/askphilosophy
     tag: philosophy
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/askphilosophy/.rss
     status: confirmed
 
   - name: Mindscape
     tag: philosophy
+    cadence: weekly
     type: rss
     feed_url: https://www.preposterousuniverse.com/feed/
     status: confirmed
@@ -198,9 +245,12 @@ sources:
       full transcript body text (tens of thousands of chars/entry), not just
       show notes. This is his general blog feed; in practice it's ~entirely
       numbered episodes + monthly AMA posts, both genuine Mindscape content.
+      Cadence measured same day: median exactly 7 days between posts (it's a
+      weekly podcast) - unambiguously weekly.
 
   - name: Closer to Truth
     tag: philosophy
+    cadence: live
     type: atom
     feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCl9StMQ79LtEvlrskzjoYbQ"
     snippet_only: true
@@ -212,32 +262,41 @@ sources:
       show) with no article/transcript RSS and no feed link anywhere on the
       site; the only other feed is a Podbean audio-podcast repackaging of the
       same video content. No text option exists to switch to — flagging
-      rather than substituting.
+      rather than substituting. Cadence measured same day: median ~12h
+      between video uploads, live.
 
   # --- Engineering & Tech ---
   - name: The Orbital Index
     tag: engineering
+    cadence: weekly
     type: rss
     feed_url: https://orbitalindexextendedmission.substack.com/feed
     status: confirmed
     notes: >
       Original weekly newsletter at orbitalindex.com ended Jan 2026 (issue
-      #350). Authors continue sporadically on this new Substack.
+      #350). Authors continue sporadically on this new Substack. Cadence
+      couldn't be measured normally: the whole feed currently has exactly
+      one entry ("Coming soon," dated Dec 2025, 7+ months old as of
+      2026-08-04) - not enough points for a gap, and that single item's own
+      age is itself the signal. Defaulted to weekly on that basis.
 
   - name: Casey Handmer's Blog
     tag: engineering
+    cadence: weekly
     type: rss
     feed_url: https://caseyhandmer.wordpress.com/feed/
     status: confirmed
 
   - name: Ars Technica — Rocket Report
     tag: engineering
+    cadence: weekly
     type: rss
     feed_url: https://arstechnica.com/tag/rocket-report/feed/
     status: confirmed
 
   - name: Construction Physics
     tag: engineering
+    cadence: weekly
     type: rss
     feed_url: https://www.construction-physics.com/feed
     status: confirmed
@@ -245,6 +304,7 @@ sources:
 
   - name: Hacker News
     tag: engineering
+    cadence: live
     type: api
     provider: hacker_news
     api_base: https://hacker-news.firebaseio.com/v0/
@@ -253,57 +313,78 @@ sources:
 
   - name: arXiv
     tag: engineering
+    cadence: live
     type: api
     provider: arxiv
     api_base: http://export.arxiv.org/api/query
     categories: [astro-ph, physics.space-ph, cs.RO]
     status: confirmed
+    notes: >
+      Cadence measurement 2026-08-04 surfaced a real bug worth fixing
+      separately: querying cat:astro-ph (the old, pre-2009 umbrella tag)
+      with sortBy=submittedDate&sortOrder=descending returns genuinely
+      ancient papers (2008, 2019) instead of recent ones - the other two
+      categories sort correctly. Doesn't corrupt the rendered feed (those
+      old items never rank high enough to show), just wastes a slice of
+      fetch/API budget on stale astro-ph results. physics.space-ph and
+      cs.RO alone give a clean median of ~20min between papers - live.
 
   # --- Fun ---
   - name: r/Minecraft
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/Minecraft/.rss
     status: confirmed
 
   - name: r/Helldivers
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/Helldivers/.rss
     status: confirmed
 
   - name: r/Stellaris
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/Stellaris/.rss
     status: confirmed
 
   - name: r/Pathfinder_RPG
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/Pathfinder_RPG/.rss
     status: confirmed
 
   - name: r/Starfinder_RPG
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/Starfinder_RPG/.rss
     status: confirmed
+    notes: >
+      Slowest of the subreddits here by measurement (2026-08-04, median
+      ~20h between posts) but still well inside the live threshold.
 
   - name: Rock Paper Shotgun
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.rockpapershotgun.com/feed
     status: confirmed
 
   - name: r/hiking
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/hiking/.rss
     status: confirmed
 
   - name: r/CampingandHiking
     tag: fun
+    cadence: live
     type: rss
     feed_url: https://www.reddit.com/r/CampingandHiking/.rss
     status: confirmed

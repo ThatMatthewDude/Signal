@@ -24,23 +24,41 @@ final `docs/index.html`, served by GitHub Pages.
   won't get a guaranteed floor below.
 - `data/seen.json` — committed between runs; used only to catch the same
   story being covered by a *different* source in a later cycle (e.g. NYT
-  runs it this cycle, Reuters picks it up next cycle). It does **not** hide
+  runs it this cycle, BBC picks it up next cycle). It does **not** hide
   items just because they were already shown — an unopened item stays in
   the feed under the normal cap/rotation below, not disappear. Skipping a
   day should cost nothing.
 - `docs/index.html` — generated. Do not hand-edit.
 
-Each refresh caps display at 45 (`FEED_DISPLAY_CAP` in `scripts/common.py`)
-— so what you see is always "the 45 most recent right now," recomputed
-fresh each cycle, not a shrinking pool of unseen leftovers. Within that cap,
-each tag (`TAGS` in `scripts/common.py`) is guaranteed `MIN_SLOTS_PER_TAG`
-slots filled by its own most-recent items first, so low-frequency tags
-(philosophy, engineering) aren't structurally locked out by high-frequency
-ones (news, financial post many times a day). Remaining slots fill by pure
-global recency across everything. Either constant can be tuned; the
-mechanism is still a static, transparent rule, not engagement-based — the
-final display order is always strict reverse-chronological regardless of
-which phase picked an item.
+### Live / Weekly tabs
+
+The rendered page is two independently-scrolling, independently-capped
+feeds, not one mixed pool - a fast-posting source (a subreddit, a wire-style
+news feed) would otherwise permanently outpost a source that posts a few
+times a week under any shared reverse-chron ranking, no matter how the
+slots are divided. Each source in `sources.yml` has a `cadence: live` or
+`cadence: weekly`, measured from its own actual posting history (see the
+comment block at the top of `sources.yml` for the method and the specific
+per-source notes for the few that were genuinely hard to measure) — not
+guessed from reputation.
+
+Within *each* tab independently:
+
+- Caps display at 45 (`FEED_DISPLAY_CAP` in `scripts/common.py`) — so what
+  you see is always "the 45 most recent right now" for that tab, recomputed
+  fresh each cycle, not a shrinking pool of unseen leftovers.
+- Each tag (`TAGS` in `scripts/common.py`) is guaranteed `MIN_SLOTS_PER_TAG`
+  slots filled by its own most-recent items first, so a low-frequency tag
+  within that tab isn't structurally locked out by a high-frequency one.
+  Remaining slots fill by pure global recency across everything in the tab.
+
+Both constants are tunable; the mechanism is still a static, transparent
+rule, not engagement-based, and the tag floor is a safety net *within* a
+tab, not a substitute for the tab split — the split is what actually
+separates the two paces. Final display order within a tab is always strict
+reverse-chronological regardless of which phase (floor or open pool) picked
+an item. Tag badges on individual cards are unaffected either way; the tabs
+are top-level navigation only.
 
 ## Local run
 
@@ -84,3 +102,13 @@ python -m http.server 8000 --directory docs
   some networks/sandboxes — confirm they resolve from wherever this actually
   runs (they work fine from ordinary residential IPs and GitHub-hosted
   runners as of this writing).
+- **arXiv**: querying `cat:astro-ph` (the old pre-2009 umbrella category)
+  with `sortBy=submittedDate&sortOrder=descending` returns genuinely ancient
+  papers (2008, 2019) instead of recent ones; `physics.space-ph` and `cs.RO`
+  sort correctly. Doesn't corrupt the feed (those items never rank high
+  enough to show) but wastes fetch/API budget. Worth swapping `astro-ph` for
+  a modern sub-category (e.g. `astro-ph.EP`) at some point.
+- **Apricitas Economics**: hasn't published anything in ~3 months as of
+  2026-08-04 per its own feed (last item from May) — still tagged `weekly`
+  since that's genuinely its historical cadence, but it may just be dormant
+  rather than actively weekly right now. Not a pipeline issue either way.

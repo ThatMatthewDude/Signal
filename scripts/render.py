@@ -124,6 +124,27 @@ a {{ color: inherit; }}
 }}
 .icon-btn svg {{ width: 24px; height: 24px; }}
 
+.tabs {{
+  display: flex;
+  gap: 6px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #1c1c1c;
+}}
+.tab-btn {{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 7px 16px;
+  border-radius: 999px;
+}}
+.tab-btn.active {{
+  color: #fff;
+  background: #1e1e1e;
+}}
+
 main {{
   max-width: 470px;
   margin: 0 auto;
@@ -294,11 +315,13 @@ main {{
   text-decoration: none;
 }}
 
+.hidden {{ display: none; }}
 #saved-view {{
   display: none;
 }}
 #saved-view.active {{ display: block; }}
-#feed-view.hidden {{ display: none; }}
+.tab-panel {{ display: none; }}
+.tab-panel.active {{ display: block; }}
 .empty-state {{
   text-align: center;
   color: #777;
@@ -325,9 +348,16 @@ main {{
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3c-1.1 0-2 .9-2 2v16l8-5.333L20 21V5c0-1.1-.9-2-2-2H6z"/></svg>
   </button>
 </div>
+<div class="tabs" id="tabs-row">
+  <button class="tab-btn active" data-tab="live">Live</button>
+  <button class="tab-btn" data-tab="weekly">Weekly</button>
+</div>
 
 <main>
-  <div id="feed-view"></div>
+  <div id="feed-view">
+    <div id="feed-live" class="tab-panel active"></div>
+    <div id="feed-weekly" class="tab-panel"></div>
+  </div>
   <div id="saved-view">
     <div class="saved-header">
       <button class="icon-btn" id="back-btn" aria-label="Back to feed">
@@ -351,6 +381,8 @@ main {{
 APP_JS = r"""
 const FEED_ITEMS = JSON.parse(document.getElementById('feed-data').textContent);
 const SAVE_KEY = 'signal-saved';
+let activeTab = 'live';
+const tabScrollPositions = { live: 0, weekly: 0 };
 
 function getSaved() {
   try {
@@ -546,17 +578,33 @@ function buildCard(item) {
   return post;
 }
 
-function renderFeed() {
-  const container = document.getElementById('feed-view');
+function renderFeedTab(tab) {
+  const container = document.getElementById('feed-' + tab);
   container.innerHTML = '';
-  if (FEED_ITEMS.length === 0) {
+  const items = FEED_ITEMS[tab] || [];
+  if (items.length === 0) {
     const empty = document.createElement('div');
     empty.className = 'empty-state';
     empty.textContent = 'Nothing new since the last refresh.';
     container.appendChild(empty);
     return;
   }
-  FEED_ITEMS.forEach(item => container.appendChild(buildCard(item)));
+  items.forEach(item => container.appendChild(buildCard(item)));
+}
+
+function renderFeed() {
+  renderFeedTab('live');
+  renderFeedTab('weekly');
+}
+
+function switchTab(tab) {
+  if (tab === activeTab) return;
+  tabScrollPositions[activeTab] = window.scrollY;
+  activeTab = tab;
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tab));
+  document.getElementById('feed-live').classList.toggle('active', tab === 'live');
+  document.getElementById('feed-weekly').classList.toggle('active', tab === 'weekly');
+  window.scrollTo(0, tabScrollPositions[tab] || 0);
 }
 
 function renderSavedView() {
@@ -578,18 +626,25 @@ function renderSavedView() {
   });
 }
 
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+});
+
 document.getElementById('saved-toggle-btn').addEventListener('click', () => {
   document.getElementById('feed-view').classList.add('hidden');
+  document.getElementById('tabs-row').classList.add('hidden');
   document.getElementById('saved-view').classList.add('active');
   renderSavedView();
 });
 document.getElementById('back-btn').addEventListener('click', () => {
   document.getElementById('saved-view').classList.remove('active');
   document.getElementById('feed-view').classList.remove('hidden');
+  document.getElementById('tabs-row').classList.remove('hidden');
 });
 document.getElementById('wordmark-btn').addEventListener('click', () => {
   document.getElementById('saved-view').classList.remove('active');
   document.getElementById('feed-view').classList.remove('hidden');
+  document.getElementById('tabs-row').classList.remove('hidden');
 });
 
 renderFeed();
@@ -598,9 +653,17 @@ renderFeed();
 
 def main():
     panelized = load_json(PANELIZED_PATH, [])
-    feed_items = build_feed_items(panelized)
 
-    feed_json = json.dumps(feed_items, ensure_ascii=False).replace("</script>", "<\\/script>")
+    # Cadence split (Live vs Weekly tabs): each pool runs through the exact
+    # same select_capped_items/build_feed_items logic independently, so the
+    # per-tag floor is a safety net within each tab rather than shared across
+    # them - a slow tag no longer has to out-compete a fast one at all.
+    live_items = build_feed_items([it for it in panelized if it.get("cadence") == "live"])
+    weekly_items = build_feed_items([it for it in panelized if it.get("cadence") == "weekly"])
+
+    feed_json = json.dumps(
+        {"live": live_items, "weekly": weekly_items}, ensure_ascii=False
+    ).replace("</script>", "<\\/script>")
     html = PAGE_TEMPLATE.format(feed_json=feed_json, app_js=APP_JS)
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
@@ -608,7 +671,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    log(f"Rendered {len(feed_items)} item(s) to {out_path}")
+    log(f"Rendered {len(live_items)} live + {len(weekly_items)} weekly item(s) to {out_path}")
 
 
 if __name__ == "__main__":

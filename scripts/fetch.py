@@ -124,6 +124,7 @@ def fetch_generic_feed(source: dict) -> list:
             "url": url,
             "source": source["name"],
             "tag": source["tag"],
+            "cadence": source["cadence"],
             "body_html": "" if snippet_only else body_html,
             "snippet": BeautifulSoup(entry.get("summary", ""), "html.parser").get_text(" ", strip=True)[:600],
             "images": images,
@@ -172,6 +173,7 @@ def fetch_hacker_news(source: dict) -> list:
             "url": url,
             "source": source["name"],
             "tag": source["tag"],
+            "cadence": source["cadence"],
             "body_html": "",
             "snippet": story.get("text", "")[:600] if story.get("text") else f"{story.get('score', 0)} points, {story.get('descendants', 0)} comments",
             "images": [],
@@ -192,6 +194,7 @@ def fetch_arxiv(source: dict) -> list:
         pseudo_source = {
             "name": source["name"],
             "tag": source["tag"],
+            "cadence": source["cadence"],
             "feed_url": build_arxiv_feed_url(source["api_base"], category),
             "snippet_only": True,
         }
