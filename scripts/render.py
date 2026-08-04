@@ -81,7 +81,11 @@ PAGE_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Signal</title>
+<title>Atlas</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 <style>
 :root {{
   color-scheme: dark;
@@ -229,6 +233,7 @@ main {{
 .panel {{
   min-width: 100%;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -343,7 +348,7 @@ main {{
 <body>
 
 <div class="topbar">
-  <div class="wordmark" id="wordmark-btn">Signal</div>
+  <div class="wordmark" id="wordmark-btn">Atlas</div>
   <button class="icon-btn" id="saved-toggle-btn" aria-label="Saved posts">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3c-1.1 0-2 .9-2 2v16l8-5.333L20 21V5c0-1.1-.9-2-2-2H6z"/></svg>
   </button>

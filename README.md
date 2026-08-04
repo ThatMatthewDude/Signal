@@ -1,4 +1,4 @@
-# Signal
+# Atlas
 
 A self-populating personal feed — Instagram's dark-mode visual language with
 every social/engagement mechanic stripped out. Pulls from sources you trust,
