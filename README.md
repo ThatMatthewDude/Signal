@@ -51,14 +51,22 @@ Within *each* tab independently:
   slots filled by its own most-recent items first, so a low-frequency tag
   within that tab isn't structurally locked out by a high-frequency one.
   Remaining slots fill by pure global recency across everything in the tab.
+- Within a tag, no single source can contribute more than
+  `MAX_PER_SOURCE_PER_TAG` items (`scripts/common.py`) — the same crowding
+  problem the tag floor solves one level up (a fast tag squeezing out a slow
+  one) can otherwise recur one level down (a fast *source* squeezing out
+  other sources sharing its tag — a high-volume subreddit, or an aggregator
+  feed covering many authors/papers under one source entry). The cap applies
+  during selection itself, in both the floor phase and the open recency
+  fill, not as a post-hoc filter.
 
-Both constants are tunable; the mechanism is still a static, transparent
-rule, not engagement-based, and the tag floor is a safety net *within* a
-tab, not a substitute for the tab split — the split is what actually
-separates the two paces. Final display order within a tab is always strict
-reverse-chronological regardless of which phase (floor or open pool) picked
-an item. Tag badges on individual cards are unaffected either way; the tabs
-are top-level navigation only.
+All three constants are tunable; the mechanism is still a static,
+transparent rule, not engagement-based, and the tag floor and per-source cap
+are both safety nets *within* a tab, not a substitute for the tab split —
+the split is what actually separates the two paces. Final display order
+within a tab is always strict reverse-chronological regardless of which
+phase (floor or open pool) picked an item. Tag badges on individual cards
+are unaffected either way; the tabs are top-level navigation only.
 
 ## Local run
 

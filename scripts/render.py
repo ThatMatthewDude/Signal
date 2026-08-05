@@ -10,7 +10,15 @@ import sys
 from datetime import datetime, timezone
 from dateutil import parser as date_parser
 
-from common import DOCS_DIR, FEED_DISPLAY_CAP, MIN_SLOTS_PER_TAG, PANELIZED_PATH, TAGS, load_json
+from common import (
+    DOCS_DIR,
+    FEED_DISPLAY_CAP,
+    MAX_PER_SOURCE_PER_TAG,
+    MIN_SLOTS_PER_TAG,
+    PANELIZED_PATH,
+    TAGS,
+    load_json,
+)
 
 
 def log(msg: str) -> None:
@@ -30,29 +38,53 @@ def select_capped_items(all_items: list) -> list:
     to FEED_DISPLAY_CAP fills by pure global recency across everything.
     Membership only - final display order below is still strict
     reverse-chronological regardless of which phase picked an item.
+
+    MAX_PER_SOURCE_PER_TAG caps how many items any single source can
+    contribute to a given tag, enforced via a shared (tag, source) counter
+    across both phases - otherwise one prolific source (a fast subreddit, an
+    aggregator feed covering many authors) can fill most or all of a tag's
+    slots by recency alone, the same crowding problem MIN_SLOTS_PER_TAG
+    solves one level up. When a source hits its cap, the floor phase looks
+    past it (down its own tag's recency list) for other sources instead of
+    leaving the slot unfilled.
     """
     sorted_items = sorted(all_items, key=lambda it: parse_dt(it["published_at"]), reverse=True)
 
     selected = []
     selected_ids = set()
+    source_counts = {}
+
+    def source_key(item):
+        return (item["tag"], item["source"])
+
+    def under_cap(item):
+        return source_counts.get(source_key(item), 0) < MAX_PER_SOURCE_PER_TAG
+
+    def take(item):
+        selected.append(item)
+        selected_ids.add(item["id"])
+        key = source_key(item)
+        source_counts[key] = source_counts.get(key, 0) + 1
 
     for tag in TAGS:
         if len(selected) >= FEED_DISPLAY_CAP:
             break
         tag_items = [it for it in sorted_items if it["tag"] == tag]
-        for item in tag_items[:MIN_SLOTS_PER_TAG]:
-            if len(selected) >= FEED_DISPLAY_CAP:
+        floor_filled = 0
+        for item in tag_items:
+            if floor_filled >= MIN_SLOTS_PER_TAG or len(selected) >= FEED_DISPLAY_CAP:
                 break
-            if item["id"] not in selected_ids:
-                selected.append(item)
-                selected_ids.add(item["id"])
+            if item["id"] in selected_ids or not under_cap(item):
+                continue
+            take(item)
+            floor_filled += 1
 
     for item in sorted_items:
         if len(selected) >= FEED_DISPLAY_CAP:
             break
-        if item["id"] not in selected_ids:
-            selected.append(item)
-            selected_ids.add(item["id"])
+        if item["id"] in selected_ids or not under_cap(item):
+            continue
+        take(item)
 
     selected.sort(key=lambda it: parse_dt(it["published_at"]), reverse=True)
     return selected

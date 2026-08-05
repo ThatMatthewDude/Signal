@@ -35,6 +35,15 @@ FEED_DISPLAY_CAP = 45             # items actually rendered in the published fee
 TAGS = ["news", "financial", "philosophy", "engineering", "fun"]
 MIN_SLOTS_PER_TAG = 7
 
+# A single high-volume source can otherwise dominate a tag's slots the same way a
+# high-volume tag would dominate the whole feed without MIN_SLOTS_PER_TAG above -
+# e.g. an aggregator source (many papers/authors under one feed entry) or just a
+# very active subreddit. MAX_PER_SOURCE_PER_TAG is a hard cap, applied per (tag,
+# source) pair during selection, on how many items any single source can
+# contribute to a tag per refresh cycle - covers both the floor allocation and the
+# open recency fill. General rule, not tied to any particular source.
+MAX_PER_SOURCE_PER_TAG = 3
+
 
 def item_id(url: str) -> str:
     return hashlib.sha1(url.strip().encode("utf-8")).hexdigest()[:16]
