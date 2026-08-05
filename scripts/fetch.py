@@ -4,6 +4,7 @@ Writes data/fetched_raw.json - this cycle's fetch only, not deduped against
 history yet (that's dedupe.py's job). One bad/slow source must never take
 down the whole run, so every source fetch is individually wrapped.
 """
+import random
 import sys
 import time
 from datetime import datetime, timezone
@@ -18,10 +19,45 @@ from common import CONFIG_PATH, FETCHED_RAW_PATH, MAX_ITEMS_PER_SOURCE_FETCH, it
 REQUEST_TIMEOUT = 20
 USER_AGENT = "SignalFeedBot/1.0 (personal non-commercial RSS reader)"
 MAX_RETRIES = 3
+MAX_RATE_LIMIT_WAIT = 40  # cap on any single honored rate-limit wait, seconds
+
+# Jittered delay applied before every Reddit request (not just after one) -
+# Reddit rate-limits by IP/time window regardless of what's interleaved
+# between requests, so what actually matters is spacing between consecutive
+# hits to reddit.com specifically. Wide and randomized rather than a fixed
+# 2.5s so there's real headroom if more Reddit sources get added later
+# instead of just barely covering today's count.
+REDDIT_DELAY_RANGE = (5.0, 8.5)
 
 
 def log(msg: str) -> None:
     print(msg, file=sys.stderr)
+
+
+def is_reddit_source(source: dict) -> bool:
+    return "reddit.com" in (source.get("feed_url") or "")
+
+
+def rate_limit_wait_seconds(resp: requests.Response, fallback: float) -> float:
+    """How long to wait after a 429, preferring what the server actually
+    told us over a guess. Retry-After is the HTTP-standard header, but
+    Reddit's 429s in practice don't send it - they send x-ratelimit-reset
+    (seconds until its own window resets) instead, which the old blind
+    exponential backoff never looked at, so retries kept firing well before
+    Reddit was actually ready and burned all 3 attempts for nothing."""
+    retry_after = resp.headers.get("Retry-After")
+    if retry_after:
+        try:
+            return min(float(retry_after), MAX_RATE_LIMIT_WAIT)
+        except ValueError:
+            pass
+    reset = resp.headers.get("x-ratelimit-reset")
+    if reset:
+        try:
+            return min(float(reset), MAX_RATE_LIMIT_WAIT)
+        except ValueError:
+            pass
+    return fallback
 
 
 def get_with_retry(url: str) -> requests.Response:
@@ -34,8 +70,7 @@ def get_with_retry(url: str) -> requests.Response:
         try:
             resp = requests.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT})
             if resp.status_code == 429:
-                retry_after = resp.headers.get("Retry-After")
-                wait = float(retry_after) if retry_after else delay
+                wait = rate_limit_wait_seconds(resp, delay)
                 time.sleep(wait)
                 delay *= 2
                 continue
@@ -241,8 +276,9 @@ def main():
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
+    sources = config["sources"]
     all_items = []
-    for source in config["sources"]:
+    for i, source in enumerate(sources):
         log(f"Fetching {source['name']}...")
         try:
             items = fetch_source(source)
@@ -251,7 +287,16 @@ def main():
             items = []
         log(f"  -> {len(items)} item(s)")
         all_items.extend(items)
-        delay = 2.5 if "reddit.com" in (source.get("feed_url") or "") else 0.5
+
+        # Delay is keyed off the *upcoming* source, not the one just fetched -
+        # what matters is spacing before the next hit to reddit.com, regardless
+        # of what's interleaved before it (e.g. Fun's block of 6 Reddit sources
+        # vs. Philosophy's lone r/askphilosophy surrounded by non-Reddit ones).
+        next_source = sources[i + 1] if i + 1 < len(sources) else None
+        if next_source and is_reddit_source(next_source):
+            delay = random.uniform(*REDDIT_DELAY_RANGE)
+        else:
+            delay = 0.5
         time.sleep(delay)  # stay polite and avoid tripping rate limits (esp. Reddit)
 
     save_json(FETCHED_RAW_PATH, {
