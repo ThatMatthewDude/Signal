@@ -351,6 +351,9 @@ main {{
   color: #4ea1ff;
   text-decoration: none;
 }}
+.caption-body {{
+  margin-top: 6px;
+}}
 
 .hidden {{ display: none; }}
 #saved-view {{
@@ -530,8 +533,12 @@ function buildCard(item) {
 
   post.appendChild(header);
 
-  const isTextPost = item.text_post;
-  const hasCarousel = !isTextPost;
+  // A text_post item (Reddit/HN) with no image is just its snippet text,
+  // shown compactly with no media box - same as before. But Reddit's RSS
+  // does embed a real preview image for image-post subreddits, which
+  // panelize.py surfaces as a leading image panel ahead of the text_post
+  // panel; those need the media/carousel box like any other post.
+  const hasCarousel = item.panels.length > 1 || item.panels[0].type !== 'text_post';
 
   if (hasCarousel) {
     const media = document.createElement('div');
@@ -596,19 +603,23 @@ function buildCard(item) {
 
   const caption = document.createElement('div');
   caption.className = 'caption';
-  if (isTextPost) {
-    caption.textContent = item.panels[0].content;
-  } else {
-    const sourceSpan = document.createElement('span');
-    sourceSpan.className = 'caption-source';
-    sourceSpan.textContent = item.source;
-    caption.appendChild(sourceSpan);
-    const link = document.createElement('a');
-    link.href = item.url;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = item.title;
-    caption.appendChild(link);
+  const sourceSpan = document.createElement('span');
+  sourceSpan.className = 'caption-source';
+  sourceSpan.textContent = item.source;
+  caption.appendChild(sourceSpan);
+  const link = document.createElement('a');
+  link.href = item.url;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  link.textContent = item.title;
+  caption.appendChild(link);
+  if (item.text_post) {
+    // Reddit/HN items carry their body (self-text, or "submitted by
+    // /u/x [link] [comments]") in the text_post panel, which is always last.
+    const body = document.createElement('div');
+    body.className = 'caption-body';
+    body.textContent = item.panels[item.panels.length - 1].content;
+    caption.appendChild(body);
   }
   post.appendChild(caption);
 

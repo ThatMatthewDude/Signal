@@ -60,7 +60,15 @@ def chunk_article_body(body_html: str) -> list:
 def panelize_item(item: dict) -> list:
     if item.get("text_post"):
         content = item.get("snippet") or item.get("title")
-        return [{"type": "text_post", "content": content}]
+        # Reddit's RSS embeds a real preview image for image-post subreddits
+        # even though the item is otherwise a text_post card (e.g. r/Minecraft
+        # screenshots) - surface it as a leading image panel, same as article
+        # images, ahead of the text_post panel. Genuine self-text posts (no
+        # <img> in the body) are unaffected - images is just empty.
+        panels = [{"type": "image", "src": src, "alt": item.get("title", "")}
+                  for src in item.get("images", [])]
+        panels.append({"type": "text_post", "content": content})
+        return panels
 
     if item.get("snippet_only") or not item.get("body_html"):
         return [{

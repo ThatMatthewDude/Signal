@@ -58,11 +58,28 @@ def struct_time_to_iso(struct_time) -> str:
     return datetime.fromtimestamp(time.mktime(struct_time), tz=timezone.utc).isoformat()
 
 
+def first_srcset_url(srcset: str) -> str:
+    return srcset.split(",")[0].strip().split(" ")[0]
+
+
 def extract_images(html: str) -> list:
+    """Pull <img> URLs out of an item's body HTML. Checks src first, then
+    falls back to data-src/srcset/data-srcset - a lot of sites lazy-load
+    images via those instead, which a src-only scrape would silently miss
+    even though the markup and text otherwise came through fine."""
     if not html:
         return []
     soup = BeautifulSoup(html, "html.parser")
-    return [img["src"] for img in soup.find_all("img") if img.get("src")]
+    images = []
+    for img in soup.find_all("img"):
+        src = img.get("src") or img.get("data-src")
+        if not src:
+            srcset = img.get("srcset") or img.get("data-srcset")
+            if srcset:
+                src = first_srcset_url(srcset)
+        if src:
+            images.append(src)
+    return images
 
 
 def entry_body_html(entry) -> tuple:
@@ -116,7 +133,11 @@ def fetch_generic_feed(source: dict) -> list:
         published_struct = entry.get("published_parsed") or entry.get("updated_parsed")
         published_at = struct_time_to_iso(published_struct)
 
-        images = [] if text_post else extract_images(body_html)
+        # Extract regardless of text_post - Reddit's RSS embeds a real preview
+        # image in the body HTML for image-post subreddits even though those
+        # items render as a text_post card; panelize.py decides whether to
+        # surface it.
+        images = extract_images(body_html)
 
         items.append({
             "id": item_id(url),
