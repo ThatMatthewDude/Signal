@@ -1,5 +1,621 @@
 [
   {
+    "id": "40c7dbd5ee66018a",
+    "url": "https://philpapers.org/rec/GAITPO-6",
+    "title": "Gaitan, Oscar: The Price of One Act: On Pike's Fact, Molina's Counterfactual, and What One Identity Buys and Forecloses",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.677665+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "8d830fdbe1cf0c45",
+    "url": "https://philpapers.org/rec/GAIEPD-2",
+    "title": "Gaitan, Oscar: El Precio de un Solo Acto: Sobre el Hecho de Pike, el Contrafactual de Molina, y lo que una sola identidad compra y clausura",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.677378+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "1eac352ff90d34cd",
+    "url": "https://philpapers.org/rec/GAITPA-2",
+    "title": "Gaitan, Oscar: The Plan and the Hand: On Providence, Freedom, and the Guilt of Pilate",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.676915+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "976f14e708a1e854",
+    "url": "https://philpapers.org/rec/RUISRV-3",
+    "title": "Ruifeng, Liang: Structure Recursive Viability Dynamics SRVD v1.1 A Normative Reading Guide to the Theoretical Framework_Errata and Boundary Completion",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.676618+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "96a2cfa73e9b6084",
+    "url": "https://philpapers.org/rec/PAPTLI",
+    "title": "Papp, Tibor Norbert: Transcendental Logic I. The Orthomodular Structure of Information Grounded in the Analogy of Being",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.676304+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "32d65b5a6612d6c8",
+    "url": "https://philpapers.org/rec/NIAFMT",
+    "title": "Niami, Morteza: From Motivation to Continuance, Volitional Discipline and the Ontological Conditions of Agency Under Chronic Erosion",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.675988+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "cca39e77906ab96e",
+    "url": "https://philpapers.org/rec/SKICHM",
+    "title": "Skiba, Lukas: Correction: Higher-order metaphysics of ground: introduction and overview",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.675735+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "17107696c287c590",
+    "url": "https://philpapers.org/rec/KURSWC",
+    "title": "Kuryloski, Rin: Standing Without Continuity _Participation, and What Moral Standing Generalizes From_",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.675588+00:00",
+    "first_shown_at": "2026-08-10T00:56:24.119220+00:00"
+  },
+  {
+    "id": "c6a11734021ba763",
+    "url": "https://philpapers.org/rec/ARABPI",
+    "title": "Arata, Wada: Before Persistence II: The Architecture of Relatum Authorization",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.675480+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "5ef3eb2235162542",
+    "url": "https://philpapers.org/rec/ZOUTMR-2",
+    "title": "Zou, Zhi Kai: The Mathematical Relation Between the First and Second Laws of Thermodynamics，Bound and Dynamics",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.675169+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "bd48e6805698a2d4",
+    "url": "https://philpapers.org/rec/LINFAA-4",
+    "title": "Lin, Ether: Functionalism as a Foundation of Scientific Conceptual Engineering",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.675115+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "ef7d92d4a8d98f6e",
+    "url": "https://philpapers.org/rec/KALTEE-2",
+    "title": "Kalashnik, Vladislav: The Epistemological Event Horizon: From the Autopoietic Circle of Distinction to the Theorem of Discursive Closure",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.674829+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "018a86e342cac236",
+    "url": "https://philpapers.org/rec/TAYIPA-2",
+    "title": "Taylor, Brian C.: Informational Platonism and Universal Active Inference: Everyone hates surprises.",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.674733+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "fbddecd71c1e19fd",
+    "url": "https://philpapers.org/rec/WADBPI",
+    "title": "Wada, Arata: Before Persistence I: The Authorization of Metaphysical Relata",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.674627+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "52cec39e087f2e8b",
+    "url": "https://philpapers.org/rec/DRSNAX",
+    "title": "Solanke, Sachin: Darkness as the Unlit Condition of Space: Rethinking a Negative Definition",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.674465+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "89796522f89db759",
+    "url": "https://philpapers.org/rec/DAIUTA",
+    "title": "Dai, Qi: [PPT]Dao-Ai Unification Theory: A Generative Ontology — International Conference Presentation Edition",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.674116+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "26e4df92f1a43459",
+    "url": "https://philpapers.org/rec/POPNEW-2",
+    "title": "Popolla, Roberto Woodrow: No Entity Without Distinction: Intrinsic Difference as a Meta-Ontological Condition",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.673996+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "7e2a028ef8c8f9b6",
+    "url": "https://philpapers.org/rec/ZHOFBA",
+    "title": "Zhou, ChangPeng: Feedback Boundaries and the Principle of Individuality: Selection Outside the Individual, Equality Within the Individual",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.673874+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "5f5913cb18eeca9c",
+    "url": "https://philpapers.org/rec/SHCTPO-4",
+    "title": "Shchevyev, Nikita: The Price of Any Reality: A Meta-Metaphysical Calculus from Certainty",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.673720+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "6d4082cb99b5f998",
+    "url": "https://philpapers.org/rec/TANAMF-2",
+    "title": "Tan, Kwan Hong: Are Moral Facts Real or Constructed? Novel Theoretical Frameworks for Understanding Moral Ontology",
+    "source": "PhilPapers",
+    "published_at": "2026-08-10T18:40:40.673256+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "c5f0e02109dc5d6e",
+    "url": "https://www.youtube.com/watch?v=ERWq1j-Ffas",
+    "title": "Can the Soul Exist Without the Body? | Eleonore Stump",
+    "source": "Closer to Truth",
+    "published_at": "2026-08-10T18:30:15+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "53527909ad08b1a9",
+    "url": "https://www.bbc.co.uk/news/articles/cx2lwpzz6qjo?at_medium=RSS&at_campaign=rss",
+    "title": "New train service connects Finland and Sweden for first time in decades",
+    "source": "BBC News",
+    "published_at": "2026-08-10T18:28:11+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "fef36d8ee731df9f",
+    "url": "https://www.bbc.co.uk/news/videos/cm2g97nnr5go?at_medium=RSS&at_campaign=rss",
+    "title": "Watch: What we know about suspected crime boss Daniel Kinahan",
+    "source": "BBC News",
+    "published_at": "2026-08-10T18:24:45+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "832172e6904795c9",
+    "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss",
+    "title": "Russian court bars only anti-war party from standing in parliamentary elections",
+    "source": "BBC News",
+    "published_at": "2026-08-10T18:19:41+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "608e81298178ab2d",
+    "url": "https://www.nytimes.com/2026/08/10/nyregion/nyc-boat-deadly-capsize.html",
+    "title": "A Nighttime New York Boat Tour Turned Deadly in a Matter of Moments",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T18:18:22+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "81f1d213b57d2f7c",
+    "url": "https://www.nytimes.com/2026/08/10/nyregion/subway-mamdani-mta-heat-geothermal.html",
+    "title": "The Subway Is Sweltering. Is There a Way to Put That Heat to Good Use?",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T18:05:00+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "741e6f03449d134e",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vksb84/now_vs_then_forever_world/",
+    "title": "Now vs Then Forever World",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T18:01:13+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "65b5b0d05275199c",
+    "url": "https://www.nytimes.com/2026/08/10/world/middleeast/netanyahu-trump-israel-gaza-disarmament.html",
+    "title": "Netanyahu Walks Tightrope on Trump’s Gaza Disarmament Deal",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T17:57:26+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "f7358b3b76b09c96",
+    "url": "https://www.bbc.co.uk/news/articles/c5ydx7m8gzeo?at_medium=RSS&at_campaign=rss",
+    "title": "We are chasing Ebola virus - it is ahead of us, WHO warns",
+    "source": "BBC News",
+    "published_at": "2026-08-10T17:50:29+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "adf0a53fd1451f03",
+    "url": "https://www.nytimes.com/2026/08/10/us/paxton-cell-tower-company-texas-senate.html",
+    "title": "One Source of Paxton’s Wealth: A Cell Tower at a Hospital He Knew Well",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T17:46:03+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "7594917cf3f0127a",
+    "url": "https://www.nytimes.com/2026/08/10/us/national-guard-washington-dc.html",
+    "title": "How Trump’s Yearlong ‘Takeover’ of Washington Has Changed the Capital",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T17:42:48+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "d4690ec129e1c8ce",
+    "url": "https://www.nytimes.com/2026/08/10/opinion/rob-sand-democrats-iowa.html",
+    "title": "Can Rob Sand Break the Republican Grip on Iowa?",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T17:42:19+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "2c12130ff220f5a7",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkrim7/does_this_make_any_sense/",
+    "title": "Does this make any sense?",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T17:32:51+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "d78e0cf3c27d64d6",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-08-10/the-situation-is-fine",
+    "title": "The Situation Is Fine",
+    "source": "Money Stuff",
+    "published_at": "2026-08-10T17:21:42+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "66e27895b8fe7f38",
+    "url": "https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html",
+    "title": "Flock Cameras Can Track Every Car in America. Police Love Them. Citizens Don’t.",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T17:14:40+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "be7f496a4daaf95e",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkqx5u/how_can_i_prevent_aliens_from_dissecting_me/",
+    "title": "How can I prevent aliens from dissecting me?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T17:11:47+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "9eebc39637ffcdeb",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkqws3/we_have_subjugated_entire_stars_we_have_built/",
+    "title": "We have subjugated entire stars, we have built worlds that encompass from end-to-end, we have discovered forbidden knowledge and scoured the spaces beyond, and just now did my scientists apparently realise that other planets... may indeed have life",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T17:11:26+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "6d15b5166d337c47",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkquy6/remnants_origin_heavily_underutilized_and_how_it/",
+    "title": "Remnants origin - heavily underutilized and how it should be fixed",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T17:09:36+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "bd45ecf4003944aa",
+    "url": "https://www.nytimes.com/2026/08/10/us/francesca-hong-positions-wisconsin-governor.html",
+    "title": "Will Wisconsin Voters Think Francesca Hong Is Too Radical? Here’s Where She Stands.",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T17:00:47+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "5d5b6308a1d8806d",
+    "url": "https://www.rockpapershotgun.com/in-cosmic-roguelike-the-carcass-you-build-a-colony-inside-the-corpse-of-a-god-thats-slowly-becoming-aware-of-you",
+    "title": "In cosmic roguelike The Carcass, you build a colony inside the corpse of a god that's slowly becoming aware of you",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-08-10T17:00:00+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "c12f498bf2af44f7",
+    "url": "https://www.economist.com/international/2026/08/10/the-war-room-newsletter-do-generals-make-good-politicians",
+    "title": "The War Room newsletter: Do generals make good politicians?",
+    "source": "The Economist",
+    "published_at": "2026-08-10T16:56:28+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "3c896b98954e038b",
+    "url": "https://www.reddit.com/r/starfinder_rpg/comments/1vkq8u6/boxes/",
+    "title": "Boxes?",
+    "source": "r/Starfinder_RPG",
+    "published_at": "2026-08-10T16:48:05+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "c0f718ad69eb2912",
+    "url": "https://www.nytimes.com/2026/08/10/business/media/small-newspapers-success-chronicle-glens-falls.html",
+    "title": "How Small, Independent Newspapers Are Still Finding Readers",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T16:43:06+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "e641e3236e045a92",
+    "url": "https://www.reddit.com/r/starfinder_rpg/comments/1vkpn1f/commissions_open_paizo_official_artist_recent/",
+    "title": "[Commissions Open] Paizo Official artist + Recent work and Commissions",
+    "source": "r/Starfinder_RPG",
+    "published_at": "2026-08-10T16:26:27+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "ad4d5b0a681c83eb",
+    "url": "https://www.nytimes.com/2026/08/10/weather/heat-storms-midwest-northeast-us.html",
+    "title": "Muggy Heat and Storms Continue to Grip the U.S., but an End Is in Sight",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T16:24:11+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "0150cfd57802934b",
+    "url": "https://www.nytimes.com/2026/08/10/us/politics/trump-reflecting-pool-renovation-vandalism.html",
+    "title": "Trump Concedes There Was ‘Some Contractor Error’ in Reflecting Pool Renovations",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T16:23:07+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "1ddbc7279f0baf7c",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkphu9/bambooze_jhett_acrylic_on_canvas_2026/",
+    "title": "Bambooze, Jhett, Acrylic on Canvas, 2026",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T16:21:10+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "3546ef922d73ec87",
+    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vkpbxx/how_much_water_should_i_bring_any_tips_to_get_more/",
+    "title": "How much water should I bring + any tips to get more?",
+    "source": "r/CampingandHiking",
+    "published_at": "2026-08-10T16:15:23+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "48ce89dc66b4317c",
+    "url": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss",
+    "title": "'Total incinerated destruction': Canada wildfire evacuees wonder if they still have homes",
+    "source": "BBC News",
+    "published_at": "2026-08-10T16:10:56+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "b70c7663b2ad80c9",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkp5lt/wtf_what_do_i_even_do_against_this/",
+    "title": "WTF?!? What do I even do against this?!?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T16:09:12+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "991ab112015b3a94",
+    "url": "https://www.youtube.com/watch?v=w9owh-5_IEI",
+    "title": "A Life Devoted to Parapsychology | Jeffrey Mishlove",
+    "source": "Closer to Truth",
+    "published_at": "2026-08-10T16:00:38+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "f752ec7c43cc7cce",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkouqt/machine_empire_has_despicable_neutrals/",
+    "title": "Machine empire has Despicable Neutrals personality, and normal civics and government??",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T15:58:34+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "7e39cf85fb91eae0",
+    "url": "https://www.nytimes.com/article/flock-safety-camera-technology.html",
+    "title": "Why Are So Many People Upset About Flock Cameras?",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T15:58:27+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "f971b08bc5f38865",
+    "url": "https://www.readtangle.com/a-summer-announcement-2026/",
+    "title": "A summer announcement.",
+    "source": "Tangle",
+    "published_at": "2026-08-10T15:54:46+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "5aabfeb504a2d255",
+    "url": "https://www.nytimes.com/2026/08/10/business/trump-artificial-intelligence-data-centers-ai.html",
+    "title": "Trump Shrugs Off A.I. and Data Center Concerns as Voters Grow Anxious",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T15:48:18+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "cd9bed482f744b4e",
+    "url": "https://dailynous.com/2026/08/10/teaching-college-students-basic-studenting/",
+    "title": "Teaching College Students Basic Studenting",
+    "source": "Daily Nous",
+    "published_at": "2026-08-10T15:47:07+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "63ad02e9554f5488",
+    "url": "https://www.nytimes.com/2026/08/10/business/trump-truth-social-traffic-declines.html",
+    "title": "Traffic to Trump’s Truth Social Falls Sharply This Summer",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T15:43:14+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "86e88232f6094214",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkoejf/my_antagonist_empires_arent_antagonistic_enough/",
+    "title": "My antagonist empires aren't antagonistic enough",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T15:42:04+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "096c7a83ad349dea",
+    "url": "https://www.rockpapershotgun.com/someones-head-is-killing-me-in-memoirium-a-psx-styled-soulslike-about-battling-through-bizarre-dreamscapes-and-decorating-your-bedroom",
+    "title": "Someone's head is killing me in Memoirium, a PSX-styled soulslike about battling through bizarre dreamscapes and decorating your bedroom",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-08-10T15:41:17+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "8b1d440eb69e4351",
+    "url": "https://www.economist.com/britain/2026/08/10/britain-has-more-cheeses-than-france-the-whey-ahead-may-be-harder",
+    "title": "Britain has more cheeses than France. The whey ahead may be harder",
+    "source": "The Economist",
+    "published_at": "2026-08-10T15:35:33+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "3318c3c4c0c7e1d9",
+    "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
+    "title": "Former Thai MP allegedly kills official and confesses on YouTube",
+    "source": "BBC News",
+    "published_at": "2026-08-10T15:21:27+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "5f6f3f5a21a31730",
+    "url": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html",
+    "title": "Iran Insists Strait of Hormuz Will Stay Closed Until Trump Agrees to Demands",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T15:18:28+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "a898566f62a0c2c1",
+    "url": "https://www.economist.com/china/2026/08/10/chinas-officials-are-obsessed-with-safety-theatre",
+    "title": "China’s officials are obsessed with safety theatre",
+    "source": "The Economist",
+    "published_at": "2026-08-10T15:10:47+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "48be001793beb0c0",
+    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vknhp1/best_way_to_haul_150_lbs_of_gear_a_mile_through/",
+    "title": "Best way to haul 150 lbs of gear a mile through the woods? Sled + harness, or game cart?",
+    "source": "r/CampingandHiking",
+    "published_at": "2026-08-10T15:08:18+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "485143a9f76cdf13",
+    "url": "https://www.readtangle.com/agi-are-we-building-our-own-extinction/",
+    "title": "AGI: Are We Building Our Own Extinction?",
+    "source": "Tangle",
+    "published_at": "2026-08-10T15:00:32+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "fe74cd8c6daf1aee",
+    "url": "https://dailynous.com/2026/08/10/a-few-reminders-about-commenting-here/",
+    "title": "A Few Reminders about Commenting Here",
+    "source": "Daily Nous",
+    "published_at": "2026-08-10T14:59:33+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "c98a35ec03a0f061",
+    "url": "https://www.rockpapershotgun.com/expect-fake-messages-a-load-of-steam-user-personal-info-has-been-thanks-to-a-cyberattack-on-one-of-valves-partners-claims-report",
+    "title": "\"Expect fake messages\": A load of Steam user personal info has been stolen thanks to a cyberattack on one of Valve's partners, claims report",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-08-10T14:56:46+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "c188fa748269dbf8",
+    "url": "https://www.theverge.com/science/976977/space-mirror-reflect-orbital-fcc-solar-eye-damage",
+    "title": "Space mirrors could ruin astronomy — and your eyes",
+    "source": "Hacker News",
+    "published_at": "2026-08-10T14:51:54+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "457c7b8c1b818a54",
+    "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+    "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+    "source": "BBC News",
+    "published_at": "2026-08-10T14:43:08+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "91024385e6ab15ae",
+    "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+    "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
+    "source": "BBC News",
+    "published_at": "2026-08-10T14:34:25+00:00",
+    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "f7af17968a9ab358",
+    "url": "https://text.npr.org/nx-s1-5872752",
+    "title": "The FAA wants to reboot the nation's airspace",
+    "source": "Hacker News",
+    "published_at": "2026-08-10T14:32:25+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "7c8ad7101bf27cd5",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkmio5/i_totally_forgot_about_copper_torches_anyone_else/",
+    "title": "I totally forgot about copper torches. Anyone else?",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T14:32:02+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "bab6cf1e75b9e376",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkme41/i_had_one_of_the_most_bizzare_deaths_ever/",
+    "title": "I had one of the most bizzare deaths ever",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T14:27:13+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "a2f117efa631ce55",
+    "url": "https://www.nytimes.com/2026/08/10/us/politics/minnesota-senate-primary-flanagan-craig.html",
+    "title": "Minnesota’s Democratic Senate Primary Pits Angie Craig Against Peggy Flanagan",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T14:04:07+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "fcba7996408dc13e",
+    "url": "https://www.rockpapershotgun.com/this-week-in-pc-games-goldeneye-returns-sort-of-plus-janky-arcade-football-ballpoint-cities-and-a-game-about-keeping-the-monsters-inside-area-51",
+    "title": "This week in PC games: GoldenEye returns (sort of), plus janky arcade football, ballpoint cities, and a game about keeping the monsters inside Area 51",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-08-10T13:42:53+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "4c30335b1e9c6477",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkl5h4/just_finished_the_tutorial_ask_me_anything/",
+    "title": "Just finished the tutorial, ask me anything",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T13:39:03+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "fe01fb1ee2dc21a9",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkk864/it_warms_my_heart_to_know_i_spread_such_joy/",
+    "title": "It warms my heart to know I spread such joy 😊",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T13:01:48+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "b2c2a4d0fa448e1a",
     "url": "https://philpapers.org/rec/BRNFAA",
     "title": "Brîncuș, Constantin C. (ed.): From an Analytical Point of View: Logic, Language, and Mind. Essays in Honour of Mircea Dumitru",
@@ -88,91 +704,11 @@
     "first_shown_at": "2026-08-09T18:27:23.732017+00:00"
   },
   {
-    "id": "976f14e708a1e854",
-    "url": "https://philpapers.org/rec/RUISRV-3",
-    "title": "Ruifeng, Liang: Structure Recursive Viability Dynamics SRVD v1.1 A Normative Reading Guide to the Theoretical Framework_Errata and Boundary Completion",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.953214+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
     "id": "21c0988fc357cdf5",
     "url": "https://philpapers.org/rec/KOGAPT",
     "title": "Kogoya, Yamin: A Papuan Tragedy Is More Tragic Than Tragedy: Beyond the Architecture of Tragedy",
     "source": "PhilPapers",
     "published_at": "2026-08-10T12:40:58.952975+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "cca39e77906ab96e",
-    "url": "https://philpapers.org/rec/SKICHM",
-    "title": "Skiba, Lukas: Correction: Higher-order metaphysics of ground: introduction and overview",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.952782+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "32d65b5a6612d6c8",
-    "url": "https://philpapers.org/rec/NIAFMT",
-    "title": "Niami, Morteza: From Motivation to Continuance, Volitional Discipline and the Ontological Conditions of Agency Under Chronic Erosion",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.952552+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "26e4df92f1a43459",
-    "url": "https://philpapers.org/rec/POPNEW-2",
-    "title": "Popolla, Roberto Woodrow: No Entity Without Distinction: Intrinsic Difference as a Meta-Ontological Condition",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.952457+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "17107696c287c590",
-    "url": "https://philpapers.org/rec/KURSWC",
-    "title": "Kuryloski, Rin: Standing Without Continuity _Participation, and What Moral Standing Generalizes From_",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.952328+00:00",
-    "first_shown_at": "2026-08-10T00:56:24.119220+00:00"
-  },
-  {
-    "id": "ef7d92d4a8d98f6e",
-    "url": "https://philpapers.org/rec/KALTEE-2",
-    "title": "Kalashnik, Vladislav: The Epistemological Event Horizon: From the Autopoietic Circle of Distinction to the Theorem of Discursive Closure",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.952098+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "6d4082cb99b5f998",
-    "url": "https://philpapers.org/rec/TANAMF-2",
-    "title": "Tan, Kwan Hong: Are Moral Facts Real or Constructed? Novel Theoretical Frameworks for Understanding Moral Ontology",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.951831+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "5ef3eb2235162542",
-    "url": "https://philpapers.org/rec/ZOUTMR-2",
-    "title": "Zou, Zhi Kai: The Mathematical Relation Between the First and Second Laws of Thermodynamics，Bound and Dynamics",
-    "source": "PhilPapers",
-    "published_at": "2026-08-10T12:40:58.951382+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "66e27895b8fe7f38",
-    "url": "https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html",
-    "title": "Flock Cameras Can Track Every Car in America. Police Love Them. Citizens Don’t.",
-    "source": "The New York Times",
-    "published_at": "2026-08-10T12:34:18+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
-    "id": "7e39cf85fb91eae0",
-    "url": "https://www.nytimes.com/article/flock-safety-camera-technology.html",
-    "title": "Why Are So Many People Upset About Flock Cameras?",
-    "source": "The New York Times",
-    "published_at": "2026-08-10T12:33:17+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
@@ -208,14 +744,6 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
-    "id": "91024385e6ab15ae",
-    "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-    "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
-    "source": "BBC News",
-    "published_at": "2026-08-10T12:13:22+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
-  },
-  {
     "id": "b24814220c2a7474",
     "url": "https://www.reddit.com/r/askphilosophy/comments/1vkiy3z/an_epstimogical_question/",
     "title": "An epstimogical question?",
@@ -240,20 +768,28 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
+    "id": "208e27410befc712",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkim62/do_you_guys_have_an_order_for_the_colonies_you/",
+    "title": "Do you guys have an \"order\" for the colonies you create?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T11:50:47+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "4d9097d3c4cf596d",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkilbs/i_made_a_resource_pack_that_turns_your_clock_into/",
+    "title": "I made a resource pack that turns your clock into a digital one",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T11:49:41+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "242b358bb03737d6",
     "url": "https://www.nytimes.com/2026/08/09/world/middleeast/iran-security-council-guards-commander.html",
     "title": "Iran Taps Longtime I.R.G.C. Commander Mohsen Rezaei to Top Security Post",
     "source": "The New York Times",
     "published_at": "2026-08-10T11:37:22+00:00",
     "first_shown_at": "2026-08-10T00:56:24.119220+00:00"
-  },
-  {
-    "id": "5f6f3f5a21a31730",
-    "url": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html",
-    "title": "Iran Insists Strait of Hormuz Will Stay Closed Until Trump Agrees to Demands",
-    "source": "The New York Times",
-    "published_at": "2026-08-10T11:34:13+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
     "id": "1eeb169a71f51549",
@@ -302,6 +838,14 @@
     "source": "The New York Times",
     "published_at": "2026-08-10T11:21:23+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "560bba201417a053",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkhzy6/armorer_shop/",
+    "title": "Armorer Shop",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T11:19:37+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "752e43ba4d81daeb",
@@ -358,6 +902,30 @@
     "source": "BBC News",
     "published_at": "2026-08-10T10:24:46+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "1133d3bdf67c65b8",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkgzuz/am_i_missing_something_or_is_there_no/",
+    "title": "Am I missing something or is there no notification if someone else enters the war via trade?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T10:24:38+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "c7421d6203fa021a",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkgzek/nomads_keep_stealing_my_digsites_and_rifts/",
+    "title": "Nomads keep stealing my digsites and rifts.",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T10:23:57+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
+    "id": "7154d8fb034bf37d",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkgyhi/being_a_hoarder_saved_my_minecraft_account/",
+    "title": "Being a hoarder saved my Minecraft account",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T10:22:34+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "7d515c19a4334dc9",
@@ -440,12 +1008,12 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
-    "id": "3318c3c4c0c7e1d9",
-    "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-    "title": "Former Thai MP allegedly kills official and confesses on YouTube",
-    "source": "BBC News",
-    "published_at": "2026-08-10T09:51:07+00:00",
-    "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+    "id": "d690eec9e0006d48",
+    "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
+    "title": "Robot Videos: Heavy Lift Cargo Drones, Grippers, More",
+    "source": "Hacker News",
+    "published_at": "2026-08-10T09:52:19+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "92c17e1c8723354d",
@@ -472,6 +1040,14 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
+    "id": "273a6dd90abc0134",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkfs73/on_bedrock_there_was_a_free_marketplace_weekend/",
+    "title": "On bedrock there was a free marketplace weekend where you could get free mods so (look at description)",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T09:14:43+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "0b9b7e8af41e2b13",
     "url": "https://www.reddit.com/r/Helldivers/comments/1vkfp23/we_spread_democracy_at_a_charity_cosplay_event_in/",
     "title": "We spread democracy at a charity cosplay event in Hamm Germany",
@@ -494,6 +1070,14 @@
     "source": "r/hiking",
     "published_at": "2026-08-10T09:09:00+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "529f949467b8a449",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1vkflk1/we_look_alike/",
+    "title": "We look alike.",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-10T09:03:44+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "5164bf8bf8d31973",
@@ -528,6 +1112,14 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
+    "id": "1330667883d1e7fc",
+    "url": "https://www.nytimes.com/2026/08/10/arts/music/tupac-shakur-murder-trial.html",
+    "title": "Duane Davis, Who Wrote About Role in Tupac’s Murder, Now Says Memoir Was Fiction",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T09:02:15+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "f4fcf9764aafe5f1",
     "url": "https://www.nytimes.com/2026/08/10/business/private-equity-unsold-businesses.html",
     "title": "Private Equity Is Stuck With 33,575 Unsold Businesses",
@@ -536,12 +1128,28 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
+    "id": "8352d7deae7ae999",
+    "url": "https://www.nytimes.com/2026/08/10/magazine/shania-twain-gen-z.html",
+    "title": "How Shania Twain Won Over Gen Z",
+    "source": "The New York Times",
+    "published_at": "2026-08-10T09:00:45+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "47b35d69037e326e",
     "url": "https://www.propublica.org/article/lead-remediation-epa-standards-omaha-nebraska",
     "title": "More Than Half the Homes in East Omaha Have Unsafe Lead Levels. That Doesn’t Mean the EPA Will Clean Them Up.",
     "source": "ProPublica",
     "published_at": "2026-08-10T09:00:00+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "d206a54f63f328e3",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkfhme/what_update_did_yall_join_in/",
+    "title": "What update did y'all join in?",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T08:57:18+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "28f2e97361260273",
@@ -560,6 +1168,14 @@
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
   },
   {
+    "id": "3c39d97f78b3f440",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkez3g/minecraft_is_overflowing_with_blocks_heres_how_i/",
+    "title": "minecraft is overflowing with blocks, heres how i would fix that!",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T08:25:15+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "d0498af291ed1a21",
     "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vkexov/titanoboa/",
     "title": "Titanoboa",
@@ -574,6 +1190,14 @@
     "source": "The Economist",
     "published_at": "2026-08-10T07:59:56+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "a37a5c4f362e90ca",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkebcf/an_old_friend/",
+    "title": "An old friend.",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T07:44:57+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "be18c3cc4d53c373",
@@ -632,6 +1256,14 @@
     "first_shown_at": "2026-08-10T07:13:13.713482+00:00"
   },
   {
+    "id": "3499925b4f5972fa",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkd06a/i_think_the_oceans_need_to_be_made_much_deeper/",
+    "title": "I think the oceans need to be made much deeper.",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T06:27:10+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "53a926538efba044",
     "url": "https://www.reddit.com/r/Helldivers/comments/1vkcx3a/reminder/",
     "title": "reminder",
@@ -646,6 +1278,14 @@
     "source": "r/hiking",
     "published_at": "2026-08-10T06:20:13+00:00",
     "first_shown_at": "2026-08-10T07:13:13.713482+00:00"
+  },
+  {
+    "id": "b968500f17229bbd",
+    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vkc8yn/help_me_choose_a_sleeping_mat/",
+    "title": "Help me choose a sleeping mat",
+    "source": "r/CampingandHiking",
+    "published_at": "2026-08-10T05:43:53+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "8a4451bdbcc178c7",
@@ -686,6 +1326,14 @@
     "source": "The New York Times",
     "published_at": "2026-08-10T05:00:05+00:00",
     "first_shown_at": "2026-08-10T07:13:13.713482+00:00"
+  },
+  {
+    "id": "a1e2c20eebe2d54b",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vkbgqu/the_cake_my_wife_made_for_my_birthday/",
+    "title": "The cake my wife made for my birthday",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T05:00:05+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "d5f3fdfba97703f7",
@@ -776,6 +1424,14 @@
     "first_shown_at": "2026-08-10T07:13:13.713482+00:00"
   },
   {
+    "id": "80a660f47c1fdc3a",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vk95r0/does_anyone_know_how_can_i_build_this/",
+    "title": "Does anyone know how can i build this?",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T03:00:52+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
+  },
+  {
     "id": "b056341dfc8e934d",
     "url": "https://foldingglobes.com/",
     "title": "Turn satellite imagery into a paper globe you fold yourself",
@@ -798,6 +1454,14 @@
     "source": "r/Starfinder_RPG",
     "published_at": "2026-08-10T02:37:21+00:00",
     "first_shown_at": "2026-08-10T07:13:13.713482+00:00"
+  },
+  {
+    "id": "b31e80d60cb07f5b",
+    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vk8a76/the_right_hiking_shoes_matter_more_than_i_expected/",
+    "title": "The right hiking shoes matter more than I expected",
+    "source": "r/CampingandHiking",
+    "published_at": "2026-08-10T02:18:15+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "bc8a1ae08b56045f",
@@ -878,6 +1542,14 @@
     "source": "r/Pathfinder_RPG",
     "published_at": "2026-08-10T01:07:11+00:00",
     "first_shown_at": "2026-08-10T12:45:14.720574+00:00"
+  },
+  {
+    "id": "649b937ea53c652a",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1vk6i8n/how_to_read_a_sheeps_face/",
+    "title": "How to read a sheep's face?",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-10T00:54:03+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "7eb11fb35b40cbd3",
@@ -1574,6 +2246,14 @@
     "source": "r/askphilosophy",
     "published_at": "2026-08-09T16:20:15+00:00",
     "first_shown_at": "2026-08-09T18:27:23.732017+00:00"
+  },
+  {
+    "id": "96ab138b11b7968f",
+    "url": "https://www.nytimes.com/2026/08/09/style/single-dating-hobbies-hobbyamory.html",
+    "title": "When Hobbies Come Before Romance",
+    "source": "The New York Times",
+    "published_at": "2026-08-09T16:18:58+00:00",
+    "first_shown_at": "2026-08-10T18:44:22.072395+00:00"
   },
   {
     "id": "88d93f7c4f32f321",
@@ -2518,685 +3198,5 @@
     "source": "Tangle",
     "published_at": "2026-08-09T00:25:45+00:00",
     "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "70a07924a50c4712",
-    "url": "https://www.nytimes.com/2026/08/08/us/politics/max-miller-ohio-republican.html",
-    "title": "Max Miller, Republican Accused of Abuse, Won’t Drop Out, Spokeswoman Says",
-    "source": "The New York Times",
-    "published_at": "2026-08-09T00:20:55+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "7358ec4fb804974c",
-    "url": "https://www.bbc.co.uk/news/articles/c2elpz33zp2o?at_medium=RSS&at_campaign=rss",
-    "title": "An unbearable rotting stench is plaguing an LA neighbourhood",
-    "source": "BBC News",
-    "published_at": "2026-08-09T00:15:28+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "d04882885a451754",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vjb1lf/my_god/",
-    "title": "My god…",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-09T00:04:52+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "5c28c1ccebbc8eb0",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vjb1d2/dm_looking_for_advice_on_long_adventuring_days/",
-    "title": "DM looking for advice on long adventuring days",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-09T00:04:31+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "7938936f25aab334",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vjb134/why_is_having_a_relationship_with_ai_considered/",
-    "title": "Why is having a relationship with AI considered wrong and unhealthy?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-09T00:04:10+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "8e1ac2fcf6951de0",
-    "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss",
-    "title": "Hundreds arrested over French wildfires, but who is to blame?",
-    "source": "BBC News",
-    "published_at": "2026-08-08T23:59:23+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "24e4c771b4c897c5",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vjat80/philosophical_view_what_is_gods_truth/",
-    "title": "Philosophical view. What is God's Truth?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T23:54:47+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "7503591c004d82a9",
-    "url": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
-    "title": "Israel accused of weaponising archaeology at ancient West Bank sites",
-    "source": "BBC News",
-    "published_at": "2026-08-08T23:43:44+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "c46a8a9cd7488a08",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vjaei6/looking_for_alternative_materialists_authors_for/",
-    "title": "Looking for alternative materialists authors for the theoretical framework of my PhD",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T23:34:50+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "e83d8b1e162007a6",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vjae0z/whats_the_deal_with_the_hive_mind_spawn_rates/",
-    "title": "What's the deal with the Hive Mind spawn rates?",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T23:34:10+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "6984aac84fa27188",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vja81h/what_are_your_first_contact_builds/",
-    "title": "What are your First Contact builds?",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T23:26:27+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "a0b3bccbf56d54b9",
-    "url": "https://www.reddit.com/r/hiking/comments/1vja630/mount_unnecessary_north_peak_cypress_provincial/",
-    "title": "Mount Unnecessary North Peak, Cypress Provincial Park, BC, Canada",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T23:23:55+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "418141c9340da49a",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vja2z9/unpopular_opinion_minecraft_cave_systems/",
-    "title": "Unpopular opinion?: Minecraft cave systems & underground scructures are more interesting and beautiful than the surface.",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T23:19:56+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "de8103cc5ecf91fb",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj9oae/a_short_story_about_the_spore_burst_strain/",
-    "title": "A short story about the spore burst strain",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T23:01:05+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "d55f8312a7631e04",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vj9ky5/the_first_lord_commander/",
-    "title": "The first Lord commander",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T22:57:01+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "736ca21891ef3e2c",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj9ksh/rp_first_solo_hike_silver_star_mountain_wa_state/",
-    "title": "RP- First solo hike! Silver Star Mountain, WA State, USA, Earth",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T22:56:49+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "d063e606a82edc13",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj9hei/today_at_moose_ponds_and_exum_loop_wyoming_usa/",
-    "title": "Today at Moose Ponds and Exum Loop, Wyoming, USA",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T22:52:30+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "f32e41cf9f93c2dc",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vj9ega/welpi_guess_im_done/",
-    "title": "Welp...I guess I'm done.",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T22:48:46+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "7ce632cd8da7d155",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj9d8i/super_earth_scientists_on_their_way_to_find_a/",
-    "title": "Super Earth scientists on their way to find a planet in the void. Color photo",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T22:47:19+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "471deb48187054c3",
-    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vj95nm/naturehike_trek_2_person_tent_opinion/",
-    "title": "Naturehike trek 2 person tent opinion",
-    "source": "r/CampingandHiking",
-    "published_at": "2026-08-08T22:37:46+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "ad77a3f904c2027b",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj95jc/i_lost_120lbs_walking_now_i_wanna_step_into/",
-    "title": "I lost 120lbs walking. Now I wanna step into hiking! Hikes some this Fri at Mt Scott.",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T22:37:37+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "a57a88981c908f37",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj8xpt/yellow_branch_falls_trail_mountain_rest_south/",
-    "title": "Yellow Branch Falls Trail, Mountain Rest, South Carolina, USA",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T22:28:04+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "656e2f4289ff84c8",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj8oae/which_would_you_rather_fight_25_prenerfed_vox/",
-    "title": "Which would you rather fight?, 25 pre-nerfed Vox Engines or 5 Hive Lords??",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T22:16:21+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "b522803449542927",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj8kw1/can_studying_philosophy_fundamentally_change_the/",
-    "title": "Can studying philosophy fundamentally change the way a person experiences happiness and ordinary life?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T22:12:08+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "2400185859dac56f",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
-    "title": "Fifa criticises campaign to oust president Infantino",
-    "source": "BBC News",
-    "published_at": "2026-08-08T22:06:44+00:00",
-    "first_shown_at": "2026-08-09T12:29:24.846306+00:00"
-  },
-  {
-    "id": "7f95156dff3d7ef2",
-    "url": "https://www.rockpapershotgun.com/come-for-beastfolk-barbers-cute-furry-hairdressing-but-stay-for-its-thoughtful-approach-to-worldbuilding",
-    "title": "Come for Beastfolk Barber's cute, furry hairdressing, but stay for its thoughtful approach to worldbuilding",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-08-08T21:51:32+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "5844f6cae14e9b71",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj82zm/what_is_the_current_state_of_the_debate/",
-    "title": "What is the current state of the debate surrounding nominalism, how can I read into it?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T21:49:59+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "a8cf039ed686403c",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj7vll/what_could_this_mean/",
-    "title": "What could this mean??",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T21:41:01+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "d545eb4ac8a1c29f",
-    "url": "https://www.web3isgoinggreat.com/?id=coldcard-hardware-wallet-flaw",
-    "title": "Coldcard hardware wallet firmware flaw sees 2k BTC (~$130M) drained",
-    "source": "Hacker News",
-    "published_at": "2026-08-08T21:35:41+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "c642731559c234b7",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj7nlb/is_my_man_made_volcano_any_good/",
-    "title": "Is my man made volcano any good?",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T21:31:11+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "ab3eb673d71402b7",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vj78yf/how_does_animate_rope_work_if_one_or_both_ends/",
-    "title": "How does Animate Rope work if one or both ends are tied to a strong surface",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-08T21:13:26+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "151dbe5432856893",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj70fj/my_mom_painted_minecraft_art/",
-    "title": "My mom painted minecraft art",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T21:03:01+00:00",
-    "first_shown_at": "2026-08-09T12:29:24.846306+00:00"
-  },
-  {
-    "id": "fd8234f54e5ecfc2",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj6w5n/chart_of_all_enchantments_262/",
-    "title": "Chart of All Enchantments (26.2)",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T20:58:01+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "1cc1b9acf6b85de7",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj6ve3/philosophers_which_argue_that_the_concept_of/",
-    "title": "Philosophers which argue that the concept of \"truth\" does not exist or work as a single type of property/relation, but rather when employed as a term it actually denotes or means several different types which are relative and context dependent?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T20:57:05+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "7a33eef5e5864a11",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj6o9g/took_our_girls_5_and_3_out_hiking_at_the_mont/",
-    "title": "Took our girls (5 and 3) out hiking at the Mont Blanc",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T20:48:33+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "bfbdddd4a88bcfaf",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj6gf1/its_like_its_in_some_king_of_bogged/",
-    "title": "its like it's in some king of... bogged.",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T20:39:07+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "d2a754ed4b158730",
-    "url": "https://www.rockpapershotgun.com/danchi-days-out-this-october-brings-the-hamtaro-ham-ham-heartbreak-vibes-ive-been-desperately-craving-since-childhood",
-    "title": "Danchi Days, out this October, brings the Hamtaro: Ham-Ham Heartbreak vibes I've been desperately craving since childhood",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-08-08T20:36:44+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "2a9af95d8525e281",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj6cda/my_paintbound_shader_now_has_a_chalk_comic_and/",
-    "title": "My \"PaintBound\" shader now has a chalk, comic, and blueprint mode!",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T20:34:09+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "6b8a297213e58bdf",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj67vy/farmer_villager_fanart_by_me/",
-    "title": "Farmer villager fanart (by me)",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T20:28:54+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "ffe172630709930d",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vj62d5/out_of_curiosity_rate_my_party_composition/",
-    "title": "Out of curiosity - rate my party composition?",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-08T20:22:13+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "5a3e8d230b57f27b",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj62a8/just_met_a_legendary_player_today/",
-    "title": "Just met a legendary player today",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T20:22:08+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "479014c263181ae5",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vj5z5b/amazing_space_battles_gives_my_ships_200_hull/",
-    "title": "Amazing Space Battles gives my ships 200% hull, armor, shield points, -50% fire rate (at least I'm guessing it's doing that I'm kinda new), and installing the shorter battles addon does nothing to my current save.",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T20:18:30+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "aa95c4f563a060b6",
-    "url": "https://www.bbc.co.uk/news/articles/c89nkln7w7ko?at_medium=RSS&at_campaign=rss",
-    "title": "Paris tells e-scooter riders to wear safety gear or face fines",
-    "source": "BBC News",
-    "published_at": "2026-08-08T20:18:28+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "d93aa64eb4007371",
-    "url": "https://www.nytimes.com/2026/08/08/us/politics/senate-bows-to-reality-leaving-trumps-voting-bill-undone.html",
-    "title": "Senate Bows to Reality, Leaving Trump’s Voting Bill Undone",
-    "source": "The New York Times",
-    "published_at": "2026-08-08T20:12:51+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "b585719dfb13b98b",
-    "url": "https://www.nytimes.com/2026/08/08/us/politics/trump-save-america-act-republican-voting-bill-senate.html",
-    "title": "Senate Bows to Reality, Leaving Trump’s Voting Bill Undone",
-    "source": "The New York Times",
-    "published_at": "2026-08-08T20:12:51+00:00",
-    "first_shown_at": "2026-08-09T12:29:24.846306+00:00"
-  },
-  {
-    "id": "b15b4f1edd9f7eec",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vj5tld/any_way_to_enter_a_mind_scape_if_you_have/",
-    "title": "Any way to enter a mind scape if you have immunity to mind-affecting effects?",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-08T20:11:59+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "3e9c0c319c619ceb",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vj5mu7/she_is_here/",
-    "title": "She is here!",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T20:04:07+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "da3ffe52d0cb3f9e",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj5ii4/how_is_our_intuition_truth_tracking/",
-    "title": "How is our intuition truth tracking?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T19:59:24+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "64d39d36966a4bfe",
-    "url": "https://www.nytimes.com/2026/08/08/us/politics/pentagon-weapons-stockpiles-china-russia.html",
-    "title": "The U.S. Is Burning Through Weapons in Iran. Russia and China Are Taking Note.",
-    "source": "The New York Times",
-    "published_at": "2026-08-08T19:56:38+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "a331e793d3790fc4",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj5e6s/is_objective_morality_based_on_axioms_that_are/",
-    "title": "Is objective morality based on axioms that are subjectively accepted or rejected?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T19:54:14+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "c1de7cfee0e97d59",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vj4twu/2e_daily_spell_discussion_fires_pathway_aug_08/",
-    "title": "2E Daily Spell Discussion: Fire's Pathway - Aug 08, 2026",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-08T19:30:03+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "8535c76c3c617554",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj4pru/höfn_iceland/",
-    "title": "Höfn Iceland",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T19:25:15+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "1c58d57729b6cb62",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vj4ney/ttrpg_rec_bring_board_games_specifically_jenga/",
-    "title": "TTRPG Rec: bring board games, specifically Jenga, into your game",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-08T19:22:26+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "639e1a78a5718d36",
-    "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-    "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
-    "source": "BBC News",
-    "published_at": "2026-08-08T19:18:57+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "a609333219d70500",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj4d0j/firstgrosse_scheidegg_beo_switzerland/",
-    "title": "First-Grosse Scheidegg , BEO , Switzerland",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T19:10:24+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "1197a169887453dd",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj48h5/can_the_bible_be_useful_as_a_primary_text_for/",
-    "title": "Can the Bible be useful as a primary text for doing philosophy if I bracket explicitly theological premises?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T19:05:17+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "1fe8b46463b687f8",
-    "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
-    "title": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz",
-    "source": "The New York Times",
-    "published_at": "2026-08-08T19:04:41+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "119065f421890e4b",
-    "url": "https://www.bbc.co.uk/news/articles/c9q94lxqrzzo?at_medium=RSS&at_campaign=rss",
-    "title": "Australia is the planet's extinction hotspot, but one animal offers a glimmer of hope",
-    "source": "BBC News",
-    "published_at": "2026-08-08T19:00:22+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "9b50402b3c953d3f",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vj3swg/they_want_to_help_thats_adorable/",
-    "title": "They want to help - that's adorable!",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T18:47:36+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "630538897d11c056",
-    "url": "https://www.youtube.com/watch?v=NnCGG4RniWA",
-    "title": "Is Life Fundamentally Computational? | Blaise Agüera y Arcas",
-    "source": "Closer to Truth",
-    "published_at": "2026-08-08T18:30:20+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "d24ab11c1046e18e",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj3cvl/grenade_nerf/",
-    "title": "Grenade Nerf",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T18:29:36+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "e2895c9bb78f454b",
-    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vj38k7/how_much_more_do_you_feed_your_dog_on_multiday/",
-    "title": "How Much More Do You Feed Your Dog on Multi-Day Backpacking Trips?",
-    "source": "r/CampingandHiking",
-    "published_at": "2026-08-08T18:24:38+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "21ba27d24d8ef84d",
-    "url": "https://philpapers.org/rec/TROOMG",
-    "title": "丁, 健: The Rebirth of Philosophy",
-    "source": "PhilPapers",
-    "published_at": "2026-08-08T18:20:49.755628+00:00",
-    "first_shown_at": "2026-08-07T12:41:26.757508+00:00"
-  },
-  {
-    "id": "c81f9b1173ef23ec",
-    "url": "https://philpapers.org/rec/YOSPCD",
-    "title": "Yoshimi, Shinichi: 中心極限定理によるシンイチ数学の数学性への接続",
-    "source": "PhilPapers",
-    "published_at": "2026-08-08T18:20:49.755326+00:00",
-    "first_shown_at": "2026-08-07T12:41:26.757508+00:00"
-  },
-  {
-    "id": "08f1f77d43de802d",
-    "url": "https://philpapers.org/rec/WADDTA",
-    "title": "Wada, Arata: Discussion: The Architecture of Authorization",
-    "source": "PhilPapers",
-    "published_at": "2026-08-08T18:20:49.755228+00:00",
-    "first_shown_at": "2026-08-07T18:41:24.180096+00:00"
-  },
-  {
-    "id": "afeb76c9e4196de9",
-    "url": "https://philpapers.org/rec/WADTRP",
-    "title": "Wada, Arata: The Relatum Problem in Persistence: Diachronic Eligibility and the Limits of Criterion-Based Accounts",
-    "source": "PhilPapers",
-    "published_at": "2026-08-08T18:20:49.754338+00:00",
-    "first_shown_at": "2026-08-07T18:41:24.180096+00:00"
-  },
-  {
-    "id": "b5bb9236e36445d6",
-    "url": "https://philpapers.org/rec/KALCRO",
-    "title": "Kalashnik, Vladislav: Closed Resolution of Zeno’s Paradoxes: An Autopoietic Network Framework of Relational Logic",
-    "source": "PhilPapers",
-    "published_at": "2026-08-08T18:20:49.754068+00:00",
-    "first_shown_at": "2026-08-06T23:52:26.078949+00:00"
-  },
-  {
-    "id": "28baed0ae043ad0a",
-    "url": "https://philpapers.org/rec/WADBCR-2",
-    "title": "Wada, Arata: Before Continuity: Relatum Admissibility and the Comparative Foundations of Diachronic Per",
-    "source": "PhilPapers",
-    "published_at": "2026-08-08T18:20:49.753956+00:00",
-    "first_shown_at": "2026-08-07T18:41:24.180096+00:00"
-  },
-  {
-    "id": "64e62fd88a91c341",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vj2yzm/help_i_need_to_win_this_war/",
-    "title": "Help! I need to win this war",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-08T18:13:58+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "aa2ad7b37f6673f3",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1vj2sjx/does_anyone_even_use_these/",
-    "title": "Does anyone even use these?",
-    "source": "r/Minecraft",
-    "published_at": "2026-08-08T18:06:46+00:00",
-    "first_shown_at": "2026-08-09T00:53:25.436438+00:00"
-  },
-  {
-    "id": "d56edb3449750893",
-    "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
-    "title": "Child among three killed in Russian missile attacks near Kyiv",
-    "source": "BBC News",
-    "published_at": "2026-08-08T18:06:25+00:00",
-    "first_shown_at": "2026-08-08T06:36:24.795080+00:00"
-  },
-  {
-    "id": "08d151179f4f0bfe",
-    "url": "https://www.rockpapershotgun.com/polyzonia-is-an-ecosystem-sim-about-breathing-life-into-the-amazon-rainforest-until-it-can-look-after-itself",
-    "title": "Polyzonia is an ecosystem sim about breathing life into the Amazon rainforest until it can look after itself",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-08-08T18:05:43+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "6f4fda035a6f59a9",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj2nc6/the_onetwo_thoughts/",
-    "title": "The One-Two Thoughts",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T18:01:07+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "2987c0dffd5011ed",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1vj2msq/brawler_archetype_winding_path_renegade_mystery/",
-    "title": "Brawler Archetype - Winding Path Renegade: Mystery of Untwisting Iron",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-08-08T18:00:37+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "a8ce2d0681b01813",
-    "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
-    "title": "US offers $1bn to Colombia on new right-wing president's first day of office",
-    "source": "BBC News",
-    "published_at": "2026-08-08T17:58:42+00:00",
-    "first_shown_at": "2026-08-08T12:27:18.338358+00:00"
-  },
-  {
-    "id": "3567cf691c378784",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj2ab6/yeah/",
-    "title": "Yeah..",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T17:46:59+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "24f292204eb37b61",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj28zl/where_are_they/",
-    "title": "WHERE ARE THEY?",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T17:45:27+00:00",
-    "first_shown_at": "2026-08-09T06:40:16.500209+00:00"
-  },
-  {
-    "id": "b7abf285a9e6c6b1",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj21bs/he_he_penits/",
-    "title": "he he penits",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T17:36:51+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "f17d3f15165594ad",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj1y38/am_i_understanding_free_will_correctly/",
-    "title": "Am I understanding free will correctly?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T17:33:13+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "d773083766bb9cfe",
-    "url": "https://www.reddit.com/r/hiking/comments/1vj1pd1/acadia_or_smokies/",
-    "title": "Acadia or smokies?",
-    "source": "r/hiking",
-    "published_at": "2026-08-08T17:23:43+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "1b281c3cc5bacbde",
-    "url": "https://www.bbc.co.uk/news/articles/cewr8wel4z8o?at_medium=RSS&at_campaign=rss",
-    "title": "Madonna pays tribute to 'genius, otherworldly' producer William Orbit",
-    "source": "BBC News",
-    "published_at": "2026-08-08T17:23:31+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "89110989c9d3b67d",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj1k8h/what_do_philosophers_mean_by_when_they_say_they/",
-    "title": "What do philosophers mean by when they say they believe in objective morality?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T17:17:54+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "3aecc3d4a7abb814",
-    "url": "https://www.rockpapershotgun.com/big-walks-voice-chat-volume-issue-has-been-resolved-with-its-latest-patch-but-house-house-are-sticking-to-their-guns-on-its-overall-design",
-    "title": "Big Walk's voice chat volume issue has been resolved with its latest patch, but House House are sticking to their guns on its overall design",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-08-08T17:08:58+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "4dbdd0b6348f116d",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vj16bh/books_to_read_for_aristotles_theology/",
-    "title": "Books to read for Aristotle’s theology?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-08T17:02:14+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
-  },
-  {
-    "id": "5d653c09567cdcf7",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1vj158f/blue_visors_vs_redorange_visors_who_wins/",
-    "title": "Blue visors vs. Red/Orange visors? Who wins?",
-    "source": "r/Helldivers",
-    "published_at": "2026-08-08T17:01:03+00:00",
-    "first_shown_at": "2026-08-08T18:25:17.775102+00:00"
   }
 ]
