@@ -1,5 +1,413 @@
 [
   {
+    "id": "6f4e114cd2ec7895",
+    "url": "https://philpapers.org/rec/GUOAEO-4",
+    "title": "Guo, Zhiyi: AI Evaluation of Zhiyi Guo’s Cognitive-System Phenomenology",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.910055+00:00",
+    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
+  },
+  {
+    "id": "cbfdc0b570be9c85",
+    "url": "https://philpapers.org/rec/NASDPA-3",
+    "title": "Nasiri Vatan, Sadeq: Distributed Presence and the Emergence of Quantum Structure: An Ontological Reconstruction of Born Probability, Hilbert Space, Schrodinger Equation and Measurement",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.909583+00:00",
+    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
+  },
+  {
+    "id": "a0336e04c8c69c45",
+    "url": "https://philpapers.org/rec/ALLTIU",
+    "title": "Allen, Ben: The Infinite Upgrade Dilemma",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.909536+00:00",
+    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
+  },
+  {
+    "id": "9f359bba005f650e",
+    "url": "https://philpapers.org/rec/FATRCP",
+    "title": "Fat, Joni: Relational Change Prior to Matter and Spacetime: An Axiomatic Framework",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.909415+00:00",
+    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
+  },
+  {
+    "id": "7423a759543fe098",
+    "url": "https://philpapers.org/rec/SINZRH",
+    "title": "Singh, Mayank: Zero Reality Has Infinite Expression: Seeing, Being, and the Anthropocentric Division of Existence",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.909270+00:00",
+    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
+  },
+  {
+    "id": "e1704275a31d8548",
+    "url": "https://philpapers.org/rec/SINAOO-2",
+    "title": "Singh, Mayank: An Ontology of Creation, Integrity, and Non-Being",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.909153+00:00",
+    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
+  },
+  {
+    "id": "8ede577147e8d3e7",
+    "url": "https://philpapers.org/rec/ARTGBA",
+    "title": "Artner, Stephen N.: God, Being, and the ‘End of Metaphysics’: Paul Ricœur’s Hermeneutic Retrieval of Exodus 3:14",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.908858+00:00",
+    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
+  },
+  {
+    "id": "000148575cb6bba2",
+    "url": "https://philpapers.org/rec/NIAHFA",
+    "title": "Niami, Morteza: Hermeneutic Friction and Structural Subjectivity: Unreachable Media Objects in the Ontology of Finite Continuity",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.908723+00:00",
+    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
+  },
+  {
+    "id": "a8faaa3773d2dc98",
+    "url": "https://philpapers.org/rec/NIAPSI",
+    "title": "Niami, Morteza: Provisional Stabilization in an Erosive Field: Toward a Non-Telic Ontology of Constitutive Exchange and Finite Continuance",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.908438+00:00",
+    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
+  },
+  {
+    "id": "5ef92bb7ac461119",
+    "url": "https://philpapers.org/rec/AOUVNM",
+    "title": "Aoun, Patrick David: Von Neumann’s Measurement Chain without Dualism: Subjective Perception as the Natural Endpoint under Phenomenological Absolutism and Mutual Exclusivity",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.908321+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "ebbb5e314e546fb3",
+    "url": "https://philpapers.org/rec/NIATEC",
+    "title": "Niami, Morteza: The Existential Cost of Innovation: Finite Continuity, Erosion, and the Phenomenology of Creative Persistence in Steve Jobs",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.908040+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "83c361f92ac4000c",
+    "url": "https://philpapers.org/rec/ALBIAR-2",
+    "title": "Albright, Martin: Indiscernibility and Reference in Structuralism about Mathematics",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.907922+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "7d89afe81b52ba2e",
+    "url": "https://philpapers.org/rec/LITIMI",
+    "title": "Li, Wencheng: The Interstellar Messenger: An Ontological Speculation — Restating the Fermi Paradox and the Inheritance of Civilizations in the Generative Flow",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.907598+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "1a84549ef6782408",
+    "url": "https://philpapers.org/rec/FATITT",
+    "title": "Fat, Joni: Inferential Time Theory: Deriving Temporal Interpretation from Relational Organization",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.907462+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "e575185bba2962e1",
+    "url": "https://philpapers.org/rec/SEIPTT-2",
+    "title": "Seidel, Oliver: Possibility Topographies: Thought, Scarcity, and Collapse in Open Systems",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.907183+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "e8fbdc4338630687",
+    "url": "https://philpapers.org/rec/STITCL",
+    "title": "Stilwell, Phil: ◉ The Certainty Dividend - Ambiguity Aversion, Identity Protection, and the Flight from Credence",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.907048+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "f5d193d612678701",
+    "url": "https://philpapers.org/rec/SINEBH",
+    "title": "Singh, Mayank: Every Being Has Its Own Space and Time: Individuality, Existence, and the Human Construction of Psychological Sameness",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.906906+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "091608782a907a11",
+    "url": "https://philpapers.org/rec/TANHSW",
+    "title": "Tan, Kwan Hong: How Should We Understand Truth in Fluctuational Epistemology?",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.906584+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "304a607d80dd6037",
+    "url": "https://philpapers.org/rec/PALTFA-4",
+    "title": "Palla, Christian Mattias: The Fractal Axis: Recursive Stratification, Temporal Isomorphs, and Inter-Scalar Epistemology Across Cosmic, Biotic, and Algorithmic Substrates",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.906260+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "069359f0125d59a6",
+    "url": "https://philpapers.org/rec/FATTTO",
+    "title": "Fat, Joni: The Theory of Relational Change",
+    "source": "PhilPapers",
+    "published_at": "2026-08-29T15:52:35.906027+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "b525473373a7b8f8",
+    "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html",
+    "title": "Search Continues for 2,400 Missing in Nepal Floods Amid ‘Immense’ Devastation",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T15:43:21+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "2e3cadc336407de7",
+    "url": "https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html",
+    "title": "Political Campaigns Are Quietly Paying Influencers to Support Candidates",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T15:31:44+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "ef6cf34b8475ae7a",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1w1phuj/pain_and_consciousness/",
+    "title": "Pain and Consciousness",
+    "source": "r/askphilosophy",
+    "published_at": "2026-08-29T15:28:24+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "2458fe404ed33e6f",
+    "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+    "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+    "source": "BBC News",
+    "published_at": "2026-08-29T15:27:56+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "6bc68528adde6fca",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1w1pgux/what_is_ontological_perfection/",
+    "title": "What is ontological perfection?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-08-29T15:27:17+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "1ab25076360f127b",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1w1pgei/could_anyone_explain_the_implicate_order_into_my/",
+    "title": "Could anyone explain The Implicate Order into my dense brain please 🙏 😅",
+    "source": "r/askphilosophy",
+    "published_at": "2026-08-29T15:26:47+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "576eee179b1e58b6",
+    "url": "https://www.nytimes.com/2026/08/29/us/politics/georgia-senate-ossoff-collins-trump.html",
+    "title": "In Georgia, Jon Ossoff Courts Broad Appeal With an Anti-Trump Script for Senate Race",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T15:25:22+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "5e9812f558bd90c1",
+    "url": "https://www.reddit.com/r/starfinder_rpg/comments/1w1papn/new_grid/",
+    "title": "New Grid",
+    "source": "r/Starfinder_RPG",
+    "published_at": "2026-08-29T15:20:32+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "3c27bb72dfcfe8eb",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1w1p79e/what_would_you_do/",
+    "title": "What would you do ?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-29T15:16:44+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "d1fd3bc001a527cb",
+    "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+    "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+    "source": "BBC News",
+    "published_at": "2026-08-29T15:13:42+00:00",
+    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
+  },
+  {
+    "id": "4ef6fe866f10ae78",
+    "url": "https://www.nytimes.com/2026/08/28/world/asia/nepal-bodies-morgues.html",
+    "title": "Nepali City Struggles to Handle the Many Bodies on Its Riverbanks",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T15:05:20+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "c762c70ca8e50f6e",
+    "url": "https://www.nytimes.com/2026/08/29/us/politics/trump-economy-inflation.html",
+    "title": "High Debt and Rising Prices Catch Up to Trump, as Midterms Near",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T14:54:48+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "28145e0a2601b15d",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1w1oevl/so_two_of_my_already_specialized_worlds_decided/",
+    "title": "So, two of my already specialized worlds decided to get a trait that would benefit the other. Should I invest into switching all that infrastructure?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-29T14:45:19+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "32ba3ce17898d051",
+    "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html",
+    "title": "37 Killed After Russian Strike on Weapons Depot as Ukraine Blames Negligence",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T14:40:22+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "e3c15a6fa9dd16f6",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1w1o2ei/how_to_handle_storms_ps5/",
+    "title": "How to handle Storms? (PS5)",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-29T14:30:57+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "526026799faa001d",
+    "url": "https://www.nytimes.com/2026/08/28/business/trump-venezuela-oil-deal.html",
+    "title": "Trump Says U.S. Struck Deal for Control of More Than 65 Billion Barrels of Venezuela’s Oil",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T14:30:17+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "ab375d3c990fdc88",
+    "url": "https://www.nytimes.com/2026/08/29/opinion/democrats-primaries-identity-politics.html",
+    "title": "Democrats Have an Identity Politics Problem. Just Not the One You Think.",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T14:19:04+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "d236ea82a45367a6",
+    "url": "https://www.nytimes.com/2026/08/28/us/politics/trump-stanford-students-deport-constitution.html",
+    "title": "Judge Rules Trump Unlawfully Targeted Stanford Students Who Criticized Israel",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T14:09:12+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "85e3d0114d8a5150",
+    "url": "https://www.readtangle.com/will-midterm-campaigns-return-to-decency/",
+    "title": "Will Midterm Campaigns Return to Decency?",
+    "source": "Tangle",
+    "published_at": "2026-08-29T14:00:29+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "b61b1b9a1a603b9d",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1w1naru/reached_1_billion_fleet_power_for_the_first_time/",
+    "title": "Reached 1 Billion fleet power for the first time, my best effort against 200x Cetana",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-29T13:59:26+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "f3616bc09df329d1",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1w1muvz/philosophical_principle_on_which_an_atheist_can/",
+    "title": "Philosophical principle on which an atheist can criticize religious morality/",
+    "source": "r/askphilosophy",
+    "published_at": "2026-08-29T13:40:07+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "f8d04c84a9a70223",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1w1mmtr/determinism_and_responsibility/",
+    "title": "Determinism and responsibility",
+    "source": "r/askphilosophy",
+    "published_at": "2026-08-29T13:30:10+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "23348e8cd6769dc2",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1w1mbwn/hey_i_wasnt_playing_for_like_34_years_is_this_the/",
+    "title": "Hey, I wasnt playing for like 3-4 years is this the average vein at the last version or just a weird world gen?",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-29T13:16:55+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "cc151bc8784d1b38",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1w1m87h/made_minecraft_263_snapshot_10_run_on_windows_98/",
+    "title": "made minecraft 26.3 snapshot 10 run on windows 98 (java 8 btw)",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-29T13:12:21+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "7cfd2f5507a52b88",
+    "url": "https://www.nytimes.com/2026/08/29/us/alaska-governor-candidates.html",
+    "title": "One Democrat to Face Three Republicans for Alaska Governor",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T13:01:46+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "4aa85525d1a9a8e4",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1w1lwho/real_task_here_find_a_creeper/",
+    "title": "Real task here. Find a creeper!",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-29T12:58:11+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "21f922a1ccdd1be6",
+    "url": "https://www.reddit.com/r/Minecraft/comments/1w1lgnj/some_skins_i_made_recently/",
+    "title": "Some skins I made recently!",
+    "source": "r/Minecraft",
+    "published_at": "2026-08-29T12:37:40+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "9d18394b67a2ee87",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1w1l8fu/is_it_over/",
+    "title": "Is it over?",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-29T12:26:45+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "7ea6af8a778a3351",
+    "url": "https://www.nytimes.com/2026/08/29/opinion/prince-harry-meghan-markle-america.html",
+    "title": "Goodbye, Harry and Meghan. Turns Out We Didn’t Need Actual Royals.",
+    "source": "The New York Times",
+    "published_at": "2026-08-29T12:21:14+00:00",
+    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+  },
+  {
+    "id": "1df8f5bae017c6ec",
+    "url": "https://www.reddit.com/r/Stellaris/comments/1w1l3yc/its_over_15000_nomadic_experimental_sentencing/",
+    "title": "It's over 15000%!!!! (Nomadic Experimental Sentencing)",
+    "source": "r/Stellaris",
+    "published_at": "2026-08-29T12:20:37+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
+    "id": "c534dc612628aa55",
+    "url": "https://www.construction-physics.com/p/reading-list-082926",
+    "title": "Reading List 08/29/26",
+    "source": "Construction Physics",
+    "published_at": "2026-08-29T12:03:07+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
+  },
+  {
     "id": "7fdc132af49541d0",
     "url": "https://philpapers.org/rec/GAVCAL",
     "title": "Gava, Gabriele: Crusius and Lambert on Identifying the Most Basic Content of Scientific Cognition",
@@ -24,150 +432,6 @@
     "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
   },
   {
-    "id": "7423a759543fe098",
-    "url": "https://philpapers.org/rec/SINZRH",
-    "title": "Singh, Mayank: Zero Reality Has Infinite Expression: Seeing, Being, and the Anthropocentric Division of Existence",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.201666+00:00",
-    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
-  },
-  {
-    "id": "e1704275a31d8548",
-    "url": "https://philpapers.org/rec/SINAOO-2",
-    "title": "Singh, Mayank: An Ontology of Creation, Integrity, and Non-Being",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.201544+00:00",
-    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
-  },
-  {
-    "id": "cbfdc0b570be9c85",
-    "url": "https://philpapers.org/rec/NASDPA-3",
-    "title": "Nasiri Vatan, Sadeq: Distributed Presence and the Emergence of Quantum Structure: An Ontological Reconstruction of Born Probability, Hilbert Space, Schrodinger Equation and Measurement",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.201213+00:00",
-    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
-  },
-  {
-    "id": "a0336e04c8c69c45",
-    "url": "https://philpapers.org/rec/ALLTIU",
-    "title": "Allen, Ben: The Infinite Upgrade Dilemma",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.201164+00:00",
-    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
-  },
-  {
-    "id": "9f359bba005f650e",
-    "url": "https://philpapers.org/rec/FATRCP",
-    "title": "Fat, Joni: Relational Change Prior to Matter and Spacetime: An Axiomatic Framework",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.201036+00:00",
-    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
-  },
-  {
-    "id": "6f4e114cd2ec7895",
-    "url": "https://philpapers.org/rec/GUOAEO-4",
-    "title": "Guo, Zhiyi: AI Evaluation of Zhiyi Guo’s Cognitive-System Phenomenology",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.200754+00:00",
-    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
-  },
-  {
-    "id": "8ede577147e8d3e7",
-    "url": "https://philpapers.org/rec/ARTGBA",
-    "title": "Artner, Stephen N.: God, Being, and the ‘End of Metaphysics’: Paul Ricœur’s Hermeneutic Retrieval of Exodus 3:14",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.200466+00:00",
-    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
-  },
-  {
-    "id": "000148575cb6bba2",
-    "url": "https://philpapers.org/rec/NIAHFA",
-    "title": "Niami, Morteza: Hermeneutic Friction and Structural Subjectivity: Unreachable Media Objects in the Ontology of Finite Continuity",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.200348+00:00",
-    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
-  },
-  {
-    "id": "a8faaa3773d2dc98",
-    "url": "https://philpapers.org/rec/NIAPSI",
-    "title": "Niami, Morteza: Provisional Stabilization in an Erosive Field: Toward a Non-Telic Ontology of Constitutive Exchange and Finite Continuance",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.200028+00:00",
-    "first_shown_at": "2026-08-28T17:53:26.914414+00:00"
-  },
-  {
-    "id": "ebbb5e314e546fb3",
-    "url": "https://philpapers.org/rec/NIATEC",
-    "title": "Niami, Morteza: The Existential Cost of Innovation: Finite Continuity, Erosion, and the Phenomenology of Creative Persistence in Steve Jobs",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.199734+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "069359f0125d59a6",
-    "url": "https://philpapers.org/rec/FATTTO",
-    "title": "Fat, Joni: The Theory of Relational Change",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.199599+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "e575185bba2962e1",
-    "url": "https://philpapers.org/rec/SEIPTT-2",
-    "title": "Seidel, Oliver: Possibility Topographies: Thought, Scarcity, and Collapse in Open Systems",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.199305+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "7d89afe81b52ba2e",
-    "url": "https://philpapers.org/rec/LITIMI",
-    "title": "Li, Wencheng: The Interstellar Messenger: An Ontological Speculation — Restating the Fermi Paradox and the Inheritance of Civilizations in the Generative Flow",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.198967+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "1a84549ef6782408",
-    "url": "https://philpapers.org/rec/FATITT",
-    "title": "Fat, Joni: Inferential Time Theory: Deriving Temporal Interpretation from Relational Organization",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.198830+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "e8fbdc4338630687",
-    "url": "https://philpapers.org/rec/STITCL",
-    "title": "Stilwell, Phil: ◉ The Certainty Dividend - Ambiguity Aversion, Identity Protection, and the Flight from Credence",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.198688+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "f5d193d612678701",
-    "url": "https://philpapers.org/rec/SINEBH",
-    "title": "Singh, Mayank: Every Being Has Its Own Space and Time: Individuality, Existence, and the Human Construction of Psychological Sameness",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.198536+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "091608782a907a11",
-    "url": "https://philpapers.org/rec/TANHSW",
-    "title": "Tan, Kwan Hong: How Should We Understand Truth in Fluctuational Epistemology?",
-    "source": "PhilPapers",
-    "published_at": "2026-08-29T11:54:12.198066+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "2458fe404ed33e6f",
-    "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
-    "title": "At least 37 dead and hundreds evacuated after strike on Kyiv warehouse",
-    "source": "BBC News",
-    "published_at": "2026-08-29T11:53:37+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
     "id": "604ea557daab9fa6",
     "url": "https://www.reddit.com/r/Stellaris/comments/1w1k2nq/perks_of_being_a_scion_origin_free_ships_at_year/",
     "title": "Perks of being a scion (origin): free ships at year 2205 with jump drives and 4 sensor range. Ideal for massive exploration efforts.",
@@ -181,22 +445,6 @@
     "title": "America’s murky deal to secure a fifth of Venezuela’s oil",
     "source": "The Economist",
     "published_at": "2026-08-29T11:23:32+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "7ea6af8a778a3351",
-    "url": "https://www.nytimes.com/2026/08/29/opinion/prince-harry-meghan-markle-america.html",
-    "title": "Goodbye, Harry and Meghan. Turns Out We Didn’t Need Actual Royals.",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T11:00:16+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "ab375d3c990fdc88",
-    "url": "https://www.nytimes.com/2026/08/29/opinion/democrats-primaries-identity-politics.html",
-    "title": "Democrats Have an Identity Politics Problem. Just Not the One You Think.",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T11:00:11+00:00",
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
@@ -216,27 +464,11 @@
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
-    "id": "b525473373a7b8f8",
-    "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html",
-    "title": "‘Immense’ Devastation as Nepal Continues Search for 2,400 Missing in Floods",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T10:12:23+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
     "id": "3ac8c84229dacfdd",
     "url": "https://www.reddit.com/r/Stellaris/comments/1w1io5j/what_is_the_point_of_a_defensive_pact/",
     "title": "What is the point of a defensive pact?",
     "source": "r/Stellaris",
     "published_at": "2026-08-29T10:11:10+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "4ef6fe866f10ae78",
-    "url": "https://www.nytimes.com/2026/08/28/world/asia/nepal-bodies-morgues.html",
-    "title": "Nepali City Struggles to Handle the Many Bodies on Its Riverbanks",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T10:04:27+00:00",
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
@@ -304,28 +536,12 @@
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
-    "id": "c762c70ca8e50f6e",
-    "url": "https://www.nytimes.com/2026/08/29/us/politics/trump-economy-inflation.html",
-    "title": "High Debt and Rising Prices Catch Up to Trump, as Midterms Near",
+    "id": "01336d21afac5751",
+    "url": "https://www.nytimes.com/2026/08/29/us/salinas-california-taylor-farms-lettuce-cyclospora.html",
+    "title": "With Shoppers Wary of Illness, Farmers Destroy Millions of Heads of Lettuce",
     "source": "The New York Times",
-    "published_at": "2026-08-29T09:02:33+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "576eee179b1e58b6",
-    "url": "https://www.nytimes.com/2026/08/29/us/politics/georgia-senate-ossoff-collins-trump.html",
-    "title": "In Georgia, Jon Ossoff Courts Broad Appeal With an Anti-Trump Script for Senate Race",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T09:02:16+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "2e3cadc336407de7",
-    "url": "https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html",
-    "title": "Political Campaigns Are Quietly Paying Influencers to Support Candidates",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T09:00:16+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
+    "published_at": "2026-08-29T09:00:49+00:00",
+    "first_shown_at": "2026-08-29T15:56:26.467198+00:00"
   },
   {
     "id": "305384639a2e78ea",
@@ -488,27 +704,11 @@
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
-    "id": "d1fd3bc001a527cb",
-    "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-    "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-    "source": "BBC News",
-    "published_at": "2026-08-29T02:42:27+00:00",
-    "first_shown_at": "2026-08-29T01:19:28.153512+00:00"
-  },
-  {
     "id": "83f82bd1525fc760",
     "url": "https://www.reddit.com/r/Stellaris/comments/1w1a6ww/pls_add_random_shape/",
     "title": "Pls add random shape",
     "source": "r/Stellaris",
     "published_at": "2026-08-29T02:27:17+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "526026799faa001d",
-    "url": "https://www.nytimes.com/2026/08/28/business/trump-venezuela-oil-deal.html",
-    "title": "Trump Says U.S. Has Deal for Control of Large Share of Venezuela’s Oil",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T02:23:47+00:00",
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
@@ -525,14 +725,6 @@
     "title": "Our decision on Cursor following its acquisition by SpaceX",
     "source": "Hacker News",
     "published_at": "2026-08-29T01:47:53+00:00",
-    "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
-  },
-  {
-    "id": "d236ea82a45367a6",
-    "url": "https://www.nytimes.com/2026/08/28/us/politics/trump-stanford-students-deport-constitution.html",
-    "title": "Judge Rules Trump Unlawfully Targeted Stanford Students Who Criticized Israel",
-    "source": "The New York Times",
-    "published_at": "2026-08-29T01:40:28+00:00",
     "first_shown_at": "2026-08-29T11:58:28.091854+00:00"
   },
   {
@@ -3005,198 +3197,6 @@
     "title": "U.S. to Withdraw 200 Troops Sent to Nigeria Under Trump",
     "source": "The New York Times",
     "published_at": "2026-08-27T14:30:40+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "07d008e49cd8c63f",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1vzvi1y/suggestion_merge_orbital_habitats_and_nomads/",
-    "title": "Suggestion: Merge Orbital Habitats and Nomads.",
-    "source": "r/Stellaris",
-    "published_at": "2026-08-27T14:26:44+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "584bfe4e987bc618",
-    "url": "https://www.bbc.co.uk/news/articles/cgjq49g8wwqo?at_medium=RSS&at_campaign=rss",
-    "title": "'Silence is complicity' - top footballer hits out over Cameroon femicides",
-    "source": "BBC News",
-    "published_at": "2026-08-27T14:26:15+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "17195c2718379dbc",
-    "url": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
-    "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
-    "source": "BBC News",
-    "published_at": "2026-08-27T14:17:24+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "8e762127d55b2e7b",
-    "url": "https://www.reddit.com/r/CampingandHiking/comments/1vzv3db/how_can_i_lock_and_unlock_my_7075_alloy_trekking/",
-    "title": "How can I lock and unlock my 7075 alloy trekking pole ?",
-    "source": "r/CampingandHiking",
-    "published_at": "2026-08-27T14:11:15+00:00",
-    "first_shown_at": "2026-08-28T01:55:27.311743+00:00"
-  },
-  {
-    "id": "a7862d163827a546",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1vzv024/what_are_we_to_make_of_miracle_claims/",
-    "title": "What are we to make of miracle claims?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-08-27T14:07:30+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "f914fae2d939583a",
-    "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html",
-    "title": "Meta Projected It Could Spend $10 Billion on Anthropic’s A.I.",
-    "source": "The New York Times",
-    "published_at": "2026-08-27T14:04:10+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "62924c9320084b3d",
-    "url": "https://arxiv.org/abs/2608.27151v1",
-    "title": "Planning a Shared Modular Fixture Layout Across Robotic Disassembly Stages",
-    "source": "arXiv",
-    "published_at": "2026-08-27T14:03:43+00:00",
-    "first_shown_at": "2026-08-28T01:55:27.311743+00:00"
-  },
-  {
-    "id": "72a4dadd00235684",
-    "url": "https://www.economist.com/economic-and-financial-indicators/2026/08/27/economic-data-commodities-and-markets",
-    "title": "Economic data, commodities and markets",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "bc14b720723593e6",
-    "url": "https://www.economist.com/obituary/2026/08/27/frank-smith-never-managed-to-prove-he-was-innocent",
-    "title": "Frank Smith never managed to prove he was innocent",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "89e38dcf5afc8815",
-    "url": "https://www.economist.com/culture/2026/08/27/americas-cannabis-drinks-market-is-booming-and-imperilled",
-    "title": "America’s cannabis-drinks market is booming—and imperilled",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "b0c7b002b64776b6",
-    "url": "https://www.economist.com/culture/2026/08/27/the-philippines-is-going-wild-for-its-home-grown-star-alex-eala",
-    "title": "The Philippines is going wild for its home-grown star, Alex Eala",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "edda0392b9d33486",
-    "url": "https://www.economist.com/culture/2026/08/27/the-resonance-of-wile-e-coyote-from-loony-to-loved",
-    "title": "The resonance of Wile E. Coyote, from loony to loved",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "ee5edfbb5a59558c",
-    "url": "https://www.economist.com/interactive/culture/2026/08/27/what-the-world-most-famous-bookshop-reveals-about-culture",
-    "title": "What the world’s most famous bookshop reveals about culture",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "c09d71b870cfddb9",
-    "url": "https://www.economist.com/business/2026/08/27/one-thing-america-still-excels-at-making-pretzels",
-    "title": "One thing America still excels at making? Pretzels",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "49fd8370dd15dadd",
-    "url": "https://www.economist.com/business/2026/08/27/the-quality-you-should-most-wish-for-your-children",
-    "title": "The quality you should most wish for your children",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "c8c0e9709ac0b95d",
-    "url": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
-    "title": "AI is changing religion and religions are trying to change AI",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "acc4e02f77404fab",
-    "url": "https://www.economist.com/china/2026/08/27/chinas-latest-cash-cow-is-a-clunky-cartoon-bull",
-    "title": "China’s latest cash cow is a clunky cartoon bull",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "48fbe85fbbb71349",
-    "url": "https://www.economist.com/asia/2026/08/27/nepal-flash-floods",
-    "title": "Nepal flash floods",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "01806a32df8fd3c7",
-    "url": "https://www.economist.com/asia/2026/08/27/can-ai-make-dysfunctional-governments-more-effective",
-    "title": "Can AI make dysfunctional governments more effective?",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "c2e9b2ceae616dc4",
-    "url": "https://www.economist.com/asia/2026/08/27/australia-builds-a-pacific-alliance-system-to-keep-china-out",
-    "title": "Australia builds a Pacific alliance system to keep China out",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "e0abcbc3295a328e",
-    "url": "https://www.economist.com/the-americas/2026/08/27/the-problem-with-the-worlds-oldest-mummies",
-    "title": "The problem with the world’s oldest mummies",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "0643ff16d6937c3c",
-    "url": "https://www.economist.com/united-states/2026/08/27/the-state-that-could-shape-the-winning-democratic-message",
-    "title": "The state that could shape the winning Democratic message",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "063e9a5ed237817a",
-    "url": "https://www.economist.com/united-states/2026/08/27/shrimpers-are-the-latest-group-seeking-protection-from-washington",
-    "title": "Shrimpers are the latest group seeking protection from Washington",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
-    "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
-  },
-  {
-    "id": "e2cf1dc9391be495",
-    "url": "https://www.economist.com/europe/2026/08/27/can-music-festivals-save-the-melting-alps",
-    "title": "Can music festivals save the melting Alps?",
-    "source": "The Economist",
-    "published_at": "2026-08-27T14:02:18+00:00",
     "first_shown_at": "2026-08-27T17:04:27.099583+00:00"
   }
 ]
