@@ -1,5 +1,797 @@
 [
   {
+    "id": "e0dff851a98c3a3e",
+    "url": "https://philpapers.org/rec/HARACO-41",
+    "title": "Harmon, David: Anne Conway on the Silence of Mechanism",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.693220+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "5e5bead152d56d73",
+    "url": "https://philpapers.org/rec/FUJRXO",
+    "title": "Fujie, Naoto: RODENIAN Xenologies of Disconnection Microbial Persistence, Social and Sovereign Exclusion, Xenoscientific Hygiene, Inhuman Intelligence, the Operational Genesis of Alien Relations, and Extraterrestrial Settlement",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.693047+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "309999b8005ed638",
+    "url": "https://philpapers.org/rec/FUJXTO",
+    "title": "Fujie, Naoto: XENOPATHOLOGY The Operational Shapes of Disease, Health, and the Unclassifiable",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692868+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "4e079ad63482f628",
+    "url": "https://philpapers.org/rec/WROVAD-5",
+    "title": "Wroblewski, Klaus: Veränderung aus der Perspektive der Theorie der Einheitsbildung; Teil 6",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692773+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "8d90e3b2bd39814a",
+    "url": "https://philpapers.org/rec/THOIYA",
+    "title": "Thomas Arruda, Roberto: I, You and They: The structural ontology of human diversity",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692715+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "87578b4b1294c65c",
+    "url": "https://philpapers.org/rec/WROCFT-5",
+    "title": "Wroblewski, Klaus: Change from the Perspektive of the Unity Formation; Part VI",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692640+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "89589bb7d4953e7c",
+    "url": "https://philpapers.org/rec/FUEAAA",
+    "title": "Fuentes, Jorge Ignacio ; Burdman, Federico & Wajnerman Paz, Abel: Authorship as a distinct ethical dimension in speech BCIs",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692576+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "e71f0ff9d8275fe7",
+    "url": "https://philpapers.org/rec/SINLEW",
+    "title": "Singh, Mayank: Love Exists Within Being: Beyond the Individual Self, Psychological Attachment, and the Illusion of Separation",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692508+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "0ebaf3ba7fb393e3",
+    "url": "https://philpapers.org/rec/HUACSI",
+    "title": "Huang, Wanhong: Commercial Space In The Post-Labor City: A Discussion Of Markets, Encounters, And Heterogeneous Value",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692335+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "24f1b62923c3e318",
+    "url": "https://philpapers.org/rec/YUCTSL",
+    "title": "Yu, Yecheng: Could the Statue Have Been the Lump? Stochastic Grounding and Chance in Its Circumstances",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692272+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "028b58244863452d",
+    "url": "https://philpapers.org/rec/NEUMPK",
+    "title": "Neunhäuserer, Jörg: Metaphysischer Pluralismus Kapitel 1: Physikalische Realität",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692216+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "b810e1cdb0d175a0",
+    "url": "https://philpapers.org/rec/SINELL",
+    "title": "Singh, Mayank: Experiencing Life: Living Rather Than Becoming",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692153+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "b820ea2f7ff34e89",
+    "url": "https://philpapers.org/rec/SINBWD",
+    "title": "Singh, Mayank: Being Without Division: A Phenomenological Inquiry into Difference, Psychological Interpretation, and the Interconnectedness of Existence",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.692025+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "58b2fd444a0b6e69",
+    "url": "https://philpapers.org/rec/CLBCTL",
+    "title": "Călborean, Marian: Course 4 - Engineering AI minds: superintelligence with weak identity",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.691859+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "e42ee2a6063dc5ed",
+    "url": "https://philpapers.org/rec/HUAADO-5",
+    "title": "Huang, Wanhong: A Discussion Of Emptiness In Urban Design: Relational Conditions Of Generativity",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.691624+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "36112e22fdd417cb",
+    "url": "https://philpapers.org/rec/SCHABC-5",
+    "title": "Schutzler, Michael: Awareness Before Consciousness: _Discrete Access and the Appearance of a Shared World_",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.691557+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "5e8c1c4c0aadc83d",
+    "url": "https://philpapers.org/rec/WILCOP-9",
+    "title": "Wilhelm, Isaac: Consistency of Principles in \"Talk About Types\"",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.691493+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "1d0d78e669f5477a",
+    "url": "https://philpapers.org/rec/ZHASAT-3",
+    "title": "Zhang, Sulin: Self-Play: A Theory of Recursive Self-Transformation and Open-Ended Agency",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.691385+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "bf4aa201c41ba825",
+    "url": "https://philpapers.org/rec/PALGAT",
+    "title": "Palchayev, Fuad: Guests at the Celebration of Life: On Finitude, Relative Immortality, and the Changing Value of Experience",
+    "source": "PhilPapers",
+    "published_at": "2026-11-04T22:58:03.691172+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "6e069981a3b20370",
+    "url": "https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
+    "title": "Trump Administration Moves to Oust Arbitrators as Doctor Payouts Soar",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T22:51:13+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "7bb8998eca362376",
+    "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+    "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+    "source": "BBC News",
+    "published_at": "2026-11-04T22:48:43+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "2dd5bb3243bb20d2",
+    "url": "https://www.reddit.com/r/hiking/comments/1xo2c3s/where_to_get_gpx_postalltrails/",
+    "title": "Where to get gpx post-alltrails?",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T22:44:29+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "5299ad929dde4cb4",
+    "url": "https://www.nytimes.com/2026/11/04/opinion/trump-democrats-midterms.html",
+    "title": "Trump Wanted Democrats to Win",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T22:32:07+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "8fc073a20771f9fe",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xo1o8c/what_books_give_the_best_comprehensive_overview/",
+    "title": "What books give the best comprehensive overview of plato",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T22:16:21+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "48f3a2e5f085a4d5",
+    "url": "https://www.nytimes.com/2026/11/04/nyregion/katie-suarez-stabbing-brooklyn-jogger-nyc.html",
+    "title": "Retracing the Night Katie Suarez Was Attacked During Her Jog in Brooklyn",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T22:03:02+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "024a8096c49207ba",
+    "url": "https://www.economist.com/finance-and-economics/2026/11/04/what-markets-make-of-the-midterms",
+    "title": "What markets make of the midterms",
+    "source": "The Economist",
+    "published_at": "2026-11-04T21:48:18+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "56714106eb54dc32",
+    "url": "https://www.nytimes.com/2026/11/04/us/trump-family-investigations-democrats.html",
+    "title": "On the Democrats’ Agenda: Investigations of Trump and His Family",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T21:46:44+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "d3828bd24c21a542",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xo0xlp/what_is_the_purpose_of_life/",
+    "title": "What Is the Purpose of Life?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T21:46:32+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "1a955dc22bf755bf",
+    "url": "https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html",
+    "title": "Stocks Rise as Democrats Flip Control of Congress",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T21:40:19+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "727b6d9ae14c6052",
+    "url": "https://www.reddit.com/r/hiking/comments/1xo0rqy/camels_hump_in_vermont_on_a_74_november_day/",
+    "title": "Camel's Hump in Vermont on a 74° November Day",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T21:39:56+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "a473099e4604fdd8",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xo0orq/did_schopenhauer_and_johann_caspar_schmidt_ever/",
+    "title": "Did Schopenhauer and Johann Caspar Schmidt ever interact?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T21:36:35+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "e07c794e28f2be88",
+    "url": "https://www.nytimes.com/2026/11/04/nyregion/pied-a-terre-mamdani-appeal-win-home-tax.html",
+    "title": "Appeals Court Allows Mamdani to Move Forward with Pied-à-Terre Tax",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T21:30:52+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "6d5c8a23304c6dd7",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xo0fu7/is_there_a_distinction_between_wittgensteins/",
+    "title": "Is there a distinction between Wittgenstein’s notion of “language-games” and the principle of “using words in context”?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T21:26:33+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "78864a689dd2cd84",
+    "url": "https://www.nytimes.com/2026/11/04/business/cvs-health-split.html",
+    "title": "CVS to Split Off Drugstore Business, Ending Its Bigger-Is-Better Era",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T21:20:03+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "08215e98b330ee2c",
+    "url": "https://www.nytimes.com/2026/11/04/business/musk-elections-spacex-tesla-stocks.html",
+    "title": "SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T21:19:26+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "5b05c869f94250e4",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnzms2/the_damage_caused_by_the_poison_effect_is/",
+    "title": "The damage caused by the poison effect is considered acid. Therefore, the Acclimated and Desert Stormer passives can help reduce it",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T20:55:28+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "bc4a98c85cfaffec",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xnz0am/2e_daily_spell_discussion_freezing_rain_nov_04/",
+    "title": "2E Daily Spell Discussion: Freezing Rain - Nov 04, 2026",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T20:30:27+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "84155066caccdbb0",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnylgw/impressions_from_savoie_french_alps/",
+    "title": "Impressions from Savoie, French Alps",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T20:14:13+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "09e79dd98de37fcb",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnyeb2/my_wife_has_done_it_again/",
+    "title": "My wife has done it again!",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T20:06:32+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "d7c4d4af327b19f5",
+    "url": "https://www.nytimes.com/2026/11/04/us/politics/democrats-house-senate-congress-trump.html",
+    "title": "With Democrats’ Sweep, Congress Is Set to Reassert Power to Check Trump",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T19:51:04+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "9ddfc55ec80fb4eb",
+    "url": "https://www.economist.com/united-states/2026/11/04/how-democrats-will-wield-their-new-power",
+    "title": "How Democrats will wield their new power",
+    "source": "The Economist",
+    "published_at": "2026-11-04T19:47:17+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "f34b93874d5bc026",
+    "url": "https://www.youtube.com/watch?v=U9zLFGYzTxo",
+    "title": "Can Logic Help Us Understand God? | Michael Murray",
+    "source": "Closer to Truth",
+    "published_at": "2026-11-04T19:30:11+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "aae4b1e8687bd030",
+    "url": "https://www.economist.com/the-americas/2026/11/04/can-the-popes-long-tour-of-latin-america-win-back-godless-youth",
+    "title": "Can the pope’s long tour of Latin America win back godless youth?",
+    "source": "The Economist",
+    "published_at": "2026-11-04T19:22:38+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "f1991a103ba225be",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnx5ti/clanker/",
+    "title": "CLANKER",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T19:18:58+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "4415d30f3fc90e14",
+    "url": "https://www.economist.com/middle-east-and-africa/2026/11/04/the-latest-ebola-outbreak-could-be-the-worst-ever",
+    "title": "The latest Ebola outbreak could be the worst ever",
+    "source": "The Economist",
+    "published_at": "2026-11-04T19:05:18+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "330907ddadb878d3",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-04/the-midterm-predictions-were-good",
+    "title": "The Midterm Predictions Were Good",
+    "source": "Money Stuff",
+    "published_at": "2026-11-04T18:54:35+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "9604c9c00b07cdee",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnweya/mustreadfoundational_texts_on_physicalism/",
+    "title": "Must-read/foundational texts on physicalism.",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T18:50:19+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "fde43551f5b437f5",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnwehj/mt_pulag_essentials_and_tips_please/",
+    "title": "Mt. Pulag essentials and tips please",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T18:49:49+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "799086897568151a",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnw71z/how_it_feels_changing_my_review_to_negative_love/",
+    "title": "How it feels changing my review to negative. Love you HD2 but geez",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T18:41:41+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "2cc5e31ac5a60a75",
+    "url": "https://www.economist.com/china/2026/11/04/with-an-eye-on-america-china-is-beefing-up-its-ai-controlled-labs",
+    "title": "With an eye on America, China is beefing up its AI-controlled labs",
+    "source": "The Economist",
+    "published_at": "2026-11-04T18:38:15+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "c24718cdd2d5e967",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnw0lm/ive_always_supported_having_children_but/",
+    "title": "I’ve always supported having children, but antinatalism is starting to make sense to me. Am I missing something?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T18:34:56+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "b6f975e98c16b7ab",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnvpym/i_know_this_would_be_overpowered_but_i_wish_the/",
+    "title": "I know this would be overpowered, but i wish the Deadeye from Borderline Justice warbond could do this tactical reload",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T18:23:36+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "323b9cc40f7515f6",
+    "url": "https://www.economist.com/science-and-technology/2026/11/04/ai-models-can-tinker-with-one-anothers-brains",
+    "title": "AI models can tinker with one another’s brains",
+    "source": "The Economist",
+    "published_at": "2026-11-04T18:14:45+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "65e77dba9848b50b",
+    "url": "https://www.economist.com/science-and-technology/2026/11/04/drones-dont-just-blow-up-the-enemy",
+    "title": "Drones don’t just blow up the enemy",
+    "source": "The Economist",
+    "published_at": "2026-11-04T18:12:53+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "bd2deeedf45d8b74",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnveqf/this_happened_to_my_girlfriend_while_we_were/",
+    "title": "This happened to my girlfriend while we were doing the MO last night.",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T18:11:55+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "b570ba21d8682ba6",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnveon/books_about_existence_and_reality_from_a/",
+    "title": "books about existence and reality from a philosophical pov",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T18:11:52+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "c049e50dba284570",
+    "url": "https://www.economist.com/science-and-technology/2026/11/04/openais-approach-to-mathematics-does-not-add-up",
+    "title": "OpenAI’s approach to mathematics does not add up",
+    "source": "The Economist",
+    "published_at": "2026-11-04T18:11:10+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "d852601d99279af7",
+    "url": "https://www.economist.com/science-and-technology/2026/11/04/astronomers-are-mystified-by-little-red-dots-in-the-sky",
+    "title": "Astronomers are mystified by little red dots in the sky",
+    "source": "The Economist",
+    "published_at": "2026-11-04T18:09:34+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "3b4ff21427e0caea",
+    "url": "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft",
+    "title": "\"Arkane is profitable,\" say Marvel's Blade developers in fiery new statement, \"just not profitable enough for Microsoft\"",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-04T18:02:20+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "09b15d06b94263dd",
+    "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+    "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+    "source": "BBC News",
+    "published_at": "2026-11-04T18:01:31+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "9442cd1fdae96462",
+    "url": "https://www.economist.com/podcasts/2026/11/04/ai-eats-science-3-artificial-researchers",
+    "title": "AI eats science 3: artificial researchers",
+    "source": "The Economist",
+    "published_at": "2026-11-04T17:42:57+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "151a780d460619b7",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnucv3/fall_colours_on_the_humber_trail_in_woodbridge/",
+    "title": "Fall colours on the Humber Trail in Woodbridge, Ontario",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T17:32:44+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "4c7c0c62b2013e51",
+    "url": "https://www.youtube.com/watch?v=-4C8MQsXSrM",
+    "title": "What Are the Nine Levels of Nothing? | Robert Lawrence Kuhn, Interviewed by Àlex Gómez-Marín",
+    "source": "Closer to Truth",
+    "published_at": "2026-11-04T17:30:11+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "e76dd3ccdb26ad9a",
+    "url": "https://www.rockpapershotgun.com/oblivion-and-skyrims-gap-was-bridged-by-forward-looking-books-about-a-murderous-floating-island-so-why-is-the-elder-scrolls-6-stuck-reanimating-a-world-thats-stood-still-since-2011",
+    "title": "Oblivion and Skyrim’s gap was bridged by forward-looking books about a murderous floating island, so why is The Elder Scrolls 6 stuck reanimating a world that’s stood still since 2011",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-04T17:30:00+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "3aa297b6615f6379",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xntwo2/my_fav_biome_got_turned_into_piss_filter/",
+    "title": "My fav biome got turned into piss filter...",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T17:16:04+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "1bfef812688851bc",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xntv9i/punishment_justice_and_morality/",
+    "title": "Punishment, Justice, and Morality",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T17:14:41+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "183d630a3513a64d",
+    "url": "https://www.reddit.com/r/hiking/comments/1xntr2c/planning_a_yearlong_working_holiday_in_europe/",
+    "title": "Planning a year-long working holiday in Europe – looking for the best hikes and outdoor adventures!",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T17:10:25+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "aa5d242c8b4e04c6",
+    "url": "https://www.rockpapershotgun.com/rimworld-inspired-colony-sim-stardeus-gets-a-huge-update-representing-a-years-worth-of-expansion-and-revision-with-new-tools-for-evil-ai-overlords",
+    "title": "Rimworld-inspired colony sim Stardeus gets a huge update representing a year's worth of expansion and revision, with new tools for evil AI overlords",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-04T17:03:10+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "cf064f177920a0b4",
+    "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+    "title": "Iran's chief negotiator says Americans voted 'no to war'",
+    "source": "BBC News",
+    "published_at": "2026-11-04T16:59:15+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "c59421e39ef15ad6",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xntf58/who_cares_about_the_most_fun_sub_faction_of_the/",
+    "title": "Who cares about the most fun sub faction of the most unfinished faction",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T16:58:28+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "f1a26486c8d84f0e",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnt8pd/some_feedback_about_feedback/",
+    "title": "Some feedback about feedback",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T16:51:31+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "f61d3954807932aa",
+    "url": "https://www.readtangle.com/democrats-sweep-the-midterm-elections/",
+    "title": "Democrats sweep the midterm elections.",
+    "source": "Tangle",
+    "published_at": "2026-11-04T16:51:11+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "674cb119c2d7ad2d",
+    "url": "https://www.economist.com/culture/2026/11/04/explaining-the-popularity-of-max-richters-compositions",
+    "title": "Explaining the popularity of Max Richter’s compositions",
+    "source": "The Economist",
+    "published_at": "2026-11-04T16:48:17+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "389439edccf4f829",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnt2xd/berkelys_immaterialism/",
+    "title": "berkelys immaterialism",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T16:45:42+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "19d86bd3cf57310f",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
+    "title": "'Most difficult days of my life' for keeper Owono",
+    "source": "BBC News",
+    "published_at": "2026-11-04T16:40:38+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "5c63851230fe5ad2",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnss66/me_and_my_team_05_seconds_after_testing_out_the/",
+    "title": "Me and my team 0.5 seconds after testing out the Incendiary FRV",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T16:34:02+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "ca70ab29b22d7345",
+    "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+    "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+    "source": "BBC News",
+    "published_at": "2026-11-04T16:26:15+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "812f6529ab85183a",
+    "url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
+    "title": "Israel's president begins consultations with parties after election deadlock",
+    "source": "BBC News",
+    "published_at": "2026-11-04T16:18:21+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "f81adbbadf3695dd",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xnrz8s/with_max_the_min_and_similar_things_happening_at/",
+    "title": "With max the min and similar things happening at this sub, I thought about another format we could do",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T16:02:52+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "3b1414524520b871",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnrhg6/derridas_deconstruction_the_trace_and_the/",
+    "title": "Derrida's Deconstruction: The Trace and the Supplement of \"Rebellion\"",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T15:43:40+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "bef5eba70d4f9b68",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnr5y6/uk_helldivers_works_again_it_works_we_are_free/",
+    "title": "UK Helldivers works again... IT WORKS! WE ARE FREE. FREEEEEEEEEEEE!",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T15:31:05+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "06f4ca386e495aa2",
+    "url": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
+    "title": "Secret police files released in Hungary, 37 years after fall of communism",
+    "source": "BBC News",
+    "published_at": "2026-11-04T15:28:18+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "1d7c59ba36d51ac0",
+    "url": "https://www.nytimes.com/2026/11/04/world/europe/chinese-restaurant-edinburgh-viral-social-media.html",
+    "title": "Could a Viral Video Save Her Mom’s Chinese Restaurant?",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T15:15:05+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "19be3ca750924ed3",
+    "url": "https://www.nytimes.com/2026/11/04/us/politics/hakeem-jeffries-what-to-know.html",
+    "title": "Five Things to Know About Hakeem Jeffries",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T15:06:03+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "d9fedc001faaac8d",
+    "url": "https://www.propublica.org/article/vermont-clean-water-act-champlain-audit",
+    "title": "Vermont Was Supposed to Get an Audit of Its Lake Champlain Cleanup. It Never Happened.",
+    "source": "ProPublica",
+    "published_at": "2026-11-04T15:05:00+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "0f6bc3c87c042cc6",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xnqgdy/daily_magic_item_for_november_4_2026_shocking_robe/",
+    "title": "Daily Magic Item for November 4, 2026: Shocking Robe",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T15:03:12+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "1d78962e2e214149",
+    "url": "https://www.propublica.org/article/lake-champlain-algae-bloom-cyanobacteria-water-pollution-vermont",
+    "title": "Vermont Has Spent Nearly a Billion Dollars to Clean Up Lake Champlain. But the Green Slime Keeps Coming Back.",
+    "source": "ProPublica",
+    "published_at": "2026-11-04T15:00:00+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "09ed8ecfa4e96dcf",
+    "url": "https://www.propublica.org/getinvolved/lake-champlain-vermont-algae-bloom-pollution-callout",
+    "title": "Do You Live Near Lake Champlain? Help Seven Days and ProPublica Investigate Algae Blooms.",
+    "source": "ProPublica",
+    "published_at": "2026-11-04T14:55:00+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "7f0462cfc48263e6",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnpu9o/how_hard_is_it_to_write_my_own_short_paper_on_my/",
+    "title": "How hard is it to write my own short paper on my own philosophy?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T14:38:07+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "9b9f171695efd6b4",
+    "url": "https://www.economist.com/business/2026/11/04/bartleby-newsletter-the-case-for-scientific-methods-of-decision-making",
+    "title": "Bartleby newsletter: The case for scientific methods of decision-making",
+    "source": "The Economist",
+    "published_at": "2026-11-04T14:30:27+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "a3cdfa9e2b22b6d9",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnpm20/tennessee_beach_california/",
+    "title": "Tennessee Beach, California",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T14:28:41+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "fa29138e1f9f5d43",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnp8d3/what_causes_something_to_be_morality_right/",
+    "title": "what causes something to be morality right",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T14:12:42+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "d1c033e035e4621b",
+    "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
+    "title": "Everything you need to know from the US midterm elections",
+    "source": "BBC News",
+    "published_at": "2026-11-04T14:05:42+00:00",
+    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "053d5d1e5d632c83",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnp1z0/perhaps_a_more_appropriate_name_would_have_been/",
+    "title": "Perhaps a more appropriate name would have been something like \"Galactic Incineration\"",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T14:05:40+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "400fc013a042d1e2",
+    "url": "https://dailynous.com/2026/11/04/philosopher-led-team-nets-2-91-million-in-grants-for-project-on-safeguards-of-liberalism/",
+    "title": "Philosopher-led Team Nets $2.91 Million in Grants for Project on Safeguards of Liberalism",
+    "source": "Daily Nous",
+    "published_at": "2026-11-04T13:47:56+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "dcbbf842dec8442b",
+    "url": "https://www.youtube.com/shorts/xWKhLP_Umig",
+    "title": "Is Memory the Key to Consciousness? | Victoria Trumbull",
+    "source": "Closer to Truth",
+    "published_at": "2026-11-04T13:45:29+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "532f3d2942e60a96",
+    "url": "https://www.reddit.com/r/askphilosophy/comments/1xnohu2/if_every_desire_is_shaped_by_circumstance_what/",
+    "title": "If every desire is shaped by circumstance, what distinguishes the ones that are still \"mine\"?",
+    "source": "r/askphilosophy",
+    "published_at": "2026-11-04T13:42:06+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "cebee833f0123c75",
+    "url": "https://www.economist.com/interactive/graphic-detail/2026/11/04/the-democrats-extraordinary-triumph-explained",
+    "title": "The Democrats’ extraordinary triumph, explained",
+    "source": "The Economist",
+    "published_at": "2026-11-04T13:40:55+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "a6edc1d9c850a5f8",
+    "url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
+    "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+    "source": "BBC News",
+    "published_at": "2026-11-04T13:33:30+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "832a54ba9d1ce953",
     "url": "https://philpapers.org/rec/WANTSL",
     "title": "Wang, YunFei M.: The Symbolic Logic of Yin-Yang Lines: The Construction Principles of Hexagram Images in the Yijing(Zhouyi)",
@@ -40,14 +832,6 @@
     "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
   },
   {
-    "id": "309999b8005ed638",
-    "url": "https://philpapers.org/rec/FUJXTO",
-    "title": "Fujie, Naoto: XENOPATHOLOGY The Operational Shapes of Disease, Health, and the Unclassifiable",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.408363+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
     "id": "4f886364719467bb",
     "url": "https://philpapers.org/rec/FUJHBQ",
     "title": "Fujie, Naoto: HERR BADIOU & ANNA LONGO The Constitution and Ontological Non-Priority of Mathematical Operational Shapes On the Non-Necessity of Logical Inclusion, the Problem of Minimal Functional Constitution, and the Interval-Conditioned Genesis of Mathematical Operations",
@@ -56,100 +840,36 @@
     "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
   },
   {
-    "id": "5e5bead152d56d73",
-    "url": "https://philpapers.org/rec/FUJRXO",
-    "title": "Fujie, Naoto: RODENIAN Xenologies of Disconnection Microbial Persistence, Social and Sovereign Exclusion, Xenoscientific Hygiene, Inhuman Intelligence, the Operational Genesis of Alien Relations, and Extraterrestrial Settlement",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.407747+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "36112e22fdd417cb",
-    "url": "https://philpapers.org/rec/SCHABC-5",
-    "title": "Schutzler, Michael: Awareness Before Consciousness: _Discrete Access and the Appearance of a Shared World_",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.407626+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "58b2fd444a0b6e69",
-    "url": "https://philpapers.org/rec/CLBCTL",
-    "title": "Călborean, Marian: Course 4 - Engineering AI minds: superintelligence with weak identity",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.407325+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "b820ea2f7ff34e89",
-    "url": "https://philpapers.org/rec/SINBWD",
-    "title": "Singh, Mayank: Being Without Division: A Phenomenological Inquiry into Difference, Psychological Interpretation, and the Interconnectedness of Existence",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.407215+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "028b58244863452d",
-    "url": "https://philpapers.org/rec/NEUMPK",
-    "title": "Neunhäuserer, Jörg: Metaphysischer Pluralismus Kapitel 1: Physikalische Realität",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.407115+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "1d0d78e669f5477a",
-    "url": "https://philpapers.org/rec/ZHASAT-3",
-    "title": "Zhang, Sulin: Self-Play: A Theory of Recursive Self-Transformation and Open-Ended Agency",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.406864+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "bf4aa201c41ba825",
-    "url": "https://philpapers.org/rec/PALGAT",
-    "title": "Palchayev, Fuad: Guests at the Celebration of Life: On Finitude, Relative Immortality, and the Changing Value of Experience",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.406742+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "24f1b62923c3e318",
-    "url": "https://philpapers.org/rec/YUCTSL",
-    "title": "Yu, Yecheng: Could the Statue Have Been the Lump? Stochastic Grounding and Chance in Its Circumstances",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.406611+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "e42ee2a6063dc5ed",
-    "url": "https://philpapers.org/rec/HUAADO-5",
-    "title": "Huang, Wanhong: A Discussion Of Emptiness In Urban Design: Relational Conditions Of Generativity",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.406250+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "e71f0ff9d8275fe7",
-    "url": "https://philpapers.org/rec/SINLEW",
-    "title": "Singh, Mayank: Love Exists Within Being: Beyond the Individual Self, Psychological Attachment, and the Illusion of Separation",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.406133+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "b810e1cdb0d175a0",
-    "url": "https://philpapers.org/rec/SINELL",
-    "title": "Singh, Mayank: Experiencing Life: Living Rather Than Becoming",
-    "source": "PhilPapers",
-    "published_at": "2026-11-04T13:25:22.405998+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
     "id": "f4a695433e25b6a3",
     "url": "https://philpapers.org/rec/WILIOA-8",
     "title": "Wilhelm, Isaac: Inconsistency of Appendix 2 in \"Talk About Types\"",
     "source": "PhilPapers",
     "published_at": "2026-11-04T13:25:22.405756+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "1e3577f7ec6e9c81",
+    "url": "https://www.nytimes.com/2026/11/04/opinion/trump-midterms-republicans.html",
+    "title": "These Midterms Show That Trump Blew It",
+    "source": "The New York Times",
+    "published_at": "2026-11-04T13:25:16+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "4d2c1ef3cfbc261f",
+    "url": "https://www.reddit.com/r/hiking/comments/1xno3f6/oc_a_little_hike_i_had_in_rocca_di_mezzo_abruzzo/",
+    "title": "[OC] a little hike I had in Rocca di Mezzo (Abruzzo, Italy) searching for some Autumn vibes",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T13:23:43+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "31590043fce81620",
+    "url": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
+    "title": "Nadal set to join Real Madrid board of directors",
+    "source": "BBC News",
+    "published_at": "2026-11-04T13:21:01+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "d9488c7b2af35501",
@@ -200,19 +920,27 @@
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
+    "id": "111835b83f3a30b1",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xnnshz/i_want_to_pick_other_players_brains_for_the/",
+    "title": "I want to pick other players brains for the following. This is for humor purposes.",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T13:09:21+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "01b84c86cf53f195",
+    "url": "https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/",
+    "title": "Space company is betting its future on a propellant available everywhere",
+    "source": "Hacker News",
+    "published_at": "2026-11-04T12:57:02+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "17c679c0fcb9ff80",
     "url": "https://www.reddit.com/r/Minecraft/comments/1xnnbdb/the_top_of_the_new_calcite_pillars_makes_pretty/",
     "title": "The top of the new calcite pillars makes pretty good porcelain plates",
     "source": "r/Minecraft",
     "published_at": "2026-11-04T12:46:51+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "78864a689dd2cd84",
-    "url": "https://www.nytimes.com/2026/11/04/business/cvs-health-split.html",
-    "title": "CVS to Split Off Pharmacy Business, Ending the Healthcare Conglomerate Era",
-    "source": "The New York Times",
-    "published_at": "2026-11-04T12:43:43+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
@@ -264,35 +992,11 @@
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
-    "id": "cf064f177920a0b4",
-    "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-    "title": "Iran's chief negotiator says Americans voted 'no to war'",
-    "source": "BBC News",
-    "published_at": "2026-11-04T12:21:21+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "1a955dc22bf755bf",
-    "url": "https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html",
-    "title": "How the Stock Market Is Reacting to the Midterm Elections",
-    "source": "The New York Times",
-    "published_at": "2026-11-04T12:18:04+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
     "id": "c0a4f7429a082bc5",
     "url": "https://www.nytimes.com/video/opinion/100000011257707/the-beginning-of-the-end-of-trumpism.html",
     "title": "‘The Beginning of the End of Trumpism’",
     "source": "The New York Times",
     "published_at": "2026-11-04T12:15:22+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "08215e98b330ee2c",
-    "url": "https://www.nytimes.com/2026/11/04/business/musk-elections-spacex-tesla-stocks.html",
-    "title": "Musk Faces Setback as SpaceX and Tesla Stocks Tumble on Midterm Election Results",
-    "source": "The New York Times",
-    "published_at": "2026-11-04T12:14:55+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
@@ -302,6 +1006,22 @@
     "source": "Rock Paper Shotgun",
     "published_at": "2026-11-04T12:08:24+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "18cf57cd5c9a1459",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnmjrg/autumn_colors_above_the_clouds_on_mt_kuju_mt_kuju/",
+    "title": "Autumn colors above the clouds on Mt. Kuju. Mt. Kuju, Kuju Mountain Range, Oita, Japan",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T12:07:06+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "b28d59a43b4f164d",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xnmj3w/form_of_the_dragon_for_transmuter_wizard/",
+    "title": "Form of the dragon for transmuter wizard",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T12:06:09+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "b02497e5c3d5d190",
@@ -317,14 +1037,6 @@
     "title": "What if Mojang decides to add more dyes to Minecraft? ⬇️",
     "source": "r/Minecraft",
     "published_at": "2026-11-04T12:04:58+00:00",
-    "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
-  },
-  {
-    "id": "d1c033e035e4621b",
-    "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-    "title": "Everything you need to know from the US midterm elections",
-    "source": "BBC News",
-    "published_at": "2026-11-04T12:01:07+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
@@ -376,6 +1088,14 @@
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
+    "id": "01d98f65aea4b8c8",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnlu3i/cumberland_trail_black_mountain_tennessee/",
+    "title": "Cumberland Trail- Black Mountain Tennessee",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T11:27:42+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "e86cbb17fb898317",
     "url": "https://www.reddit.com/r/Stellaris/comments/1xnltuj/where_the_hell_are_these_pops_coming_from/",
     "title": "Where the hell are these pops coming from???",
@@ -414,6 +1134,14 @@
     "source": "Rock Paper Shotgun",
     "published_at": "2026-11-04T11:00:00+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "87982b468e1050d6",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnl4in/what_a_week_it_has_been/",
+    "title": "What a week it has been.",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T10:45:54+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "07bc4ff11a943983",
@@ -496,6 +1224,14 @@
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
+    "id": "e078d814fc3505b3",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnjz2m/update_was_delayed_and_we_still_end_up_with_suff/",
+    "title": "Update was delayed and we still end up with suff like this",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T09:33:04+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "fb95908565f57b40",
     "url": "https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html",
     "title": "Angry Voters Usher in Beginning of the End to the Trump Era",
@@ -504,12 +1240,44 @@
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
+    "id": "d935ec050e838e65",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnjlpq/fell_once_on_a_downhill_and_now_im_scared_of/",
+    "title": "Fell once on a downhill and now I’m scared of every descent. How do I get past this?",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T09:08:30+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "ff6ebc4d264b025c",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnjkl5/happy_5_month_anniversary_to_our_totally_real_and/",
+    "title": "Happy 5 month Anniversary to our totally real and not made up task force! Here's to another 5 months!",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T09:06:14+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "532f7c1c50701533",
     "url": "https://dailynous.com/2026/11/04/election-open-thread/",
     "title": "Election Open Thread",
     "source": "Daily Nous",
     "published_at": "2026-11-04T09:00:00+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "1ef88675a806a2b2",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xniyqj/october_34th_content_was_so_great_devs_forgot_to/",
+    "title": "October 34th content was so great, devs forgot to test it",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T08:25:35+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "322fb3278f2db942",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnixxq/immolation_grenades_flat_out_dont_work/",
+    "title": "Immolation Grenades Flat Out Don't Work",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T08:24:09+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "954ab2d63d0e60c9",
@@ -630,6 +1398,14 @@
     "source": "r/Minecraft",
     "published_at": "2026-11-04T04:37:50+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "4b4922cf229f0370",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnew3m/view_from_the_end_of_long_point_trail/",
+    "title": "View from the end of Long Point Trail. Fayetteville, WV",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T04:27:21+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "c5aa958f6f13fda8",
@@ -816,6 +1592,14 @@
     "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
   },
   {
+    "id": "dd484d4e3438d8c6",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xnca6d/using_a_2handed_slashing_weapon_as_a_swashbuckler/",
+    "title": "Using a 2-Handed Slashing Weapon as a Swashbuckler or Duelist (Prestige Class)?",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T02:15:33+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "4165cf29f6c08654",
     "url": "https://www.bbc.co.uk/news/articles/cmq8nj23v8qqo?at_medium=RSS&at_campaign=rss",
     "title": "Killer who escaped Tennessee prison captured after week-long manhunt",
@@ -838,6 +1622,22 @@
     "source": "The New York Times",
     "published_at": "2026-11-04T01:48:41+00:00",
     "first_shown_at": "2026-11-03T22:43:28.021467+00:00"
+  },
+  {
+    "id": "02da03b157dfbbb9",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xnbdw6/let_me_steer_my_fucking_hellpod/",
+    "title": "Let me steer my fucking hellpod",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-04T01:31:47+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
+    "id": "38495cd4bcb094bb",
+    "url": "https://www.reddit.com/r/hiking/comments/1xnb41g/mt_charleston_1955_plane_crash_site_near_the/",
+    "title": "Mt Charleston 1955 Plane Crash Site near the summit.",
+    "source": "r/hiking",
+    "published_at": "2026-11-04T01:18:45+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "f29581ea1eed9cff",
@@ -880,6 +1680,14 @@
     "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
   },
   {
+    "id": "84a58a568a231197",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xn9nfb/twoweapon_scimitars/",
+    "title": "Two-Weapon Scimitars",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-04T00:11:22+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "0f40d0d53b90bdba",
     "url": "https://www.reddit.com/r/askphilosophy/comments/1xn9h8h/did_socrates_communicate_with_a_demon_why_was/",
     "title": "Did Socrates communicate with a demon? Why was this a point of tension in his trial and execution?",
@@ -896,12 +1704,28 @@
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
   },
   {
+    "id": "537dbcbf2fc1c963",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xn95ff/help_making_thematic_enemies_idea_around_crabs/",
+    "title": "Help making thematic enemies idea around crabs.",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-03T23:49:39+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "c11eaa6cfcd0788c",
     "url": "https://www.nytimes.com/2026/11/03/us/florida-plane-crash-wreckage-recovered.html",
     "title": "Key Part of Jet in Deadly Florida Crash Found Far From Impact Site",
     "source": "The New York Times",
     "published_at": "2026-11-03T23:46:52+00:00",
     "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
+  },
+  {
+    "id": "8c03dac5a2121535",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xn8uj2/looking_for_a_complete_random_treasure_generator/",
+    "title": "Looking for a complete Random Treasure Generator",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-03T23:36:08+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "32a41b1698f762ef",
@@ -950,6 +1774,14 @@
     "source": "The New York Times",
     "published_at": "2026-11-03T23:03:45+00:00",
     "first_shown_at": "2026-11-03T22:43:28.021467+00:00"
+  },
+  {
+    "id": "cd59c19b09658a08",
+    "url": "https://www.reddit.com/r/hiking/comments/1xn7z8g/transili_alatau_in_kazakhstan_the_peak_molodaya/",
+    "title": "Trans-Ili Alatau in Kazakhstan. The peak 'Molodaya Gvardiya' 4402 m (14,442 ft). Almaty (Alma-Ata) region in South-East Kazakhstan.",
+    "source": "r/hiking",
+    "published_at": "2026-11-03T22:58:21+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "99646a9252edadb3",
@@ -1008,6 +1840,14 @@
     "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
   },
   {
+    "id": "1910337cca6d6ec5",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xn76da/kingmaker_module_woes/",
+    "title": "Kingmaker module woes",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-03T22:24:39+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "b3de02e40571afbc",
     "url": "https://www.economist.com/united-states/2026/11/03/midterms-coverage",
     "title": "Recap: How Democrats took the House and Senate",
@@ -1022,6 +1862,14 @@
     "source": "The Economist",
     "published_at": "2026-11-03T22:13:41+00:00",
     "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
+  },
+  {
+    "id": "286737fb05b526a4",
+    "url": "https://www.reddit.com/r/hiking/comments/1xn6lih/snowdonia_wales/",
+    "title": "Snowdonia, Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 🏔️",
+    "source": "r/hiking",
+    "published_at": "2026-11-03T22:01:39+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "15d9a348e921f552",
@@ -1136,6 +1984,14 @@
     "first_shown_at": "2026-11-03T22:43:28.021467+00:00"
   },
   {
+    "id": "de4b2329c55272e9",
+    "url": "https://www.reddit.com/r/hiking/comments/1xn4jri/my_best_friend_is_glad_we_started_hiking_again/",
+    "title": "My best friend is glad we started hiking again. Perkiomen trail, Trappe, Pennsylvania, USA",
+    "source": "r/hiking",
+    "published_at": "2026-11-03T20:41:43+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "b6ca9b9cf5c4afc6",
     "url": "https://www.economist.com/business/2026/11/03/besieged-by-war-saudi-aramco-continues-to-gush-profits",
     "title": "Besieged by war, Saudi Aramco continues to gush profits",
@@ -1158,6 +2014,14 @@
     "source": "r/Stellaris",
     "published_at": "2026-11-03T20:32:58+00:00",
     "first_shown_at": "2026-11-03T22:43:28.021467+00:00"
+  },
+  {
+    "id": "0e40c6b32879c4aa",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xn492p/2e_daily_spell_discussion_unfettered_movement_nov/",
+    "title": "2E Daily Spell Discussion: Unfettered Movement - Nov 03, 2026",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-03T20:30:26+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "e375b153b84e2956",
@@ -1262,6 +2126,14 @@
     "source": "arXiv",
     "published_at": "2026-11-03T18:59:14+00:00",
     "first_shown_at": "2026-11-04T13:29:26.875602+00:00"
+  },
+  {
+    "id": "0f0913120a94dcd5",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xn1pst/unconventional_ways_to_get_heal/",
+    "title": "Unconventional ways to get Heal",
+    "source": "r/Pathfinder_RPG",
+    "published_at": "2026-11-03T18:57:56+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "27505ba1a05bb40a",
@@ -1552,6 +2424,14 @@
     "first_shown_at": "2026-11-03T22:43:28.021467+00:00"
   },
   {
+    "id": "43f95847082eead4",
+    "url": "https://www.reddit.com/r/hiking/comments/1xmybt4/a_peaceful_autumn_hike_in_walgau_vorarlberg/",
+    "title": "A peaceful autumn hike in Walgau, Vorarlberg, Austria",
+    "source": "r/hiking",
+    "published_at": "2026-11-03T16:56:24+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "87f86189a03e3aa5",
     "url": "https://www.rockpapershotgun.com/mobile-suit-gundam-battle-operation-3-has-been-announced-marking-another-attempt-at-a-free-to-play-team-game-after-gundam-evolutions-unfortunate-fate",
     "title": "Mobile Suit Gundam Battle Operation 3 has been announced, marking another attempt at a free-to-play team game after Gundam Evolution's unfortunate fate",
@@ -1702,6 +2582,14 @@
     "source": "The New York Times",
     "published_at": "2026-11-03T15:55:50+00:00",
     "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
+  },
+  {
+    "id": "cc47ea06a222b0df",
+    "url": "https://www.reddit.com/r/hiking/comments/1xmwoc0/hvar_korcula_island_orebic_kotor_croatia/",
+    "title": "Hvar, Korcula Island, Orebic, Kotor, Croatia & Montenegro",
+    "source": "r/hiking",
+    "published_at": "2026-11-03T15:55:30+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "bf0bff2ac21c18ea",
@@ -1888,6 +2776,14 @@
     "first_shown_at": "2026-11-03T22:43:28.021467+00:00"
   },
   {
+    "id": "97de5f5e5150f2a7",
+    "url": "https://www.reddit.com/r/hiking/comments/1xmsnpl/lough_avalla_ireland/",
+    "title": "Lough Avalla - Ireland",
+    "source": "r/hiking",
+    "published_at": "2026-11-03T13:16:14+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
+  },
+  {
     "id": "e9840ab488869aa6",
     "url": "https://philpapers.org/rec/HUAWLB",
     "title": "Huang, Wanhong: When Love Becomes a Measure of Worth: A Preliminary Inquiry into Power Before the Symbolic",
@@ -1934,6 +2830,14 @@
     "source": "r/askphilosophy",
     "published_at": "2026-11-03T13:08:58+00:00",
     "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
+  },
+  {
+    "id": "83b3328b9a8b39a7",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1xmsgyc/a_cleaner_galaxy_starts_with_you_noxious_strain/",
+    "title": "A Cleaner Galaxy Starts With You - (Noxious Strain reveal)",
+    "source": "r/Helldivers",
+    "published_at": "2026-11-03T13:07:33+00:00",
+    "first_shown_at": "2026-11-04T23:02:15.683919+00:00"
   },
   {
     "id": "4a7144c4879e611f",
@@ -2293,910 +3197,6 @@
     "title": "North Korea denies being behind record $6.3bn Binance hack",
     "source": "BBC News",
     "published_at": "2026-11-03T08:33:20+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "c6535d3785572656",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmn587/what_metric_can_people_use_to_assess_their_life/",
-    "title": "What metric can people use to assess their life?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T08:01:29+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "a02cfb9704e4362e",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmn2i0/could_a_pzombie_describe_consciousness/",
-    "title": "Could a p-zombie describe consciousness?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T07:57:19+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "155bce04f5f9be9c",
-    "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
-    "title": "Major test for Australia's social media ban begins in High Court",
-    "source": "BBC News",
-    "published_at": "2026-11-03T07:53:38+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "491f0d25feefa066",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xmmubo/help_finding_a_mod/",
-    "title": "Help Finding a Mod",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-03T07:42:01+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "3ea4b688597ab930",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmmsmr/is_the_fear_and_trembling_translation_by_walter/",
-    "title": "Is the Fear and Trembling translation by Walter Lowrie any good, or should I go for a different one?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T07:39:01+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "7fab6cafa1c8ffff",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmmge9/robust_moral_realists_who_actually_provide/",
-    "title": "Robust moral realists who actually provide positive arguments in favor of moral facts?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T07:17:25+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "bfad2b5951c11376",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
-    "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
-    "source": "BBC News",
-    "published_at": "2026-11-03T07:15:17+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "fd8af20095f8a3e6",
-    "url": "https://www.nytimes.com/2026/11/03/arts/television/jimmy-kimmel-trump-midterms.html",
-    "title": "Jimmy Kimmel Mocks the President’s ‘Pettysburg Address’",
-    "source": "The New York Times",
-    "published_at": "2026-11-03T07:13:47+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "49bbb5e8d6191620",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xmm1ur/the_lost_makers_origin_must_also_be_be_a_nomadic/",
-    "title": "The \"Lost Makers\" origin must also be be a nomadic",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-03T06:52:59+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "d3337d2aade77d88",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xml5bb/why_does_frege_render_the_weak_ancestral_into/",
-    "title": "Why does Frege render the weak ancestral into natural language as \"x is a member of the f-sequence ending with z\"?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T05:59:55+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "3755d2cc7bc460fb",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmk6nn/i_found_four_skeleton_horse_jockeys/",
-    "title": "I found four skeleton horse jockeys!",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-03T05:06:13+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "94d52e35ae294923",
-    "url": "https://www.reddit.com/r/starfinder_rpg/comments/1xmjw9m/so_ive_been_thinking_a_long_time_about_power/",
-    "title": "So i've been thinking a long time about power armor and mechs in 2e. What are some thoughts on something like this?",
-    "source": "r/Starfinder_RPG",
-    "published_at": "2026-11-03T04:51:12+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "1729376c57095f68",
-    "url": "https://www.abc.net.au/news/science/2026-11-03/nasa-swift-telescope-crash-landing/100018476",
-    "title": "NASA's Swift space telescope predicted to crash back to Earth tomorrow",
-    "source": "Hacker News",
-    "published_at": "2026-11-03T04:47:16+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "d4a8987d5c54019a",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xmj5m7/everyone_is_misunderstanding_the_warmongers_civic/",
-    "title": "Everyone is misunderstanding the Warmongers Civic",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-03T04:12:17+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "fa0fabdafec039c5",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/us-military-strikes-iran-qeshm-island.html",
-    "title": "U.S. Military Strikes Iran’s Qeshm Island in What U.S. Officials Call a Defensive Measure",
-    "source": "The New York Times",
-    "published_at": "2026-11-03T04:10:38+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "3b080b71bfe2b499",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xmirm0/yknow_i_think_the_treasure_hunters_origin/",
-    "title": "Y’know, I think the Treasure Hunters origin actually works quite well for Nomads, just in terms of vibes.",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-03T03:52:14+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "b53cfdf747e575eb",
-    "url": "https://arxiv.org/abs/2611.04255v1",
-    "title": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
-    "source": "arXiv",
-    "published_at": "2026-11-03T03:48:01+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "8597eb1bcf6f5ba0",
-    "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
-    "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
-    "source": "BBC News",
-    "published_at": "2026-11-03T03:32:36+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "83af8afa821d933d",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmhz5s/blaze_concept_fanart/",
-    "title": "Blaze concept fanart",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-03T03:13:14+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "471b9c473673820c",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmhvcm/have_i_finally_understood_objective_morality/",
-    "title": "Have I finally understood \"objective morality\"?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T03:08:16+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "2d7315e1e793f217",
-    "url": "https://arxiv.org/abs/2611.04226v1",
-    "title": "DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution",
-    "source": "arXiv",
-    "published_at": "2026-11-03T03:05:25+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "18073995e9eb4290",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmhge1/why_wont_these_guys_breed/",
-    "title": "why wont these guys breed?",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-03T02:48:56+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "527d1b75de033a17",
-    "url": "https://arxiv.org/abs/2611.04204v1",
-    "title": "Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion",
-    "source": "arXiv",
-    "published_at": "2026-11-03T02:42:01+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "9b64089b56a26bb8",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmgrvm/looking_for_books_about_love_and_relationships/",
-    "title": "Looking for books about love and relationships.",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-03T02:16:35+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "96c3b0f55ad79684",
-    "url": "https://arxiv.org/abs/2611.04176v1",
-    "title": "Grasping and Stabilizing Tumbling Objects with Rotating-Base Multi-Arm Space Manipulators",
-    "source": "arXiv",
-    "published_at": "2026-11-03T02:07:45+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "eaaa5d8a5f626709",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmgkgn/i_used_cushions_to_make_a_circle_in_a_block_game/",
-    "title": "I used cushions to make a circle in a block game",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-03T02:07:15+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "51846ccda502cbac",
-    "url": "https://arxiv.org/abs/2611.04166v1",
-    "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
-    "source": "arXiv",
-    "published_at": "2026-11-03T01:57:41+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "5c664a7b3488a066",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xmg66k/how_very_xenophillic/",
-    "title": "How very... Xenophillic...",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-03T01:48:38+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "a021355e9c489b3a",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xmfnn9/starting_my_first_multiplayer_game_in_a_while/",
-    "title": "Starting my first multiplayer game in a while, what builds do you guys suggest?",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-03T01:24:12+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "a4fe2d6fbc7f4318",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmfhoi/ferrous_lights_emissive_redstone_and_a_small/",
-    "title": "Ferrous Lights, Emissive Redstone and a small optimization",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-03T01:16:22+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "705658d3fe84f266",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmeyjd/my_girlfriend_made_me_an_axolotl_3/",
-    "title": "my girlfriend made me an axolotl :3",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-03T00:52:05+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "d78194d0b8e58e90",
-    "url": "https://arxiv.org/abs/2611.04096v1",
-    "title": "Online Hamilton-Jacobi Reachability Onboard the Robot Control Loop: A Real-Time GPU Solver for Safety-Critical Autonomy",
-    "source": "arXiv",
-    "published_at": "2026-11-03T00:11:57+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "ff38690d931fc207",
-    "url": "https://www.bbc.co.uk/news/videos/cmvg9w5w2p1no?at_medium=RSS&at_campaign=rss",
-    "title": "Film star Ranbir Kapoor on AI, movies and fatherhood",
-    "source": "BBC News",
-    "published_at": "2026-11-03T00:09:13+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "15b0d8cfd4f752d8",
-    "url": "https://philpapers.org/rec/ANDNSW",
-    "title": "Anderson, L. J.: Numerical Sameness without Identity: A Trilemma and Fourfold Taxonomy of Divine Simplicity",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.528724+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "ec8c55bee367e12d",
-    "url": "https://philpapers.org/rec/NIUWFP",
-    "title": "Niu, Gangbei: Why First Philosophy Refuses to Die: Sexuality, Resistance, and the Recursive Return of Ground",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.528593+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "616a3bf6abbeccc5",
-    "url": "https://philpapers.org/rec/FUJONT-2",
-    "title": "Fujie, Naoto: OPERATIONAL NIHILISM The Non-Guaranteed Life: Negation, Embodied Formation, and the Transformation of Enlightenment",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.528434+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "0354f44326669be7",
-    "url": "https://philpapers.org/rec/WROCFT-4",
-    "title": "Wroblewski, Klaus: Change from the Perspektive of the Unity Formation; Part V",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.528250+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "46d0c8904b7548ae",
-    "url": "https://philpapers.org/rec/WROVAD-4",
-    "title": "Wroblewski, Klaus: Veränderung aus der Perspektive der Theorie der Einheitsbildung; Teil 5",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.527939+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "a455fc5344a14dd9",
-    "url": "https://philpapers.org/rec/FUJWTD",
-    "title": "Fujie, Naoto: When Temporal Discrimination Does Not Establish an Operational Shape An Immanent Critique of Nuance-Gaisho Activation Across Tactile Events",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.527790+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "3a37378e9d280d48",
-    "url": "https://philpapers.org/rec/KADRPA",
-    "title": "Kadic, Nino: Russellian Physicalism and the Mereological Role of Categorical Properties",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.527730+00:00",
-    "first_shown_at": "2026-11-02T03:11:20.602782+00:00"
-  },
-  {
-    "id": "370700d4b48d4083",
-    "url": "https://philpapers.org/rec/NIAJLF",
-    "title": "Niami, Morteza: Jacques Lacan",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.527586+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "3e6a071e2828d30a",
-    "url": "https://philpapers.org/rec/HUAEEI",
-    "title": "Huang, Wanhong: Epistemic Equivalence in Knowledge Migration: An Algebraic Inquiry into Historical and Institutional Dynamics",
-    "source": "PhilPapers",
-    "published_at": "2026-11-03T00:09:01.526808+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "27c8c1facaf47ae5",
-    "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-    "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-    "source": "BBC News",
-    "published_at": "2026-11-03T00:08:14+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "9d0eb81c90394cae",
-    "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-    "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-    "source": "BBC News",
-    "published_at": "2026-11-03T00:07:05+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "f9da17dd0638bcf1",
-    "url": "https://arxiv.org/abs/2611.04093v1",
-    "title": "VARP: A Visual Adaptive Rearrangement Planner for Non-Monotone Object Rearrangement Planning",
-    "source": "arXiv",
-    "published_at": "2026-11-03T00:03:35+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "b8f8fed9f4330d62",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmdmyu/autumn_hiking_in_the_stunning_neelum_valley/",
-    "title": "Autumn Hiking in the Stunning Neelum Valley, Kashmir",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T23:53:17+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "becdb03af1763e53",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmdlhe/mcdowell_creek_falls_trail_lebanon_or_usa/",
-    "title": "McDowell Creek Falls Trail, Lebanon, OR USA",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T23:51:26+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "a33bb581acd034e5",
-    "url": "https://arxiv.org/abs/2611.04083v1",
-    "title": "MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning",
-    "source": "arXiv",
-    "published_at": "2026-11-02T23:47:53+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "26f2cca4064ae590",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmdg2g/weekend_hikes_in_olympic_national_park_wa/",
-    "title": "Weekend Hikes in Olympic National Park, WA",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T23:44:53+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "8c44913591f183ff",
-    "url": "https://arxiv.org/abs/2611.04080v1",
-    "title": "FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation",
-    "source": "arXiv",
-    "published_at": "2026-11-02T23:42:40+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "cf2f62e31b11ce37",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-supreme-court-california-ballots.html",
-    "title": "Supreme Court Rejects Trump Administration Request to Intervene in California Ballot Case",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T23:36:02+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "253e11b9154d45bb",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmd6e7/tried_building_an_old_sawmill/",
-    "title": "Tried Building an Old Sawmill",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-02T23:33:17+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "1877cbfc8ef8a19b",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xmd67t/oc_gondor_calls_for_aid_and_super_earth_will/",
-    "title": "[OC] Gondor Calls for Aid! And Super Earth Will Answer!",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T23:33:05+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "46eb4ff7f3ce0e2f",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmd582/struggling_hiker_what_to_do/",
-    "title": "Struggling Hiker: What to Do",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T23:31:53+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "d9cf6aaa8d49bb00",
-    "url": "https://www.nytimes.com/2026/11/02/us/nathalia-filgueiras-florida-plane-crash-pilot.html",
-    "title": "20-Year-Old Nathalia Filgueiras Was a Pilot on Learjet That Crashed in Florida",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T23:30:24+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "d43289e094ee76f3",
-    "url": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
-    "title": "William Nordhaus Has Died. Nobelist Influenced Climate Policy.",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T23:13:58+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "0d7f17b03c89f6f0",
-    "url": "https://www.nytimes.com/2026/11/02/business/economy/eeoc-trump-administration-pregnancy-fertility-abortion.html",
-    "title": "Trump Administration Said to Plan Rolling Back Pregnancy-Related Job Protections",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T23:10:20+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "23937657b304d1f2",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-reflecting-pool-midterms.html",
-    "title": "Trump Delivers a Closing Midterm Message. Mostly About Landscaping.",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T23:07:04+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "59c92e27fa4f0747",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-midterms-election-fraud-reward.html",
-    "title": "Trump’s Election Fraud Reward Raises Fears of Vigilantism, Local Officials Say",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T22:59:40+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "410a7faf46040d7a",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmccwp/so_how_hard_is_getting_a_career_in_philosophy/",
-    "title": "So how hard is getting a career in philosophy?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-02T22:58:58+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "3abebe13811316f4",
-    "url": "https://www.reddit.com/r/CampingandHiking/comments/1xmcayf/newbie_here_how_much_should_i_spend_on_gear/",
-    "title": "Newbie here, how much should I spend on gear?",
-    "source": "r/CampingandHiking",
-    "published_at": "2026-11-02T22:56:34+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "f8c8a733222a7b4f",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xmc74q/would_it_be_possible_to_increase_the_caster_level/",
-    "title": "Would it be possible to increase the Caster Level of an Item by Repairing It?",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-11-02T22:52:02+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "46066de234cdacb5",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xmc312/ill_be_back_next_warbond/",
-    "title": "I’ll be back next Warbond.",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T22:47:18+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "403aa57e05270b96",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xmc02i/helldivers_2_killzone_warbond_ac1_dutiful_cosplay/",
-    "title": "Helldivers 2/ Killzone Warbond AC-1 “Dutiful” Cosplay",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T22:43:50+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "ddcb1403f1d3f4dc",
-    "url": "https://www.nytimes.com/2026/11/02/opinion/trump-midterms-history.html",
-    "title": "Don’t Be a Haley Stevens",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T22:38:34+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "f0d11490230013aa",
-    "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-    "title": "Web host Squarespace lays off 19% of its employees",
-    "source": "Hacker News",
-    "published_at": "2026-11-02T22:20:27+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "9778d81b8d5ac90b",
-    "url": "https://arxiv.org/abs/2611.04027v1",
-    "title": "A Practical Causal Framework for Autonomous Mobile Robots: From Simulation to Real-World Human Environments",
-    "source": "arXiv",
-    "published_at": "2026-11-02T22:16:09+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "669724af70100f7d",
-    "url": "https://www.nytimes.com/2026/11/02/us/harvard-admissions-trump-lawsuit-dismissed.html",
-    "title": "Judge Dismisses Trump Lawsuit Demanding Harvard Admissions Data",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T22:15:58+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "1ee643773f69ed92",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmb6ij/playa_de_las_catedrales_ribadeo_galicia_spain/",
-    "title": "Playa de las Catedrales, Ribadeo, Galicia, Spain",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T22:10:13+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "8b68b9a9d13c0d39",
-    "url": "https://arxiv.org/abs/2611.04016v1",
-    "title": "Physical Experience Builds Continual Spatial World Models",
-    "source": "arXiv",
-    "published_at": "2026-11-02T21:59:48+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "9b8ed964e647b288",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmavil/new_mexico_colorado_border_continental_divide/",
-    "title": "New Mexico / Colorado Border Continental Divide Trail",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T21:58:43+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "91ff5397e097c900",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xmatvs/new_update_tomorrow_or_nothing_ever_happens/",
-    "title": "New update tomorrow or nothing ever happens?",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T21:56:48+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "5cb4ea5f1d35ee65",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xmatqk/is_it_me_or_is_kant_not_as_hard_as_people_are/",
-    "title": "Is it me or is Kant not as hard as people are saying? (Go easy on me, JUST started reading him)",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-02T21:56:38+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "2067249140f8fe6f",
-    "url": "https://www.economist.com/united-states/2026/11/02/as-voters-head-to-the-polls-democrats-bet-that-discontent-will-power-their-victory",
-    "title": "As voters head to the polls, Democrats bet that discontent will power their victory",
-    "source": "The Economist",
-    "published_at": "2026-11-02T21:53:54+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "dd94587ce84161b1",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/midterms-2020-election-justice-department.html",
-    "title": "In Run-Up to Midterms, Legacy of 2020 Looms Large Over Justice Dept.",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T21:49:51+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "979227b43a50a00b",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xmak27/library_i_finally_finished/",
-    "title": "Library I finally finished",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-02T21:46:06+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "32de00facbfe53b0",
-    "url": "https://www.reddit.com/r/hiking/comments/1xmagwj/autumn_is_in_full_effect_in_southern_ohio/",
-    "title": "Autumn is in full effect in southern Ohio",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T21:42:45+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "e17dec46ae7b56f3",
-    "url": "https://www.economist.com/business/2026/11/02/the-quest-for-immortality-has-become-serious-business",
-    "title": "The quest for immortality has become serious business",
-    "source": "The Economist",
-    "published_at": "2026-11-02T21:39:36+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "dff5e2dc61a1d6d7",
-    "url": "https://www.nytimes.com/2026/11/02/insider/midterm-election-reporting-michigan-politics.html",
-    "title": "How a Reporter Interviews People About the Midterms, Even Those Who ‘Don’t Talk Politics’",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T21:28:58+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "aa74955991472a34",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xma3f7/what_intrinsic_motivations_or_rational_reasons/",
-    "title": "What intrinsic motivations or rational reasons could a superintelligence have to preserve, protect, and actively benefit humanity, even in the absence of any external constraints or human-imposed objectives?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-02T21:28:22+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "2ebc456578ac0cc8",
-    "url": "https://www.nytimes.com/2026/11/02/climate/william-nordhaus-carbon-tax-american-business.html",
-    "title": "He Pioneered a Groundbreaking Idea and Was Met With Corporate Wrath",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T21:19:57+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "b2b18304644a30e0",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xm9rw5/guardian_dreadnoughts_differencescomparison/",
-    "title": "Guardian Dreadnoughts differences/comparison",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-02T21:16:05+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "e8f92a7f47ee7f88",
-    "url": "https://arxiv.org/abs/2611.03975v1",
-    "title": "Self-governed access control in open robot swarms using a blockchain-based DAO",
-    "source": "arXiv",
-    "published_at": "2026-11-02T21:13:43+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "b431646d34cf04c0",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xm9ow9/raise_the_flag_mission_no_longer_players_super/",
-    "title": "Raise the Flag mission no longer players Super Earth anthem",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T21:13:05+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "f4e2bb4768089020",
-    "url": "https://arxiv.org/abs/2611.03944v1",
-    "title": "h-NESDF: An Infinitely Differentiable Signed Distance Between Two Sets with Robotic Applications",
-    "source": "arXiv",
-    "published_at": "2026-11-02T20:44:13+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "86d69d7e12a91cf3",
-    "url": "https://arxiv.org/abs/2611.03940v1",
-    "title": "Coordinate Frame Recovery, Per Class NMS and Null Return Modelling for Sim2Real V2X LiDAR Detection",
-    "source": "arXiv",
-    "published_at": "2026-11-02T20:42:22+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "0471b3509586154a",
-    "url": "https://arxiv.org/abs/2611.03936v1",
-    "title": "Geometric Refinement and Distributional Alignment for Sim2Real Roadside LiDAR Detection",
-    "source": "arXiv",
-    "published_at": "2026-11-02T20:39:51+00:00",
-    "first_shown_at": "2026-11-04T03:46:26.216776+00:00"
-  },
-  {
-    "id": "a9ffdf8c5595e59b",
-    "url": "https://www.nytimes.com/2026/11/02/opinion/trump-character-presidents-midterms.html",
-    "title": "What Seven Presidents Knew — and Trump Does Not",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T20:34:27+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "405ad5b965ec14bd",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xm8kx8/2e_daily_spell_discussion_fractious_echo_nov_02/",
-    "title": "2E Daily Spell Discussion: Fractious Echo - Nov 02, 2026",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-11-02T20:30:24+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "c6aa129d20348def",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-immigration-crackdown-backlash-republicans.html",
-    "title": "Trump’s Immigration Crackdown Backlash Poses Challenge for Republicans in the Midterms",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T20:29:52+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "4bc81d8467013242",
-    "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
-    "title": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T20:25:34+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "5f3fc0f006acfde5",
-    "url": "https://www.bbc.co.uk/news/articles/c9vgrvpk4l6eo?at_medium=RSS&at_campaign=rss",
-    "title": "Man guilty of stealing cash from farm owned by South African president",
-    "source": "BBC News",
-    "published_at": "2026-11-02T20:08:51+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "80d6274fcf519f1d",
-    "url": "https://www.nytimes.com/2026/11/02/world/europe/karl-bushby-world-walk-hull-england.html",
-    "title": "A 31,000-Mile Walk Ends in England, at Mom’s House",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T20:00:28+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "b69ebdcc01295231",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xm7pgv/what_do_you_all_suggest_for_a_nomadic_kotg_build/",
-    "title": "What do you all suggest for a nomadic KOTG build?",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-02T19:58:29+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "3bbc6d75eba3d12d",
-    "url": "https://www.bbc.co.uk/news/videos/c52e9lgxjz82o?at_medium=RSS&at_campaign=rss",
-    "title": "What Florida jet audio and flight data tells us about its final moments",
-    "source": "BBC News",
-    "published_at": "2026-11-02T19:49:22+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "95afb68912048dac",
-    "url": "https://www.reddit.com/r/CampingandHiking/comments/1xm78ws/shoe_recommendation_for_mom/",
-    "title": "Shoe recommendation for mom",
-    "source": "r/CampingandHiking",
-    "published_at": "2026-11-02T19:41:12+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "d234813815d58093",
-    "url": "https://www.nytimes.com/2026/11/02/us/politics/judge-fbi-agents-charges-midterms.html",
-    "title": "Judge Throws Out Charges Against Former F.B.I. Officials",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T19:34:11+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "f371aa4f4dbb3d03",
-    "url": "https://www.reddit.com/r/Stellaris/comments/1xm71w8/the_wreckage_of_my_arkship_stellaris_looks/",
-    "title": "The Wreckage of my Arkship. Stellaris looks beautiful!",
-    "source": "r/Stellaris",
-    "published_at": "2026-11-02T19:34:02+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "55cd72a7982ba61e",
-    "url": "https://www.youtube.com/watch?v=dAZ7wcr2IWM",
-    "title": "Why God May Exist Outside Time | Christopher Knight",
-    "source": "Closer to Truth",
-    "published_at": "2026-11-02T19:30:05+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "b1cac4a7de718c31",
-    "url": "https://www.reddit.com/r/hiking/comments/1xm6w9o/halloween_weekend_on_the_beara_way_cork_ireland/",
-    "title": "Halloween Weekend on the Beara Way, Cork, Ireland",
-    "source": "r/hiking",
-    "published_at": "2026-11-02T19:28:30+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "46f5413cfbbf0c3c",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xm6kep/mhm_whats_your_favorite_weapon_in_helldivers_2/",
-    "title": "Mhm What's your favorite weapon in Helldivers 2, and why?",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T19:16:19+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "858f20dc5b46ccdd",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-02/binance-got-some-money-back",
-    "title": "Binance Got Some Money Back",
-    "source": "Money Stuff",
-    "published_at": "2026-11-02T19:15:51+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "8cd2b6144a6fda19",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xm6bce/how_this_mo_felt/",
-    "title": "How this MO felt",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T19:07:06+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "90888acedbc25b16",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xm65uj/bots_even_celebrating_our_losing_streak_with/",
-    "title": "Bots even celebrating our losing streak with fireworks now... :(",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T19:01:30+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "12e94feb3d6b3d25",
-    "url": "https://www.rockpapershotgun.com/you-can-make-a-vampire-hunter-whos-afraid-of-the-dark-disease-and-small-spaces-in-hunter-the-reckoning-deathwish-and-thats-surely-the-best-way-to-play",
-    "title": "You can make a vampire hunter who's afraid of the dark, disease and small spaces in Hunter: The Reckoning - Deathwish, and that's surely the best way to play",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-02T19:00:00+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "3405178feb3a7dc6",
-    "url": "https://arxiv.org/abs/2611.03647v1",
-    "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-    "source": "arXiv",
-    "published_at": "2026-11-02T18:59:32+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "b82a6ac52f6cde77",
-    "url": "https://arxiv.org/abs/2611.03648v1",
-    "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-    "source": "arXiv",
-    "published_at": "2026-11-02T18:59:32+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "184f489779b22c72",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xm5xmd/their_what/",
-    "title": "Their WHAT?!",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-02T18:53:45+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "15af83148962c192",
-    "url": "https://arxiv.org/abs/2611.03622v1",
-    "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-    "source": "arXiv",
-    "published_at": "2026-11-02T18:52:11+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "cad24e23f2ded28f",
-    "url": "https://www.nytimes.com/2026/11/02/well/kratom-wellness-marketing-addiction.html",
-    "title": "They Tried Kratom for Its Purported Health Benefits, Then They Became Addicted",
-    "source": "The New York Times",
-    "published_at": "2026-11-02T18:42:22+00:00",
-    "first_shown_at": "2026-11-02T14:06:15.318594+00:00"
-  },
-  {
-    "id": "9021f5cfb428211c",
-    "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
-    "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
-    "source": "BBC News",
-    "published_at": "2026-11-02T18:34:24+00:00",
-    "first_shown_at": "2026-11-03T00:13:09.628168+00:00"
-  },
-  {
-    "id": "70c96fe6dfd6dc94",
-    "url": "https://arxiv.org/abs/2611.03588v1",
-    "title": "3D-BBDA: Backpropagation-Free Black-Box Domain Adaptation for Robust 3D Point Cloud Recognition",
-    "source": "arXiv",
-    "published_at": "2026-11-02T18:33:10+00:00",
-    "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
-  },
-  {
-    "id": "11c222dfdc29877b",
-    "url": "https://arxiv.org/abs/2611.03584v1",
-    "title": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
-    "source": "arXiv",
-    "published_at": "2026-11-02T18:32:18+00:00",
     "first_shown_at": "2026-11-03T13:14:16.430479+00:00"
   }
 ]
