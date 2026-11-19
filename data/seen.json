@@ -1,5 +1,485 @@
 [
   {
+    "id": "8d3222337f5be392",
+    "url": "https://philpapers.org/rec/FUJVOS",
+    "title": "Fujie, Naoto: Volitional Operational Shapes: Goal Formation, Revision, Inhibition, Self-Binding, and the Non-Universality of Will across Bodies, Machines, and Institutions",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.217091+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "ed169867e75e7edb",
+    "url": "https://philpapers.org/rec/FUJCRU",
+    "title": "Fujie, Naoto: CYBERNETIC REVISION UNDER CONSTRAINT Norbert Wiener, Operational Equivalence, and the Reach of Intervention",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.216857+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "e14255d0d9624149",
+    "url": "https://philpapers.org/rec/EHMPAD",
+    "title": "Ehmann, Alexander & Neumann, Daniel (eds.): Phenomenology and Direct Realism: Special Issue of The New Yearbook for Phenomenology and Phenomenological Philosophy Vol 24 (2)",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.216491+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "e84f619b8dd9dc5f",
+    "url": "https://philpapers.org/rec/FUJRUA",
+    "title": "Fujie, Naoto: Reorientation under Acceleration: J.-P. Caron, Nick Land, and the Conditions and Limits of Intervention in AI-Scored Societies",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.216244+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "8f361dbc03faba66",
+    "url": "https://philpapers.org/rec/NEURAT-4",
+    "title": "Neumann, Daniel: Reinach and the Givenness of States of Affairs",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.216025+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "b83b37d985eea01b",
+    "url": "https://philpapers.org/rec/DEOODE-2",
+    "title": "de Oliveira Dias, Ricardo Mariano: Ontologia do Estar — E-Book IX: Compêndio Genealógico Integral, Saturação Neutrínica e a Confluência Observacional do Ciclo 1 do Telescópio Espacial Roman",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.215889+00:00",
+    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "51fa3b820f40bc17",
+    "url": "https://philpapers.org/rec/BLUCCA-4",
+    "title": "Blumson, Ben: Characters, Consistency, and Cardinality",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.215778+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "f56cedee01f9acfb",
+    "url": "https://philpapers.org/rec/MARSAR-22",
+    "title": "Marushak, Adam: Speculating About Reasons",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.215592+00:00",
+    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "eaf3c28009353b4c",
+    "url": "https://philpapers.org/rec/SMIIAS-9",
+    "title": "Smits, Jeroen: Information as Shape and Meaning as Fit",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.215494+00:00",
+    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "4612c46781bf9217",
+    "url": "https://philpapers.org/rec/TUFHTC",
+    "title": "Tufanogullari, Sevdat: How to Create Something from Nothing and Calculate Everything that could have Ever Existed",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.215402+00:00",
+    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
+  },
+  {
+    "id": "9639aa3e464078b0",
+    "url": "https://philpapers.org/rec/FUJXTO-3",
+    "title": "Fujie, Naoto: XENOCOMMUNICATION The Obsolescence of Conversation and the Generation of Real Operations",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.215130+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "f5b8f8f32d744e87",
+    "url": "https://philpapers.org/rec/FUJAOS-2",
+    "title": "Fujie, Naoto: AUTISTIC OPERATIONAL SHAPES BEYOND THE INDIVIDUAL Repetition, the Wide Human, Xenotic Division of Functions, and Multiscale Interdependence",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.214867+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "3b80961f681081fe",
+    "url": "https://philpapers.org/rec/NOBTCO-4",
+    "title": "Nobody, Extraordinary: The Code of the Universe: The Logic of Relational Images in the I Ching",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.214767+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "18aef6ff2617e1de",
+    "url": "https://philpapers.org/rec/HUATMO-6",
+    "title": "Huang, Wanhong: The Manifestation of Linguistic Structures in Fock Space: A Mathematical and Philosophical Inquiry",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.214526+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "c73daf3babb963e0",
+    "url": "https://philpapers.org/rec/YONSPD-2",
+    "title": "Yonder, Yon: Simplifying Physicalism",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.214447+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "001f117c43d106a9",
+    "url": "https://philpapers.org/rec/BULCEI",
+    "title": "Bulgaria, Jamel: Conditional Economic Impact and Stakeholder Analysis of the Core Emotion Framework",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.214332+00:00",
+    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "c6a0eb428535b942",
+    "url": "https://philpapers.org/rec/TANTFI",
+    "title": "Tan, Kwan Hong: The Fluctuational Imperative: Ethical Responsibility and the Witnessing of Suffering in an Ontologically Unstable Universe",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.214061+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "d4aff8e29600060c",
+    "url": "https://philpapers.org/rec/BULDTB",
+    "title": "Bulgaria, Jamel: Detangling the Boosting Operator in Jamel Bulgaria’s Core Emotion Framework",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.213972+00:00",
+    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "630e13ceed3a8181",
+    "url": "https://philpapers.org/rec/FRUTIO-3",
+    "title": "Fruchter, Peter: The Incommensurability of Error and Nonsense: An AI Hallucination Interception and Creativity Blueprint",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.213841+00:00",
+    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
+  },
+  {
+    "id": "fe811365f1067e54",
+    "url": "https://philpapers.org/rec/SHARDO-3",
+    "title": "Shan, Alice Jing: Relational Dynamics™: Ontology of Relational Dynamics · v0.2",
+    "source": "PhilPapers",
+    "published_at": "2026-11-19T14:50:55.213404+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "da3bf346dc9181d8",
+    "url": "https://www.nytimes.com/2026/11/19/us/boston-citgo-sign-fenway-park.html",
+    "title": "Boston’s Beloved Citgo Sign Returns After Rebuild, 30 Feet Higher",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T14:32:55+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "cd9f5f503834094d",
+    "url": "https://www.readtangle.com/who-is-he-hes-my-friend-trump-says-as-he-arrives-for-meeting-with-putin/",
+    "title": "“Who is he? He’s my friend.” Trump says as he arrives for meeting with Putin.",
+    "source": "Tangle",
+    "published_at": "2026-11-19T14:26:40+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "b88845b4eaf98edd",
+    "url": "https://www.nytimes.com/2026/11/18/business/dealbook/dealbook-summit-musk-altman-ellison.html",
+    "title": "Takeaways From the 2026 DealBook Summit",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T14:08:33+00:00",
+    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "b16facea9bde3be0",
+    "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+    "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+    "source": "BBC News",
+    "published_at": "2026-11-19T13:31:23+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "ac547cb1cef4db8e",
+    "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-dustin-moskovitz.html",
+    "title": "Dustin Moskovitz, an Early Anthropic Investor, Feels a Bit Uneasy About the IPO",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T13:28:13+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "4bf48d5812470eaa",
+    "url": "https://www.nytimes.com/2026/11/19/us/politics/three-maga-women-who-defined-an-era-in-congress-are-exiting.html",
+    "title": "Three MAGA Women Who Defined an Era in Congress Are Exiting",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T13:27:13+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "7377e6f77e06d5d3",
+    "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html",
+    "title": "Anthropic’s Trillion-Dollar Debut Is Watershed Moment for A.I.’s Risks and Rewards",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T13:20:40+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "8944b9bf2f7dff44",
+    "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+    "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+    "source": "BBC News",
+    "published_at": "2026-11-19T13:07:35+00:00",
+    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "1307b302fdbcb507",
+    "url": "https://www.rockpapershotgun.com/theyre-more-complicated-and-more-expensive-than-lcd-screens-but-your-next-gaming-monitor-should-still-be-an-oled",
+    "title": "They're more complicated and more expensive than LCD screens, but your next gaming monitor should still be an OLED",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-19T13:00:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "5171e29e1360b775",
+    "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+    "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+    "source": "BBC News",
+    "published_at": "2026-11-19T12:56:30+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "157cfcc0b5e5816b",
+    "url": "https://www.nytimes.com/2026/11/19/business/cop31-energy-iea.html",
+    "title": "How the War in Iran Will Remake the Global Energy Order",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T12:51:17+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "f2c1c663e9e4196e",
+    "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html",
+    "title": "Behind Trump Meeting, Xi and Putin Share a Vision of Usurping U.S. Power",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T12:41:50+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "ef87c30f051608e2",
+    "url": "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html",
+    "title": "A Village Burned, Its People Killed or Exiled. A Court Ruled It Was Genocide.",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T12:23:29+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "8011ccba91951021",
+    "url": "https://www.rockpapershotgun.com/hour-long-total-war-warhammer-40000-campaign-stream-shows-off-ship-battle-less-fleet-management-makes-clear-how-not-ideal-getting-space-marine-armies-killed-is",
+    "title": "Hour-long Total War: Warhammer 40,000 campaign stream shows off ship battle-less fleet management, makes clear how not ideal getting Space Marine armies killed is",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-19T12:22:20+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "f815695fb56495de",
+    "url": "https://dailynous.com/2026/11/19/what-question-have-you-been-working-on-lately/",
+    "title": "What Question Have You Been Working On Lately?",
+    "source": "Daily Nous",
+    "published_at": "2026-11-19T12:17:50+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "74ab1f3cc812b27c",
+    "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-summit-china-media-bloomberg-reporter-nvidia.html",
+    "title": "China Bars Bloomberg Reporter From Trilateral Talks for Asking a Question",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T12:08:19+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "c3261a1d086e0f1f",
+    "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+    "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+    "source": "BBC News",
+    "published_at": "2026-11-19T11:07:37+00:00",
+    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "6ac1cf5207144ace",
+    "url": "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums",
+    "title": "Wunderkammer",
+    "source": "Aeon",
+    "published_at": "2026-11-19T11:01:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "e148d53885b23130",
+    "url": "https://www.economist.com/asia/2026/11/19/india-feeds-the-world-but-its-methane-emissions-are-heating-it",
+    "title": "India feeds the world, but its methane emissions are heating it",
+    "source": "The Economist",
+    "published_at": "2026-11-19T11:00:22+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "92d630801d950c59",
+    "url": "https://www.nytimes.com/2026/11/19/podcasts/the-headlines/trump-putin-glp-1s-for-children.html",
+    "title": "Trump Greets Putin as ‘My Friend,’ and the Rise of GLP-1s for Children",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T11:00:07+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "4343ba189831bbe3",
+    "url": "https://www.propublica.org/article/irs-settlement-golf-pro-shelby-lowman",
+    "title": "The Trump DOJ Quietly Intervened to Ink a Huge Payout to a Trump Golf Pro",
+    "source": "ProPublica",
+    "published_at": "2026-11-19T11:00:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "ddf591d7912f7840",
+    "url": "https://aeon.co/essays/what-would-parenting-by-ai-look-like",
+    "title": "At least it remembers",
+    "source": "Aeon",
+    "published_at": "2026-11-19T11:00:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "2ba5ac55e7c8a92d",
+    "url": "https://www.economist.com/podcasts/2026/11/19/racing-ahead-anthropics-big-ipo",
+    "title": "Racing ahead: Anthropic’s big IPO",
+    "source": "The Economist",
+    "published_at": "2026-11-19T10:54:24+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "c6d87bb33ae78f6a",
+    "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+    "title": "Anthropic raises $81bn in record-breaking stock market debut",
+    "source": "BBC News",
+    "published_at": "2026-11-19T10:48:04+00:00",
+    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "02fc642eb6bd7f46",
+    "url": "https://www.economist.com/podcasts/2026/11/19/the-bad-old-days",
+    "title": "The bad old days",
+    "source": "The Economist",
+    "published_at": "2026-11-19T10:45:10+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "70ab9c38cb1a0af9",
+    "url": "https://www.economist.com/by-invitation/2026/11/19/russia-wants-talks-on-europes-security-architecture-dont-fall-for-it",
+    "title": "Russia wants talks on Europe’s “security architecture”. Don’t fall for it",
+    "source": "The Economist",
+    "published_at": "2026-11-19T10:44:42+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "979247516ab95aa4",
+    "url": "https://www.propublica.org/article/tariff-refund-database-cash-back",
+    "title": "We’re Publishing the Tariff Refunds the Government Has Refused to Disclose",
+    "source": "ProPublica",
+    "published_at": "2026-11-19T10:35:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "f0e7c2070aeca145",
+    "url": "https://www.rockpapershotgun.com/rockstar-firings-tribunal-hears-closing-statements-with-judge-promising-to-deliver-a-verdict-as-quickly-as-i-possibly-can-though-it-may-take-a-while",
+    "title": "Rockstar firings tribunal hears closing statements, with judge promising to deliver a verdict \"as quickly as I possibly can\" - though it may take a while",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-19T10:34:20+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "6f125a48a92b5f2e",
+    "url": "https://projects.propublica.org/trump-tariff-refund-ieepa/",
+    "title": "See How Much Companies Are Getting in Tariff Refunds",
+    "source": "ProPublica",
+    "published_at": "2026-11-19T10:30:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "7c51872533c44af9",
+    "url": "https://www.economist.com/finance-and-economics/2026/11/19/bond-yields-are-rising-everywhere-except-china",
+    "title": "Bond yields are rising everywhere—except China",
+    "source": "The Economist",
+    "published_at": "2026-11-19T10:04:37+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "f22aab8adbfee9a9",
+    "url": "https://www.economist.com/finance-and-economics/2026/11/19/europe-tightens-sanctions-on-russia-america-loosens-them",
+    "title": "Europe tightens sanctions on Russia. America loosens them",
+    "source": "The Economist",
+    "published_at": "2026-11-19T10:03:23+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "b568ca9c68bad0bd",
+    "url": "https://www.nytimes.com/2026/11/19/arts/music/ella-langley-taylor-swift-cma-awards.html",
+    "title": "Ella Langley Sweeps and Taylor Swift Returns at the 2026 CMA Awards",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T10:02:12+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "9a6be85e07cb1fb2",
+    "url": "https://www.economist.com/finance-and-economics/2026/11/19/ai-is-swallowing-maths-is-economics-next",
+    "title": "AI is swallowing maths. Is economics next?",
+    "source": "The Economist",
+    "published_at": "2026-11-19T10:01:25+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "f51d572214befb91",
+    "url": "https://www.propublica.org/article/california-educator-licenses-sexual-abuse-criminal-charges",
+    "title": "This Counselor Faces Trial for Sexually Abusing 15 Students. California Has Been Warned About Him for Years.",
+    "source": "ProPublica",
+    "published_at": "2026-11-19T10:00:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "3fea2d62104a95d6",
+    "url": "https://www.economist.com/leaders/2026/11/19/bangladesh-an-underappreciated-success-faces-an-economic-crisis",
+    "title": "Bangladesh, an underappreciated success, faces an economic crisis",
+    "source": "The Economist",
+    "published_at": "2026-11-19T09:51:47+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "1b143fdade717e7d",
+    "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+    "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+    "source": "BBC News",
+    "published_at": "2026-11-19T09:21:54+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "fab981f3e531b905",
+    "url": "https://www.economist.com/interactive/international/2026/11/19/a-new-axis-of-malice-threatens-the-global-order",
+    "title": "A new axis of malice threatens the global order",
+    "source": "The Economist",
+    "published_at": "2026-11-19T09:03:40+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "2cddf338ba79f083",
+    "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+    "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+    "source": "BBC News",
+    "published_at": "2026-11-19T09:02:52+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "d4344b2d009ac823",
+    "url": "https://www.nytimes.com/2026/11/18/us/gta-6-sick-work-school.html",
+    "title": "‘GTA Flu’ Has Schools and Jobs Bracing for Sick Days",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T08:53:03+00:00",
+    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "a86d76accfd2c883",
+    "url": "https://www.economist.com/leaders/2026/11/19/deeper-collusion-between-hostile-powers-threatens-the-west",
+    "title": "Deeper collusion between hostile powers threatens the West",
+    "source": "The Economist",
+    "published_at": "2026-11-19T08:31:05+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
     "id": "0f70ed8fd409f231",
     "url": "https://philpapers.org/rec/BULDTA-4",
     "title": "Bulgaria, Jamel: Detangling the Appreciating Operator to Overcome Rigidity and Unlock Genuine Enjoyment",
@@ -56,110 +536,6 @@
     "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
   },
   {
-    "id": "ed169867e75e7edb",
-    "url": "https://philpapers.org/rec/FUJCRU",
-    "title": "Fujie, Naoto: CYBERNETIC REVISION UNDER CONSTRAINT Norbert Wiener, Operational Equivalence, and the Reach of Intervention",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.412550+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "b83b37d985eea01b",
-    "url": "https://philpapers.org/rec/DEOODE-2",
-    "title": "de Oliveira Dias, Ricardo Mariano: Ontologia do Estar — E-Book IX: Compêndio Genealógico Integral, Saturação Neutrínica e a Confluência Observacional do Ciclo 1 do Telescópio Espacial Roman",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.412477+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "e14255d0d9624149",
-    "url": "https://philpapers.org/rec/EHMPAD",
-    "title": "Ehmann, Alexander & Neumann, Daniel (eds.): Phenomenology and Direct Realism: Special Issue of The New Yearbook for Phenomenology and Phenomenological Philosophy Vol 24 (2)",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.412327+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "e84f619b8dd9dc5f",
-    "url": "https://philpapers.org/rec/FUJRUA",
-    "title": "Fujie, Naoto: Reorientation under Acceleration: J.-P. Caron, Nick Land, and the Conditions and Limits of Intervention in AI-Scored Societies",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.412166+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "8f361dbc03faba66",
-    "url": "https://philpapers.org/rec/NEURAT-4",
-    "title": "Neumann, Daniel: Reinach and the Givenness of States of Affairs",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.412009+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "8d3222337f5be392",
-    "url": "https://philpapers.org/rec/FUJVOS",
-    "title": "Fujie, Naoto: Volitional Operational Shapes: Goal Formation, Revision, Inhibition, Self-Binding, and the Non-Universality of Will across Bodies, Machines, and Institutions",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411827+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "f56cedee01f9acfb",
-    "url": "https://philpapers.org/rec/MARSAR-22",
-    "title": "Marushak, Adam: Speculating About Reasons",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411650+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "51fa3b820f40bc17",
-    "url": "https://philpapers.org/rec/BLUCCA-4",
-    "title": "Blumson, Ben: Characters, Consistency, and Cardinality",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411596+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "eaf3c28009353b4c",
-    "url": "https://philpapers.org/rec/SMIIAS-9",
-    "title": "Smits, Jeroen: Information as Shape and Meaning as Fit",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411538+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "4612c46781bf9217",
-    "url": "https://philpapers.org/rec/TUFHTC",
-    "title": "Tufanogullari, Sevdat: How to Create Something from Nothing and Calculate Everything that could have Ever Existed",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411471+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "630e13ceed3a8181",
-    "url": "https://philpapers.org/rec/FRUTIO-3",
-    "title": "Fruchter, Peter: The Incommensurability of Error and Nonsense: An AI Hallucination Interception and Creativity Blueprint",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411408+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "d4aff8e29600060c",
-    "url": "https://philpapers.org/rec/BULDTB",
-    "title": "Bulgaria, Jamel: Detangling the Boosting Operator in Jamel Bulgaria’s Core Emotion Framework",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411338+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
-    "id": "001f117c43d106a9",
-    "url": "https://philpapers.org/rec/BULCEI",
-    "title": "Bulgaria, Jamel: Conditional Economic Impact and Stakeholder Analysis of the Core Emotion Framework",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T04:52:23.411148+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
     "id": "5f8bc95c6410cfbf",
     "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
     "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
@@ -168,27 +544,11 @@
     "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
   },
   {
-    "id": "8944b9bf2f7dff44",
-    "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-    "title": "Crimean Bridge attacked again, Russian official says",
-    "source": "BBC News",
-    "published_at": "2026-11-19T04:37:17+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
     "id": "7f74d49d11a17676",
     "url": "https://www.nytimes.com/2026/11/18/technology/nvidia-alibaba-china-military.html",
     "title": "How Nvidia Chips Ended Up Within Reach of China’s Military",
     "source": "The New York Times",
     "published_at": "2026-11-19T04:13:05+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
-    "id": "d4344b2d009ac823",
-    "url": "https://www.nytimes.com/2026/11/18/us/gta-6-sick-work-school.html",
-    "title": "‘GTA Flu’ Has Schools and Jobs Bracing for Sick Days",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T03:54:30+00:00",
     "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
   },
   {
@@ -224,17 +584,17 @@
     "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
   },
   {
-    "id": "b88845b4eaf98edd",
-    "url": "https://www.nytimes.com/2026/11/18/business/dealbook/dealbook-summit-musk-altman-ellison.html",
-    "title": "Takeaways From the 2026 DealBook Summit",
+    "id": "9afdab9880ee08b9",
+    "url": "https://www.nytimes.com/2026/11/18/style/cma-country-music-association-awards-red-carpet.html",
+    "title": "10 Best Looks From the Country Music Association Awards Red Carpet",
     "source": "The New York Times",
-    "published_at": "2026-11-19T03:12:43+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+    "published_at": "2026-11-19T03:02:16+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "d412c50db1b78efa",
     "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-    "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+    "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
     "source": "BBC News",
     "published_at": "2026-11-19T02:59:06+00:00",
     "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
@@ -245,14 +605,6 @@
     "title": "Obama Tells Incoming House Democrats to Keep Up Outreach in Red Areas",
     "source": "The New York Times",
     "published_at": "2026-11-19T02:54:47+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
-    "id": "c6d87bb33ae78f6a",
-    "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-    "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
-    "source": "BBC News",
-    "published_at": "2026-11-19T02:20:15+00:00",
     "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
   },
   {
@@ -278,6 +630,14 @@
     "source": "The New York Times",
     "published_at": "2026-11-19T01:23:01+00:00",
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "c0f4b43c2943df39",
+    "url": "https://www.nytimes.com/2026/11/18/business/dealbook/elon-musk-midterms.html",
+    "title": "Elon Musk Plays Down G.O.P. Support After Midterm Loss",
+    "source": "The New York Times",
+    "published_at": "2026-11-19T00:58:47+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "43a2d9476efa1de6",
@@ -392,14 +752,6 @@
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   },
   {
-    "id": "c3261a1d086e0f1f",
-    "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-    "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-    "source": "BBC News",
-    "published_at": "2026-11-18T22:34:56+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
     "id": "50f7437b8218da83",
     "url": "https://www.propublica.org/article/chicago-city-council-finance-review",
     "title": "Chicago’s City Council Orders Independent Review of Finances as Scrutiny Intensifies",
@@ -446,6 +798,14 @@
     "source": "The New York Times",
     "published_at": "2026-11-18T21:55:08+00:00",
     "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
+  },
+  {
+    "id": "6ec58e1c68dbec82",
+    "url": "https://www.nytimes.com/2026/11/18/us/hollywood-sign-lawsuit.html",
+    "title": "Fans Flock to the Hollywood Sign. Neighbors Say, Get Off My Road.",
+    "source": "The New York Times",
+    "published_at": "2026-11-18T21:43:14+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "46bbe8cf14cc8a00",
@@ -568,6 +928,38 @@
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   },
   {
+    "id": "54225423c2898b1a",
+    "url": "https://arxiv.org/abs/2611.24940v1",
+    "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:59:38+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "0b58f08c4c5d30ca",
+    "url": "https://arxiv.org/abs/2611.24938v1",
+    "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:59:04+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "e467589ca45056f5",
+    "url": "https://arxiv.org/abs/2611.24926v1",
+    "title": "Grana: Compositional Reward Modeling for Long-Horizon Robot Manipulation",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:53:53+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "af5b66288e6f9548",
+    "url": "https://arxiv.org/abs/2611.24925v1",
+    "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:52:28+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
     "id": "1457a4d12ce9640b",
     "url": "https://www.economist.com/united-states/2026/11/18/the-return-of-measles-in-america",
     "title": "The return of measles in America",
@@ -576,12 +968,60 @@
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   },
   {
+    "id": "a62e0d4185b5993b",
+    "url": "https://arxiv.org/abs/2611.24883v1",
+    "title": "Teleoperated Haircutting with Delay Compensation and Passivity-Based Control for Unilateral Internet Teleoperation under Real Communication Uncertainties",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:28:34+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "c1b40db6f4e9d3a2",
+    "url": "https://arxiv.org/abs/2611.24876v1",
+    "title": "Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:23:29+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "bd3c51fc71e0cdec",
+    "url": "https://arxiv.org/abs/2611.24864v1",
+    "title": "NereidVLA: Learning to Understand and Navigate the Underwater World",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:19:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "096f970dfa8e1e06",
+    "url": "https://arxiv.org/abs/2611.24858v1",
+    "title": "Communications-free Collective Intelligence Via Allocentric Belief",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:17:30+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "5ab477c90bdf4abf",
+    "url": "https://arxiv.org/abs/2611.24840v1",
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:06:20+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
     "id": "b6441d88460b8b58",
     "url": "https://www.nytimes.com/2026/11/18/opinion/anthropic-ai-openai.html",
     "title": "The Anthropic I.P.O. Will Change the Future of A.I.",
     "source": "The New York Times",
     "published_at": "2026-11-18T18:06:02+00:00",
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "dc1c1d25bfe90444",
+    "url": "https://arxiv.org/abs/2611.24836v1",
+    "title": "DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play",
+    "source": "arXiv",
+    "published_at": "2026-11-18T18:03:14+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "ed2e1f48c5614903",
@@ -600,12 +1040,28 @@
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   },
   {
+    "id": "31a377cf24224597",
+    "url": "https://arxiv.org/abs/2611.24816v1",
+    "title": "RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction",
+    "source": "arXiv",
+    "published_at": "2026-11-18T17:47:57+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
     "id": "db8c5b06c86d2b7c",
     "url": "https://www.rockpapershotgun.com/world-of-warcraft-forever-isnt-mere-nostalgia-bait-its-rebuilding-the-mmo-social-architecture-that-blizzard-spent-years-dismantling",
     "title": "World of Warcraft: Forever isn't mere nostalgia bait - it's rebuilding the MMO social architecture that Blizzard spent years dismantling",
     "source": "Rock Paper Shotgun",
     "published_at": "2026-11-18T17:44:10+00:00",
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "ba1102845caa809b",
+    "url": "https://arxiv.org/abs/2611.24800v1",
+    "title": "Planner-Controller Interaction for Ackermann Navigation: A Matched Simulation and Hardware Benchmark",
+    "source": "arXiv",
+    "published_at": "2026-11-18T17:42:24+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "5ae8a0e7b09bf18e",
@@ -632,6 +1088,14 @@
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   },
   {
+    "id": "54c3e2bb8ab1b44e",
+    "url": "https://arxiv.org/abs/2611.24789v1",
+    "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+    "source": "arXiv",
+    "published_at": "2026-11-18T17:36:15+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
     "id": "2cc51f85ba4371b1",
     "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
     "title": "Grand Theft Auto 6 is a masterpiece, say critics",
@@ -648,6 +1112,22 @@
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   },
   {
+    "id": "f59d166f48bbd937",
+    "url": "https://arxiv.org/abs/2611.24778v1",
+    "title": "Counterfactual World Models: JEPAs That Reason About \"What If\"",
+    "source": "arXiv",
+    "published_at": "2026-11-18T17:24:00+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
+    "id": "9e5495621eae2da6",
+    "url": "https://arxiv.org/abs/2611.24771v1",
+    "title": "Hierarchical Admittance-Impedance Control for Mobile Manipulator Load Transfer",
+    "source": "arXiv",
+    "published_at": "2026-11-18T17:19:50+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
+  },
+  {
     "id": "4628b4589a8585d8",
     "url": "https://www.economist.com/podcasts/2026/11/18/the-technologies-that-will-define-2027",
     "title": "The technologies that will define 2027",
@@ -662,6 +1142,14 @@
     "source": "Rock Paper Shotgun",
     "published_at": "2026-11-18T17:10:00+00:00",
     "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
+  },
+  {
+    "id": "7534063c1d3cb240",
+    "url": "https://eleanorwiesler.com/blog/robotic-stone-carving/",
+    "title": "We taught robots to carve marble sculptures",
+    "source": "Hacker News",
+    "published_at": "2026-11-18T17:03:53+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "c73c048e2de0aef0",
@@ -838,6 +1326,14 @@
     "source": "Rock Paper Shotgun",
     "published_at": "2026-11-18T14:04:00+00:00",
     "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
+  },
+  {
+    "id": "4d702825df0258c5",
+    "url": "https://www.kadoa.com/companies/insights/spacex-europe-payload",
+    "title": "Mass launched to orbit each year by rocket builder",
+    "source": "Hacker News",
+    "published_at": "2026-11-18T13:43:08+00:00",
+    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   },
   {
     "id": "e8c31e7b556ac49b",
@@ -2702,501 +3198,5 @@
     "source": "BBC News",
     "published_at": "2026-11-17T05:59:01+00:00",
     "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "6240def6336c7a90",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xycc20/question_about_applying_to_phd_programs/",
-    "title": "question about applying to phd programs",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T05:37:20+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "c99f0da14283af8d",
-    "url": "https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
-    "title": "Shoe Prices Hit a Record High Amid Inflation and Increased Tariffs",
-    "source": "The New York Times",
-    "published_at": "2026-11-17T05:00:08+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "50b554b6202d87b1",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xybf9a/its_all_purple/",
-    "title": "ITS ALL PURPLE",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-17T04:47:10+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "c9d9f7b8237cbb98",
-    "url": "https://www.reddit.com/r/hiking/comments/1xybeid/morocco_summer_hikes/",
-    "title": "Morocco summer hikes?",
-    "source": "r/hiking",
-    "published_at": "2026-11-17T04:46:05+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "64331385266ce0b3",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xyb1cq/are_we_losing_touch_with_reality_by_means_of/",
-    "title": "Are we losing touch with reality by means of analogy?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T04:26:20+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "824caab63330343a",
-    "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-policy.html",
-    "title": "Trump Administration Divide on China Policy Breaks Into Public View",
-    "source": "The New York Times",
-    "published_at": "2026-11-17T03:48:50+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "a935c6f61efbbaec",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy9pf0/me_doing_random_emotes_to_the_seaf_troopers_and/",
-    "title": "Me doing random emotes to the SEAF troopers and teammates hoping they’ll respond while we wait for extraction",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-17T03:18:34+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "068157f76f93fe48",
-    "url": "https://www.reddit.com/r/hiking/comments/1xy987u/uniqlo_uv_protection_sleeves/",
-    "title": "Uniqlo UV Protection Sleeves",
-    "source": "r/hiking",
-    "published_at": "2026-11-17T02:55:12+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "04062b243c0ee9b3",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy95p6/help_me_with_a_lesson_plan/",
-    "title": "Help me with a lesson plan",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T02:51:59+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "fbfed203e4e2f15d",
-    "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-    "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-    "source": "BBC News",
-    "published_at": "2026-11-17T02:38:08+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "cdb283afb7bdfb15",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy8rsu/how_to_research_the_logical_standing_of_the/",
-    "title": "How to research the logical standing of the normative ethical frameworks?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T02:32:59+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "ee07dddd23cf9f93",
-    "url": "https://www.nytimes.com/2026/11/16/technology/nvidia-jensen-madison-huang.html",
-    "title": "Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia",
-    "source": "The New York Times",
-    "published_at": "2026-11-17T02:15:57+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "2714617d273bc6d9",
-    "url": "https://www.reddit.com/r/hiking/comments/1xy7h8v/stunning_waterfall_narada_falls_in_rainier/",
-    "title": "Stunning Waterfall! Narada Falls in Rainier National Park, Washington State, USA",
-    "source": "r/hiking",
-    "published_at": "2026-11-17T01:31:14+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "8cb7f17921ae8610",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy7gvr/how_to_continue_existing_in_the_world_of/",
-    "title": "How to continue existing in the world of 'distraction' after ego starts to dissolve",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T01:30:48+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "fe940bb87274d433",
-    "url": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-    "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-    "source": "BBC News",
-    "published_at": "2026-11-17T01:26:01+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "edc74592b8d3269d",
-    "url": "https://www.reddit.com/r/hiking/comments/1xy79j2/elevation_gain_question_honolulu_hawaii/",
-    "title": "(Elevation gain question) Honolulu Hawaii",
-    "source": "r/hiking",
-    "published_at": "2026-11-17T01:20:57+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "820120964e00d906",
-    "url": "https://philpapers.org/rec/SPILTT-2",
-    "title": "Spirin, Denys: Litterae tenebrarum: Three Manuscripts with a Commentary",
-    "source": "PhilPapers",
-    "published_at": "2026-11-17T01:14:25.913780+00:00",
-    "first_shown_at": "2026-11-16T14:16:19.030587+00:00"
-  },
-  {
-    "id": "c698eb0689914440",
-    "url": "https://philpapers.org/rec/ERETFA",
-    "title": "Eren, Mustafa: The Functional Anatomy of Reason in the Age of Artificial Intelligence",
-    "source": "PhilPapers",
-    "published_at": "2026-11-17T01:14:25.913597+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "01e7fe803487b519",
-    "url": "https://philpapers.org/rec/POLACV",
-    "title": "Polsky, Elliot: Aquinas's Changing View on Universals: Two Contrary Interpretations in the Tradition and Their Basis in His Text",
-    "source": "PhilPapers",
-    "published_at": "2026-11-17T01:14:25.913314+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "200456a129702baf",
-    "url": "https://philpapers.org/rec/CORHTR",
-    "title": "Correia, Fabrice & Rosenkranz, Sven: Higher‐Order Tense Realism",
-    "source": "PhilPapers",
-    "published_at": "2026-11-17T01:14:25.913159+00:00",
-    "first_shown_at": "2026-11-16T14:16:19.030587+00:00"
-  },
-  {
-    "id": "23015adb8305b37c",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy70ie/me_so_happy/",
-    "title": "Me so happy",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-17T01:09:05+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "0ba32fcb7f50296a",
-    "url": "https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html",
-    "title": "United Airlines Flights Resume After ‘Widespread System Outage’",
-    "source": "The New York Times",
-    "published_at": "2026-11-17T00:59:37+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "f6d93b4e10edc96d",
-    "url": "https://www.reddit.com/r/hiking/comments/1xy6la5/accidentally_flew_with_bear_spray/",
-    "title": "Accidentally flew with bear spray",
-    "source": "r/hiking",
-    "published_at": "2026-11-17T00:49:41+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "37846cf7cc139275",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy6hxi/a_dream_feels_real_until_you_wake_up_an_old/",
-    "title": "A dream feels real until you wake up. An old Indian idea asks what makes you so sure this world is different from the dream",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T00:45:21+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "12fc850e38879737",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy66m1/what_are_the_philosophical_implications_of/",
-    "title": "What are the philosophical implications of artificial intelligence for intellectual autonomy, meaningful work, and human flourishing? (Schoolwork)",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-17T00:30:40+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "dea5f5c3c5767977",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xy65w7/with_a_new_ranged_weapon_coming_lets_discuss_the/",
-    "title": "With a new ranged weapon coming, let's discuss the trident.",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-17T00:29:46+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "62835eb5d1530386",
-    "url": "https://www.reddit.com/r/hiking/comments/1xy5zo0/a_localstyle_hike_in_siming_mountain_national/",
-    "title": "A local-style hike in Siming Mountain National Park, Zhejiang, China.",
-    "source": "r/hiking",
-    "published_at": "2026-11-17T00:21:52+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "0f61ef5d9a8b5653",
-    "url": "https://www.reddit.com/r/Pathfinder_RPG/comments/1xy5wjf/questions_on_playing_a_caster_cleric/",
-    "title": "Questions on playing a caster Cleric",
-    "source": "r/Pathfinder_RPG",
-    "published_at": "2026-11-17T00:17:48+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "266ccace02a6a5d1",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/hollywood-is-turning-to-youtube-for-its-next-big-hits",
-    "title": "Hollywood is turning to YouTube for its next big hits",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:08:49+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "806196cf8b40bf71",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy5p71/more_seaf_now_art_by_me/",
-    "title": "MORE SEAF NOW - Art by me :)",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-17T00:08:39+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "d29b50ab6782625b",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/everyone-is-heading-into-space",
-    "title": "Everyone is heading into space",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:08:19+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "640636f174225982",
-    "url": "https://www.bbc.co.uk/news/articles/c3pw450ndyjqo?at_medium=RSS&at_campaign=rss",
-    "title": "BBC launches programme for children forced from school by bandits and poverty in West Africa",
-    "source": "BBC News",
-    "published_at": "2026-11-17T00:08:19+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "43d3e5693e7317e1",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/bond-markets-will-test-free-spending-governments",
-    "title": "Bond markets will test free-spending governments",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:07:56+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "8976521b79ef9900",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/slimming-drugs-are-reshaping-consumers-and-their-behaviour",
-    "title": "Slimming drugs are reshaping consumers—and their behaviour",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:07:09+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "c99f3192ea2d4d67",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/the-year-ahead-will-be-crunch-time-for-artificial-intelligence",
-    "title": "The year ahead will be crunch time for artificial intelligence",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:06:50+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "695f194d062ad36c",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/the-coming-year-will-be-the-hottest-ever",
-    "title": "The coming year will be the hottest ever",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:06:03+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "0e577a275b5773ad",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/china-still-doesnt-know-what-to-do-about-taiwan",
-    "title": "China still doesn’t know what to do about Taiwan",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:05:37+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "d3a30228c6e3d3ba",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/there-will-be-less-war-in-the-middle-east-in-2027-but-little-real-peace",
-    "title": "There will be less war in the Middle East in 2027—but little real peace",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:04:36+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "3e380416ac97952d",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/has-populism-reached-its-high-water-mark",
-    "title": "Has populism reached its high-water mark?",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:04:16+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "a6327c9d0a039315",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/the-trump-sagas-final-chapter",
-    "title": "The Trump saga’s final chapter",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:03:22+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "0c6f7a8f7aa5a7b0",
-    "url": "https://www.economist.com/the-world-ahead/2026/11/17/tom-standages-ten-trends-to-watch-in-2027",
-    "title": "Tom Standage’s ten trends to watch in 2027",
-    "source": "The Economist",
-    "published_at": "2026-11-17T00:02:30+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "ed999e31c0485744",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy5f87/current_state_of_the_nothing_happening_front/",
-    "title": "Current state of the nothing happening front",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-16T23:58:01+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "033b1dbf5febec0b",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy541c/beelzebubs_strat_pack/",
-    "title": "Beelzebub's Strat Pack",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-16T23:44:06+00:00",
-    "first_shown_at": "2026-11-17T15:08:14.283589+00:00"
-  },
-  {
-    "id": "5499d2355304fe61",
-    "url": "https://www.nytimes.com/2026/11/16/business/faa-ground-stop-pilots-radio-controllers.html",
-    "title": "Pilots Kept Contact With Controllers During Nationwide Halt to Flights",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T23:39:24+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "f6ecb47f1254de29",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy4rvn/im_lookin_for_a_decent_copy_of_marcus_aureliuss/",
-    "title": "I’m lookin for a decent copy of Marcus Aurelius’s Meditations if anyone could point me in the right direction. All the ones on Amazon seem bunk.",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-16T23:29:28+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "77ed11eb5666fec8",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy4qa3/in_light_of_the_upcoming_utility_slot_the_ms6/",
-    "title": "In light of the upcoming Utility slot: The MS-6 Multi-Launcher",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-16T23:27:28+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "1d5ac8c9678d05af",
-    "url": "https://www.nytimes.com/2026/11/16/us/politics/pete-buttigieg-2028.html",
-    "title": "What Pete Buttigieg’s Bet in the 2026 Midterms Could Mean for 2028",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T23:21:36+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "8d5a143784b680b3",
-    "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-    "title": "Five EU countries announce migrant deportation centre in Rwanda",
-    "source": "BBC News",
-    "published_at": "2026-11-16T23:20:45+00:00",
-    "first_shown_at": "2026-11-16T14:16:19.030587+00:00"
-  },
-  {
-    "id": "add937ab14a33f62",
-    "url": "https://www.nytimes.com/2026/11/16/well/cognito-spectris-alzheimers-headset-device.html",
-    "title": "An Intriguing Approach to Slow Alzheimer’s Shows Mixed Results",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T23:19:37+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "426340ea63bfa038",
-    "url": "https://www.reddit.com/r/Minecraft/comments/1xy4fn8/i_love_mobs_like_the_creaking_or_the_warden_and_i/",
-    "title": "I love mobs like the creaking or the warden, and i wanted to make a similar mob. introducing The Stalking.",
-    "source": "r/Minecraft",
-    "published_at": "2026-11-16T23:14:50+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "816bd33244211ad1",
-    "url": "https://www.nytimes.com/2026/11/16/nyregion/found-georgia-okeeffe-painting.html",
-    "title": "Tucked in a Closet, Hidden by a Coat, a Lost Work by Georgia O’Keeffe",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T23:04:31+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "49bdc00fee401f33",
-    "url": "https://www.newsweek.com/us-expected-to-block-killer-robot-treaty-talks-12722369",
-    "title": "US will say \"no\" to global ban on killer robots",
-    "source": "Hacker News",
-    "published_at": "2026-11-16T22:57:49+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "41d3912f87df6429",
-    "url": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
-    "title": "Bessent Takes Hawkish Turn in White House Debate on China",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T22:46:09+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "f0e0dd2d6fc9bc55",
-    "url": "https://www.reddit.com/r/Helldivers/comments/1xy3k46/warbond_concept_forged_in_freedom/",
-    "title": "Warbond Concept: Forged In Freedom",
-    "source": "r/Helldivers",
-    "published_at": "2026-11-16T22:37:47+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "8b1e6308f4249a4e",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy3i78/feminist_perspectives_were_important_in_biology/",
-    "title": "Feminist perspectives were important in biology, but what about physics?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-16T22:35:29+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "a3be9526776929e4",
-    "url": "https://www.nytimes.com/2026/11/16/us/bank-outages-down.html",
-    "title": "Chase Bank Transactions Disrupted by ‘Technical Issue’ Amid Outage Reports",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T22:28:26+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "681024d49a0a1bdc",
-    "url": "https://www.nytimes.com/2026/11/16/briefing/trump-china-ai-loophole.html",
-    "title": "Trump Administration Aims to Clamp Down on A.I. Chip Loophole",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T22:27:45+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "349134aed1b0ce2a",
-    "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-    "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-    "source": "BBC News",
-    "published_at": "2026-11-16T22:21:27+00:00",
-    "first_shown_at": "2026-11-16T14:16:19.030587+00:00"
-  },
-  {
-    "id": "82a3c8bdd8b4fe27",
-    "url": "https://www.reddit.com/r/askphilosophy/comments/1xy2wjh/what_do_academic_philosophers_think_of_palantir/",
-    "title": "What do academic philosophers think of Palantir co-founder Alex Karp's doctoral dissertation?",
-    "source": "r/askphilosophy",
-    "published_at": "2026-11-16T22:10:56+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "c787ccf8406df0ca",
-    "url": "https://www.reddit.com/r/hiking/comments/1xy2wiu/carson_national_forest/",
-    "title": "Carson national forest",
-    "source": "r/hiking",
-    "published_at": "2026-11-16T22:10:54+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "29145374f8690efa",
-    "url": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
-    "title": "Robert Pattinson Named as the Next James Bond",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T22:10:06+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
-  },
-  {
-    "id": "c2bf10ae6da6b30a",
-    "url": "https://www.nytimes.com/2026/11/16/movies/robert-pattinson-new-bond.html",
-    "title": "Why Robert Pattinson Could Be a Great James Bond",
-    "source": "The New York Times",
-    "published_at": "2026-11-16T22:03:37+00:00",
-    "first_shown_at": "2026-11-17T01:20:13.747539+00:00"
   }
 ]
