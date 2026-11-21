@@ -1,5 +1,333 @@
 [
   {
+    "id": "d6c88f357d5c2089",
+    "url": "https://philpapers.org/rec/CLAIWP",
+    "title": "Claasen, Samuel: IS",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.833198+00:00",
+    "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
+  },
+  {
+    "id": "2fd1d41fee58bce7",
+    "url": "https://philpapers.org/rec/BULCAA-2",
+    "title": "Bulgaria, Jamel: Constant Activation and Gradual Modulation in the Core Emotion Framework",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.833129+00:00",
+    "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
+  },
+  {
+    "id": "3698a3c7c2d8e289",
+    "url": "https://philpapers.org/rec/HUATAN-3",
+    "title": "Huang, Wanhong: Towards a Non-Equilibrium Evolutionary Agent Ecology for Science Infrastructure under Evidentially and Humanistically Reconstructed World Dynamics",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.832942+00:00",
+    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
+  },
+  {
+    "id": "4e43283d58b83908",
+    "url": "https://philpapers.org/rec/BROTUA-9",
+    "title": "Brown, David Rees: The Unfinished: An Inquiry Concerning the One Rule Common to Reality and the Position of Those Who Live in It",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.832768+00:00",
+    "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
+  },
+  {
+    "id": "d4fb694742912983",
+    "url": "https://philpapers.org/rec/IBATOS",
+    "title": "Ibaguner, Sinan: Trichotomic Of Some Others-Condition (TOSO-C) Ontology: A Regulative Framework for Units and Change",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.832477+00:00",
+    "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
+  },
+  {
+    "id": "c2fa8970bca47211",
+    "url": "https://philpapers.org/rec/LIASRV",
+    "title": "Liang​Ruifeng, ​: Structure Recursive Viability Dynamics (SRVD) v1.5: Information-Time-Energy Accounting for Persistent Structures",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.832408+00:00",
+    "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
+  },
+  {
+    "id": "fc3b950781562ac7",
+    "url": "https://philpapers.org/rec/FUJTEC",
+    "title": "Fujie, Naoto: THE EXTINCTION CONTROL PROBLEM AI Capital, Free Evolution, Total Observation, and Posthuman Disconnection",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.832233+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "3769bea97b96151a",
+    "url": "https://philpapers.org/rec/FUJATB",
+    "title": "Fujie, Naoto: ASIAN TRANSHUMANISM Bodily Transformation, Nonhuman Futures, and Operational-Shape Realism",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.832064+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "cc3232bafe18dbee",
+    "url": "https://philpapers.org/rec/STECIA-15",
+    "title": "Stewart, Arthur: Computational Intractability and the Falsifiability Problem in IIT 4.0",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.831887+00:00",
+    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
+  },
+  {
+    "id": "417d3b7696b4de47",
+    "url": "https://philpapers.org/rec/FUJMRT-2",
+    "title": "Fujie, Naoto: MARX RETURNS TO NEO-CHINA IN NICKLAND The Resurrection of Marx, the Critique of Nick Land, and the Reconstitution of Political Economy",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.831716+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "5686464281bc364b",
+    "url": "https://philpapers.org/rec/FUJAIB",
+    "title": "Fujie, Naoto: ARTIFICIAL INTELLIGENCE BEFORE DEFINITION Where Does the Concept of Artificial Intelligence Do Work? Category Withholding, Intelligence Attribution, Imitation, Operational Archaeology, and Historical Re-entry",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.831487+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "761e6e768e2c91e7",
+    "url": "https://philpapers.org/rec/FUJTCW",
+    "title": "Fujie, Naoto: THE CHILD WHO NEVER ENTERED THE GAME. Suffering, Normativity, and the Limits of Philosophical Reconciliation",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.831308+00:00",
+    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
+  },
+  {
+    "id": "b5d642e501ffd501",
+    "url": "https://philpapers.org/rec/WOONWO-2",
+    "title": "Woodward, James & Kostić, Daniel: New Work on Networks: Taking Stock and Setting the Agenda, Introduction to the Topical Collection",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.831232+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "45b83bc0e731e88f",
+    "url": "https://philpapers.org/rec/NIAQOL",
+    "title": "Niami, Morteza (ed.): Quality of Life in Old Age",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.831042+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "ddac92308272dab8",
+    "url": "https://philpapers.org/rec/KOVAEA",
+    "title": "Kovacs, David Mark: An explanationist analysis of causation",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.830974+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "146b784cf415ea6c",
+    "url": "https://philpapers.org/rec/HUANPJ",
+    "title": "Huang, Wanhong: Noncommutative Procedural Justice: An Event-Based Operator-Algebraic Framework",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.830789+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "e5325bfb6a971d7f",
+    "url": "https://philpapers.org/rec/CHETBA-13",
+    "title": "Cheng, Darren: The Beautiful as the Appropriate, Beneficial, and Pleasant: An Interpretation of Plato's Greater Hippias",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.830694+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "aa0154049a6f8a46",
+    "url": "https://philpapers.org/rec/HUARSA-2",
+    "title": "Huang, Wanhong: Relational Self-Obsolescence: A Non-Equilibrium System Perspective On State Dissolution And Recurrence",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.830477+00:00",
+    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
+  },
+  {
+    "id": "4df031823e862e6b",
+    "url": "https://philpapers.org/rec/FEROTN-5",
+    "title": "Ferrari, Edson Fernando: On the Nature of the Form of a Being in the Formal Metaphysics of Actualization",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.830395+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "4427fe38300721ef",
+    "url": "https://philpapers.org/rec/TANBPP",
+    "title": "Tan, Kwan Hong: Beyond Permanence: Purpose, Meaning, and the Ethical Imperative to Care in an Ontologically Unstable Universe",
+    "source": "PhilPapers",
+    "published_at": "2026-11-21T22:31:58.830031+00:00",
+    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
+  },
+  {
+    "id": "040c95d5f0395ef6",
+    "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+    "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+    "source": "BBC News",
+    "published_at": "2026-11-21T22:19:43+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "022a5a395f6b7a06",
+    "url": "https://edwardfeser.blogspot.com/2026/11/a-long-list-of-links-youve-been-longing.html",
+    "title": "A long list of the links you’ve been longing for",
+    "source": "Edward Feser's Blog",
+    "published_at": "2026-11-21T22:17:16+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "caa368e1c1157f45",
+    "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+    "title": "Lock of former US President George Washington's hair sells for $4,000",
+    "source": "BBC News",
+    "published_at": "2026-11-21T22:01:19+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "c2e4064fa9638a42",
+    "url": "https://www.rockpapershotgun.com/public-access-television-is-born-anew-in-night-eye-tv-a-digital-goggle-box-filled-with-art-game-curios",
+    "title": "Public-access television is born anew in NIGHT EYE TV, a digital goggle box filled with art game curios",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-21T21:27:20+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "4992a5d3aff6ac7b",
+    "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
+    "title": "Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T21:12:23+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "650df2b857792ba6",
+    "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
+    "title": "The Army Rejected a Safer Option to Destroy Lead-Laced Explosives in Iowa",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T21:11:16+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "48f549e40ad0da89",
+    "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+    "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+    "source": "BBC News",
+    "published_at": "2026-11-21T21:05:29+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "e3281306dcda366f",
+    "url": "https://www.nytimes.com/2026/11/21/us/politics/trump-congressional-oversight-contractors.html",
+    "title": "Trump Moves to Restrict Congressional Oversight of Contractors",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T20:20:24+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "e3eb905cc59fe37e",
+    "url": "https://www.youtube.com/watch?v=NuP8recVX-M",
+    "title": "How Nature Might Point Toward God | C. Stephen Evans",
+    "source": "Closer to Truth",
+    "published_at": "2026-11-21T19:30:32+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "86c4e817690b99be",
+    "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+    "title": "Russia-bound ship attacked in Gulf of Finland",
+    "source": "BBC News",
+    "published_at": "2026-11-21T19:20:22+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "c77fb7e07859c8ff",
+    "url": "https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html",
+    "title": "Tech Outages Are Only the Beginning. A.I. Will Bring More Disruptions.",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T19:11:51+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "8440636f8b65d546",
+    "url": "https://www.rockpapershotgun.com/eldritch-empathy-is-a-papers-please-esque-roguelite-about-diagnosing-cosmic-horror-creatures-and-trying-not-to-lose-your-marbles-as-you-do",
+    "title": "Eldritch Empathy is a Papers Please-esque roguelite about diagnosing cosmic horror creatures and trying not to lose your marbles as you do",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-21T18:57:00+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "b954ddb3706b10dd",
+    "url": "https://www.afp.com/en/countries-open-path-towards-killer-robots-pact",
+    "title": "Countries open path towards 'killer robots' pact",
+    "source": "Hacker News",
+    "published_at": "2026-11-21T18:32:56+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "344122f1a48b0c60",
+    "url": "https://www.rockpapershotgun.com/everyone-agrees-its-more-fun-this-way-toby-fox-wont-tell-his-team-how-deltarune-ends-until-theyve-built-enough-of-it",
+    "title": "\"Everyone agrees it's more fun this way\": Toby Fox won't tell his team how Deltarune ends until they've built enough of it",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-21T17:54:00+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "b0b9c615c1518dc8",
+    "url": "https://www.rockpapershotgun.com/darkest-dungeon-2s-next-bit-of-dlc-is-a-short-run-combat-focused-gauntlet-where-you-must-do-everything-in-your-power-to-please-the-audience",
+    "title": "Darkest Dungeon 2's next bit of DLC is a short run, combat focused gauntlet where you must do everything in your power to please the audience",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-21T16:53:00+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "45201d2fd35b9d67",
+    "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+    "title": "FBI reportedly investigating apparent hack of its criminal database",
+    "source": "BBC News",
+    "published_at": "2026-11-21T16:35:15+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "c4051db85d67a1f2",
+    "url": "https://www.nytimes.com/2026/11/21/magazine/hakeem-jeffries-interview.html",
+    "title": "Hakeem Jeffries on Trump, Stephen Miller, AIPAC and the Road Ahead",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T16:03:26+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "72541207c643d9eb",
+    "url": "https://www.youtube.com/watch?v=SyqhBP2XiyE",
+    "title": "Why God May Be Beyond Human Understanding | Alex O'Connor (Part 16 of 19)",
+    "source": "Closer to Truth",
+    "published_at": "2026-11-21T16:00:37+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
+    "id": "a9e65ae8d9e6cd94",
+    "url": "https://www.nytimes.com/2026/11/21/opinion/sister-snl-family-care-parents.html",
+    "title": "The Sisterhood Rocks!",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T15:54:47+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "a28d4fc3bfef4d77",
+    "url": "https://www.nytimes.com/2026/11/21/theater/joe-keery-other-desert-cities-broadway.html",
+    "title": "From ‘Stranger Things’ to Broadway, Everyone Knows Joe Keery",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T14:05:06+00:00",
+    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+  },
+  {
+    "id": "7c69ecd0a025e24e",
+    "url": "https://www.nytimes.com/2026/11/21/upshot/trump-transit-grants.html",
+    "title": "A New Trump Tactic to Restrict Transit Funding: Rewrite the Rules",
+    "source": "The New York Times",
+    "published_at": "2026-11-21T13:54:46+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
+  },
+  {
     "id": "e2111311aa045b7c",
     "url": "https://philpapers.org/rec/ISLATM",
     "title": "Islam, Mohammad Ashiqul: Autophagous",
@@ -32,22 +360,6 @@
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
   },
   {
-    "id": "d6c88f357d5c2089",
-    "url": "https://philpapers.org/rec/CLAIWP",
-    "title": "Claasen, Samuel: IS",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.870683+00:00",
-    "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
-  },
-  {
-    "id": "d4fb694742912983",
-    "url": "https://philpapers.org/rec/IBATOS",
-    "title": "Ibaguner, Sinan: Trichotomic Of Some Others-Condition (TOSO-C) Ontology: A Regulative Framework for Units and Change",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.870558+00:00",
-    "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
-  },
-  {
     "id": "fa74f887617eea25",
     "url": "https://philpapers.org/rec/LIARIF",
     "title": "Liang​Ruifeng, ​: Relational Information Framework (RIF) v1.5: Measuring Relational Information Through a Decoder",
@@ -62,110 +374,6 @@
     "source": "PhilPapers",
     "published_at": "2026-11-21T13:50:27.870380+00:00",
     "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
-  },
-  {
-    "id": "c2fa8970bca47211",
-    "url": "https://philpapers.org/rec/LIASRV",
-    "title": "Liang​Ruifeng, ​: Structure Recursive Viability Dynamics (SRVD) v1.5: Information-Time-Energy Accounting for Persistent Structures",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.870329+00:00",
-    "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
-  },
-  {
-    "id": "3698a3c7c2d8e289",
-    "url": "https://philpapers.org/rec/HUATAN-3",
-    "title": "Huang, Wanhong: Towards a Non-Equilibrium Evolutionary Agent Ecology for Science Infrastructure under Evidentially and Humanistically Reconstructed World Dynamics",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.870193+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "2fd1d41fee58bce7",
-    "url": "https://philpapers.org/rec/BULCAA-2",
-    "title": "Bulgaria, Jamel: Constant Activation and Gradual Modulation in the Core Emotion Framework",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.870138+00:00",
-    "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
-  },
-  {
-    "id": "4e43283d58b83908",
-    "url": "https://philpapers.org/rec/BROTUA-9",
-    "title": "Brown, David Rees: The Unfinished: An Inquiry Concerning the One Rule Common to Reality and the Position of Those Who Live in It",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869999+00:00",
-    "first_shown_at": "2026-11-20T14:36:13.908226+00:00"
-  },
-  {
-    "id": "761e6e768e2c91e7",
-    "url": "https://philpapers.org/rec/FUJTCW",
-    "title": "Fujie, Naoto: THE CHILD WHO NEVER ENTERED THE GAME. Suffering, Normativity, and the Limits of Philosophical Reconciliation",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869870+00:00",
-    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
-  },
-  {
-    "id": "fc3b950781562ac7",
-    "url": "https://philpapers.org/rec/FUJTEC",
-    "title": "Fujie, Naoto: THE EXTINCTION CONTROL PROBLEM AI Capital, Free Evolution, Total Observation, and Posthuman Disconnection",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869737+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
-    "id": "417d3b7696b4de47",
-    "url": "https://philpapers.org/rec/FUJMRT-2",
-    "title": "Fujie, Naoto: MARX RETURNS TO NEO-CHINA IN NICKLAND The Resurrection of Marx, the Critique of Nick Land, and the Reconstitution of Political Economy",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869604+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
-    "id": "cc3232bafe18dbee",
-    "url": "https://philpapers.org/rec/STECIA-15",
-    "title": "Stewart, Arthur: Computational Intractability and the Falsifiability Problem in IIT 4.0",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869464+00:00",
-    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
-  },
-  {
-    "id": "4427fe38300721ef",
-    "url": "https://philpapers.org/rec/TANBPP",
-    "title": "Tan, Kwan Hong: Beyond Permanence: Purpose, Meaning, and the Ethical Imperative to Care in an Ontologically Unstable Universe",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869330+00:00",
-    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
-  },
-  {
-    "id": "aa0154049a6f8a46",
-    "url": "https://philpapers.org/rec/HUARSA-2",
-    "title": "Huang, Wanhong: Relational Self-Obsolescence: A Non-Equilibrium System Perspective On State Dissolution And Recurrence",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.869180+00:00",
-    "first_shown_at": "2026-11-21T04:42:09.224994+00:00"
-  },
-  {
-    "id": "146b784cf415ea6c",
-    "url": "https://philpapers.org/rec/HUANPJ",
-    "title": "Huang, Wanhong: Noncommutative Procedural Justice: An Event-Based Operator-Algebraic Framework",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.868971+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
-    "id": "e5325bfb6a971d7f",
-    "url": "https://philpapers.org/rec/CHETBA-13",
-    "title": "Cheng, Darren: The Beautiful as Appropriate, Beneficial, and Pleasant: An Interpretation of Plato's Greater Hippias",
-    "source": "PhilPapers",
-    "published_at": "2026-11-21T13:50:27.868761+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
-    "id": "4992a5d3aff6ac7b",
-    "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
-    "title": "Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts",
-    "source": "The New York Times",
-    "published_at": "2026-11-21T13:36:40+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
   },
   {
     "id": "88af422b08668902",
@@ -197,14 +405,6 @@
     "title": "Trump, Xi and Putin’s New World Order",
     "source": "The New York Times",
     "published_at": "2026-11-21T12:09:21+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
-    "id": "a9e65ae8d9e6cd94",
-    "url": "https://www.nytimes.com/2026/11/21/opinion/sister-snl-family-care-parents.html",
-    "title": "The Sisterhood Rocks!",
-    "source": "The New York Times",
-    "published_at": "2026-11-21T12:00:12+00:00",
     "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
   },
   {
@@ -240,12 +440,12 @@
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
   },
   {
-    "id": "c4051db85d67a1f2",
-    "url": "https://www.nytimes.com/2026/11/21/magazine/hakeem-jeffries-interview.html",
-    "title": "Hakeem Jeffries Thinks He’s the Man for This Moment",
+    "id": "6d38a5f3e883fea9",
+    "url": "https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
+    "title": "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
     "source": "The New York Times",
-    "published_at": "2026-11-21T10:15:08+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+    "published_at": "2026-11-21T10:03:45+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
   },
   {
     "id": "a890647b30eccaae",
@@ -256,12 +456,12 @@
     "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
   },
   {
-    "id": "a28d4fc3bfef4d77",
-    "url": "https://www.nytimes.com/2026/11/21/theater/joe-keery-other-desert-cities-broadway.html",
-    "title": "From ‘Stranger Things’ to Broadway, Everyone Knows Joe Keery",
+    "id": "1c57349e02028093",
+    "url": "https://www.nytimes.com/2026/11/21/us/politics/sarah-mcbride-barred-from-capitol-bathrooms-wins-top-post.html",
+    "title": "Sarah McBride, Barred From Capitol Bathrooms, Wins Top Post",
     "source": "The New York Times",
-    "published_at": "2026-11-21T10:00:57+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
+    "published_at": "2026-11-21T10:02:28+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
   },
   {
     "id": "de3fcb0a5f233459",
@@ -272,27 +472,11 @@
     "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
   },
   {
-    "id": "040c95d5f0395ef6",
-    "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-    "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-    "source": "BBC News",
-    "published_at": "2026-11-21T09:52:11+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
     "id": "0c6a9c176423fbee",
     "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
     "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
     "source": "BBC News",
     "published_at": "2026-11-21T09:40:55+00:00",
-    "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
-  },
-  {
-    "id": "45201d2fd35b9d67",
-    "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-    "title": "FBI reportedly investigating apparent hack of its criminal database",
-    "source": "BBC News",
-    "published_at": "2026-11-21T09:34:20+00:00",
     "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
   },
   {
@@ -702,6 +886,14 @@
     "source": "The New York Times",
     "published_at": "2026-11-20T20:38:05+00:00",
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
+  },
+  {
+    "id": "dbd32eb4faa63e10",
+    "url": "https://www.nytimes.com/2026/11/16/opinion/ai-bubble-finance-crisis-deregulation.html",
+    "title": "The Financial Bubble Cycles Are Getting Worse",
+    "source": "The New York Times",
+    "published_at": "2026-11-20T19:49:18+00:00",
+    "first_shown_at": "2026-11-21T22:36:09.637712+00:00"
   },
   {
     "id": "7cdc0f275971b86b",
@@ -3006,197 +3198,5 @@
     "source": "arXiv",
     "published_at": "2026-11-18T17:42:24+00:00",
     "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "5ae8a0e7b09bf18e",
-    "url": "https://www.economist.com/science-and-technology/2026/11/18/some-grasshoppers-fly-like-butterflies-to-mislead-predators",
-    "title": "Some grasshoppers fly like butterflies to mislead predators",
-    "source": "The Economist",
-    "published_at": "2026-11-18T17:40:03+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "d053260a10065870",
-    "url": "https://alexanderpruss.blogspot.com/2026/11/unrestricted-composition-and-backwards.html",
-    "title": "Unrestricted composition and backwards powers",
-    "source": "Alexander Pruss's Blog",
-    "published_at": "2026-11-18T17:39:54+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "183b105523eb37ac",
-    "url": "https://www.economist.com/science-and-technology/2026/11/18/america-has-slashed-funding-for-biomedical-science-abroad",
-    "title": "America has slashed funding for biomedical science abroad",
-    "source": "The Economist",
-    "published_at": "2026-11-18T17:37:15+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "54c3e2bb8ab1b44e",
-    "url": "https://arxiv.org/abs/2611.24789v1",
-    "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-    "source": "arXiv",
-    "published_at": "2026-11-18T17:36:15+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "2cc51f85ba4371b1",
-    "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-    "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-    "source": "BBC News",
-    "published_at": "2026-11-18T17:34:25+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "a8ea05e8ef01ea84",
-    "url": "https://www.youtube.com/watch?v=efUHAMdViZE",
-    "title": "Why Bergson Says Time Cannot Be Divided into Moments | Victoria Trumbull",
-    "source": "Closer to Truth",
-    "published_at": "2026-11-18T17:30:18+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "f59d166f48bbd937",
-    "url": "https://arxiv.org/abs/2611.24778v1",
-    "title": "Counterfactual World Models: JEPAs That Reason About \"What If\"",
-    "source": "arXiv",
-    "published_at": "2026-11-18T17:24:00+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "9e5495621eae2da6",
-    "url": "https://arxiv.org/abs/2611.24771v1",
-    "title": "Hierarchical Admittance-Impedance Control for Mobile Manipulator Load Transfer",
-    "source": "arXiv",
-    "published_at": "2026-11-18T17:19:50+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "4628b4589a8585d8",
-    "url": "https://www.economist.com/podcasts/2026/11/18/the-technologies-that-will-define-2027",
-    "title": "The technologies that will define 2027",
-    "source": "The Economist",
-    "published_at": "2026-11-18T17:18:22+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "40b5b18c05d1ab1f",
-    "url": "https://www.rockpapershotgun.com/korridor-turns-those-youtube-ads-for-vertical-mobile-shooters-into-a-new-deeply-strategic-genre-and-i-cant-decide-if-its-lying",
-    "title": "Korridor turns those Youtube ads for vertical mobile shooters into a new, \"deeply strategic\" genre, and I can't decide if it's lying",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-18T17:10:00+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "7534063c1d3cb240",
-    "url": "https://eleanorwiesler.com/blog/robotic-stone-carving/",
-    "title": "Teaching robots to carve marble sculptures",
-    "source": "Hacker News",
-    "published_at": "2026-11-18T17:03:53+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "c73c048e2de0aef0",
-    "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-    "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-    "source": "BBC News",
-    "published_at": "2026-11-18T17:00:40+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "40b5659e8a6151f1",
-    "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-    "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-    "source": "BBC News",
-    "published_at": "2026-11-18T17:00:04+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "7eed5c5a3d22cf95",
-    "url": "https://www.readtangle.com/senate-permitting-reform-baaja/",
-    "title": "The Senate considers permitting reform.",
-    "source": "Tangle",
-    "published_at": "2026-11-18T16:51:30+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "d095c82edb5aa556",
-    "url": "https://www.nytimes.com/2026/11/18/us/politics/hakeem-jeffries-speaker-of-the-house-democrats.html",
-    "title": "Democrats Nominate Hakeem Jeffries for Speaker of the House, Making History",
-    "source": "The New York Times",
-    "published_at": "2026-11-18T16:42:44+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "d3edbd5d82fcd3f8",
-    "url": "https://www.rockpapershotgun.com/abducting-your-own-lover-no-longer-gives-you-opinion-of-yourself-declare-the-notes-for-crusader-kings-3s-free-florin-update-released-alongside-silk-and-silver",
-    "title": "\"Abducting your own lover no longer gives you opinion of yourself\" declare the notes for Crusader Kings 3's free Florin update, released alongside Silk and Silver",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-18T16:40:00+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "73539e88a702c69d",
-    "url": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss",
-    "title": "Julio Iglesias facing court investigation over alleged sexual offences",
-    "source": "BBC News",
-    "published_at": "2026-11-18T16:33:16+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "6899814cdba426e3",
-    "url": "https://www.economist.com/graphic-detail/2026/11/18/muslims-may-outnumber-christians-by-2035",
-    "title": "Muslims may outnumber Christians by 2035",
-    "source": "The Economist",
-    "published_at": "2026-11-18T16:24:26+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "67200fd255b3dcb9",
-    "url": "https://www.nytimes.com/2026/11/18/us/anti-ai-protests-petitions-colleges.html",
-    "title": "The Anti-A.I. Campus Movement Is Growing",
-    "source": "The New York Times",
-    "published_at": "2026-11-18T16:16:31+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "a374555f521d439b",
-    "url": "https://www.rockpapershotgun.com/i-have-double-checked-and-yes-original-gta-killer-driv3r-really-was-that-rubbish",
-    "title": "I have double-checked and yes, original 'GTA killer' Driv3r really was that rubbish",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-18T16:16:10+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "eba19e73279e3cc9",
-    "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-    "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-    "source": "BBC News",
-    "published_at": "2026-11-18T16:10:44+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "15fdb93f14c97ef8",
-    "url": "https://www.bbc.co.uk/news/articles/c6lyw490z14jo?at_medium=RSS&at_campaign=rss",
-    "title": "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987",
-    "source": "BBC News",
-    "published_at": "2026-11-18T15:39:57+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "0f4cd84405977dc9",
-    "url": "https://www.economist.com/business/2026/11/18/just-how-central-should-one-person-be-to-an-organisation",
-    "title": "Just how central should one person be to an organisation?",
-    "source": "The Economist",
-    "published_at": "2026-11-18T15:27:00+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "d4b619ee04489a56",
-    "url": "https://www.space.com/space-exploration/satellites/satellites-now-outnumber-the-visible-stars-above-most-towns",
-    "title": "Satellites now outnumber the visible stars above most towns",
-    "source": "Hacker News",
-    "published_at": "2026-11-18T15:21:01+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
   }
 ]
