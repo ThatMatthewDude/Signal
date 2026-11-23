@@ -1,5 +1,533 @@
 [
   {
+    "id": "10d0f094fa78208a",
+    "url": "https://philpapers.org/rec/SINGBL",
+    "title": "Singh, Mayank: GOD:The Biggest Lie of Humanity Turned Into Deepest Truth",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567926+00:00",
+    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
+  },
+  {
+    "id": "ef4793c1191f89ff",
+    "url": "https://philpapers.org/rec/HUACRO-2",
+    "title": "Huang, Wanhong: Computational Roles of Vacuum Detection in Second-Quantized and Anyonic Systems: A Preliminary Study",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567760+00:00",
+    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
+  },
+  {
+    "id": "41f802842d9e4cdf",
+    "url": "https://philpapers.org/rec/LPECIO",
+    "title": "López Villanueva, Ignacio: Corpus IGLV: Operational Viability, Relational Persistence, and Architectural Closure",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567480+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "3b8fa365bfa0df36",
+    "url": "https://philpapers.org/rec/SINTPO-60",
+    "title": "Singh, Mayank: The Paradox of Living: Humanity's Psychological Avoidance of Direct Experience, Impermanence and the Interconnected Reality of Existence",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567421+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "dfd0224e3a14345c",
+    "url": "https://philpapers.org/rec/BULTCE-25",
+    "title": "Bulgaria, Jamel: The Core Emotion Framework as a Clinical Meta-Index: Integrative Architecture, Modality Remedies, and Verification Audit",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567359+00:00",
+    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
+  },
+  {
+    "id": "245f707a36e31ea1",
+    "url": "https://philpapers.org/rec/HUAADO-17",
+    "title": "Huang, Wanhong: A Discussion of Archival Representation and Generative Inheritance in Self-Evolving AI Inquiry",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567206+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "b4933fbfad224119",
+    "url": "https://philpapers.org/rec/HUAEPI-2",
+    "title": "Huang, Wanhong: Evaluative Power in Self-Evolving AI Knowledge Systems: Temporal and Relational Formation",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.567061+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "9412328d41de9f63",
+    "url": "https://philpapers.org/rec/HUAAII-4",
+    "title": "Huang, Wanhong: An Inquiry into Evaluative Norm Formation and Justice in Self-Evolving AI Knowledge Systems",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566908+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "86d8f99409475686",
+    "url": "https://philpapers.org/rec/SINTAO-15",
+    "title": "Singh, Mayank: The Arrogance of Reproduction: Patriarchal Continuity, Bloodline Consciousness, & the Unexamined Necessity of Human Existence",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566848+00:00",
+    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
+  },
+  {
+    "id": "9e8a498543d50475",
+    "url": "https://philpapers.org/rec/CHETRO-65",
+    "title": "Chen, Peijin: Theoretical research on the epistemology of TCM from the I Ching",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566691+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "facd9ca7498f8737",
+    "url": "https://philpapers.org/rec/FUJXAN",
+    "title": "Fujie, Naoto: Xeno-Buddhism A Non-Anthropocentric Rereading of Buddhist Scriptures and Practices and Its Connection to Operational Nihilism",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566515+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "d611a6a016629551",
+    "url": "https://philpapers.org/rec/FUJSAC",
+    "title": "Fujie, Naoto: Scientific and Conspiratorial Operational Shapes A Comparative Observational Experiment Across 300,000 Operational Configurations: Toward the Repair of Xenoscience Beyond Popperian Falsification",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566345+00:00",
+    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
+  },
+  {
+    "id": "5202b9f71c19fc2f",
+    "url": "https://philpapers.org/rec/FUJCOC",
+    "title": "Fujie, Naoto: Critique of Cybernetics",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566280+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "df706de30564b335",
+    "url": "https://philpapers.org/rec/ZHAKCI-3",
+    "title": "Zha, Jingrong: Key Concept Index of Jing-Rong Philosophical Reflections 敬融哲思：带拼音的关键概念索引",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.566123+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "2bd3a58b54951358",
+    "url": "https://philpapers.org/rec/HUATLO-4",
+    "title": "Huang, Wanhong: The Life of Gifts: Relational Reproduction and Generative Circulation",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.565927+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "20b9552fcf26a673",
+    "url": "https://philpapers.org/rec/BULTCE-26",
+    "title": "Bulgaria, Jamel: The Core Emotion Framework at Two Hundred: Canonical Synthesis of Structural-Constructivist Affective Ontology, Operator Algebra, and Open-Science Validation",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.565862+00:00",
+    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
+  },
+  {
+    "id": "5d55e6cdd5a2dd09",
+    "url": "https://philpapers.org/rec/MALTPO-87",
+    "title": "Malcew, Wiaczesław: The Philosophy of Absolute Meaning (PhAM): Academic Passport of the Philosophical System. Version 3.0",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.565806+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "5277a96819918072",
+    "url": "https://philpapers.org/rec/LOWTPO-29",
+    "title": "Lowder, Jeffery Jay: The Problem of God and Morality",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.565749+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "84d5760e1094c86e",
+    "url": "https://philpapers.org/rec/DEABCC",
+    "title": "De Angelis, J. Anthony: Before Causal Collapse: The Constitutional Conditions of Experience",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.565679+00:00",
+    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
+  },
+  {
+    "id": "c55ea69d272332d6",
+    "url": "https://philpapers.org/rec/ZHAACA-6",
+    "title": "Zhalnin, Alexander E.: A Critical Analysis of the Concepts of Reality in David Chalmers’s Reality+",
+    "source": "PhilPapers",
+    "published_at": "2026-11-23T16:43:54.565473+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "e0b4fa9f4d6de614",
+    "url": "https://www.nytimes.com/2026/11/23/climate/cop31-collapse-what-next.html",
+    "title": "COP31 Climate Talks Broke Down. Now What?",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T16:18:49+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "c970240297e67c00",
+    "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
+    "title": "Elon Musk Faces an A.I. Dilemma at SpaceX",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T16:13:32+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "f818d2bd1e1815d5",
+    "url": "https://www.rockpapershotgun.com/finally-some-former-valorant-and-sky-devs-have-answered-the-call-for-a-peak-style-platformer-about-throwing-a-cat-through-a-hole-in-spacetime",
+    "title": "Finally, some former Valorant and Sky devs have answered the call for a Peak-style platformer about throwing a cat through a hole in spacetime",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-23T16:10:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "09db32e54d583dbc",
+    "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html",
+    "title": "Ukraine’s Attack Off Coast of Libya Shows Reach of Its Naval Drones",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T16:08:22+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "206f6269cb1c0459",
+    "url": "https://www.readtangle.com/is-this-what-the-gop-looks-like-after-trump/",
+    "title": "Is This What the GOP Looks Like After Trump?",
+    "source": "Tangle",
+    "published_at": "2026-11-23T16:00:10+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "2552f82a0ea5739b",
+    "url": "https://www.rockpapershotgun.com/this-week-in-pc-games-raise-a-psychedelic-baby-invent-terrible-new-religions-and-run-your-own-pc-hardware-business",
+    "title": "This week in PC games: Raise a psychedelic baby, invent terrible new religions, and run your own PC hardware business",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-23T15:43:20+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "3ac87aa6d989912b",
+    "url": "https://www.nytimes.com/2026/11/23/health/measles-adults-vaccine-boosters.html",
+    "title": "Measles Is a Growing Risk for Adults in the United States",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T15:42:57+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "2b240001538629c1",
+    "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+    "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+    "source": "BBC News",
+    "published_at": "2026-11-23T15:41:23+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "17e8da52aec30635",
+    "url": "https://www.netinterest.co/p/supply-and-demand",
+    "title": "Supply and Demand",
+    "source": "Net Interest",
+    "published_at": "2026-11-23T15:38:25+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "7d2b5f32fee67e14",
+    "url": "https://www.nytimes.com/2026/11/23/us/politics/democrats-debates-2028-presidential-race.html",
+    "title": "D.N.C. Plans 12 Debates for the 2028 Presidential Primary, Starting in June",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T15:32:54+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "f49c5ee07b76677f",
+    "url": "https://www.nytimes.com/2026/11/23/opinion/national-popular-vote.html",
+    "title": "The National Popular Vote and the End of the Electoral College as We Know It",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T15:19:33+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "9758340b805fb767",
+    "url": "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea",
+    "title": "Nvidia reinstate Jensen Huang as CEO following alleged affairs, as US government support renders 'please give me my job back, go USA' a highly persuasive plea",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-23T15:10:20+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "c82dcfbd0de1cf61",
+    "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+    "title": "States Sue SpaceX Over Grok Deepfakes",
+    "source": "Hacker News",
+    "published_at": "2026-11-23T14:59:39+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "7a6f5bc30a5d91eb",
+    "url": "https://www.economist.com/business/2026/11/23/bartleby-newsletter-valley-mentality",
+    "title": "Bartleby newsletter: Valley mentality",
+    "source": "The Economist",
+    "published_at": "2026-11-23T14:54:47+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "2cb2f93d8105c766",
+    "url": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+    "title": "Mexican soldiers attacked in wake of drug lord's arrest",
+    "source": "BBC News",
+    "published_at": "2026-11-23T14:54:03+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "44204b0ec68af54f",
+    "url": "https://www.nytimes.com/2026/11/23/nyregion/jessica-ramos-campaign.html",
+    "title": "Jessica Ramos Couldn’t Afford Her Campaign Manager. She Gave Him a Senate Job.",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T14:43:23+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "4b2bd67cb296cc72",
+    "url": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
+    "title": "Nigeria's president says he is also hit by water and power cuts plaguing country",
+    "source": "BBC News",
+    "published_at": "2026-11-23T14:26:33+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "fc5e56ef8171f90a",
+    "url": "https://dailynous.com/2026/11/23/online-philosophy-resources-weekly-update-449/",
+    "title": "Online Philosophy Resources Weekly Update",
+    "source": "Daily Nous",
+    "published_at": "2026-11-23T14:23:53+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "cc78f3f81fb62d99",
+    "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-older-soldiers.html",
+    "title": "They Were Too Old to Enlist, but Not to Fight. Meet the Steppe Wolves of Ukraine.",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T13:53:33+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "10208a6a3744e666",
+    "url": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html",
+    "title": "SpaceX Sued By Oregon and Virginia Over A.I.-Generated Sexualized Images",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T13:40:06+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "1baaa97b8aff1a7e",
+    "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+    "title": "Flights cancelled in Belgium due to cost-of-living strike",
+    "source": "BBC News",
+    "published_at": "2026-11-23T13:34:02+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "e8df055e7ed4d81b",
+    "url": "https://www.rockpapershotgun.com/nightdives-thief-remaster-will-make-the-most-infamous-thief-gold-level-a-little-less-maddening-by-just-kind-of-pointing-the-player-in-the-right-direction",
+    "title": "Nightdive's Thief remaster will make the most \"infamous\" Thief Gold level a little less maddening, by \"just kind of pointing the player in the right direction\"",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-23T13:30:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "3ed909c38e48a6d0",
+    "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+    "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+    "source": "BBC News",
+    "published_at": "2026-11-23T13:02:05+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "614556e16df9000c",
+    "url": "https://www.rockpapershotgun.com/nvidia-release-hotfix-for-latest-graphics-card-driver-battering-ssds-with-excessive-writes-but-it-looks-like-reverting-may-still-be-the-better-option",
+    "title": "Nvidia release hotfix for latest graphics card driver battering SSDs with excessive writes, but it looks like reverting may still be the better option",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-23T12:59:50+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "4e3962853d13aec6",
+    "url": "https://www.economist.com/the-world-this-week/2026/11/23/cover-story-newsletter-axis-of-malice",
+    "title": "Cover Story newsletter: Axis of malice",
+    "source": "The Economist",
+    "published_at": "2026-11-23T12:54:57+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "5dc30ca5739e5f49",
+    "url": "https://www.nytimes.com/2026/11/23/science/missing-heritability.html",
+    "title": "When It Comes to Nature vs. Nurture, How Much Do Our Genes Matter?",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T12:10:25+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "9d93df52dd06f9f8",
+    "url": "https://preposterousuniverse.com/podcast/2026/11/23/375-karen-lutfey-spencer-on-dying-and-how-to-prepare-for-it/",
+    "title": "375 | Karen Lutfey Spencer on Dying and How to Prepare for It",
+    "source": "Mindscape",
+    "published_at": "2026-11-23T12:06:53+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "796612a75aeb0063",
+    "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+    "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+    "source": "BBC News",
+    "published_at": "2026-11-23T11:57:33+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "762af648b467f24f",
+    "url": "https://www.rockpapershotgun.com/undisclosed-ai-generated-music-pulled-from-the-binding-of-isaac-repentance-update-as-attempt-to-get-satirical-on-gta-6-launch-day-goes-awry",
+    "title": "Undisclosed AI-generated music pulled from The Binding of Isaac Repentance+ update, as attempt to get satirical on GTA 6 launch day goes awry",
+    "source": "Rock Paper Shotgun",
+    "published_at": "2026-11-23T11:45:10+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "481e09fdece7161a",
+    "url": "https://www.nytimes.com/2026/11/23/briefing/nvidia-jensen-huang.html",
+    "title": "Your Nvidia Questions",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T11:35:27+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "28fb1e929b99f0cc",
+    "url": "https://www.nytimes.com/2026/11/23/world/middleeast/netanyahu-israel-iran.html",
+    "title": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him?",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T11:33:01+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "9b2397609d23764b",
+    "url": "https://www.economist.com/podcasts/2026/11/23/in-the-life-of-prime-ais-latest-maths-triumph",
+    "title": "In the life of prime: AI’s latest maths triumph",
+    "source": "The Economist",
+    "published_at": "2026-11-23T11:18:45+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "f716b6d42488cd1f",
+    "url": "https://www.nytimes.com/2026/11/23/podcasts/the-headlines/un-climate-talks-china-spies-ai-chips.html",
+    "title": "Why U.N. Climate Talks Collapsed, and How China’s Spies Set Sights on A.I. Chips",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T11:01:20+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "6edeea2b4b92d05b",
+    "url": "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable",
+    "title": "The wind and the song: the treachery of AI",
+    "source": "Aeon",
+    "published_at": "2026-11-23T11:01:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "dadff3d10057e02b",
+    "url": "https://www.propublica.org/article/dc-metro-smithsonian-american-history-plan",
+    "title": "Spotted on the D.C. Metro: Trump Staffer Accidentally Reveals Plan for Smithsonian Overhaul",
+    "source": "ProPublica",
+    "published_at": "2026-11-23T11:00:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "7df9a0f4003a422b",
+    "url": "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino",
+    "title": "A colossal oscillation",
+    "source": "Aeon",
+    "published_at": "2026-11-23T11:00:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "716e8410796eb3ff",
+    "url": "https://psyche.co/turning-points/my-dog-had-separation-anxiety-i-had-ptsd-how-did-we-cope",
+    "title": "Learning to leave",
+    "source": "Psyche",
+    "published_at": "2026-11-23T11:00:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "d19fb900faa1af82",
+    "url": "https://www.economist.com/by-invitation/2026/11/23/as-public-markets-hog-the-limelight-dangers-lie-in-the-shadows",
+    "title": "As public markets hog the limelight, dangers lie in the shadows",
+    "source": "The Economist",
+    "published_at": "2026-11-23T10:35:48+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "e1f23138583fd723",
+    "url": "https://www.nytimes.com/2026/11/23/business/thanksgiving-grocery-prices.html",
+    "title": "Grocers Take Losses on Thanksgiving Meal Bundles to Draw Shoppers",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T10:03:46+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "635a0b3bbbc412a0",
+    "url": "https://www.nytimes.com/2026/11/23/world/americas/colombia-farc-peace-deal.html",
+    "title": "Colombia Marks 10 Years Since FARC Peace Deal: In Photos",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T10:02:48+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "95e87b494238496f",
+    "url": "https://www.nytimes.com/2026/11/23/opinion/china-ai-race-control.html",
+    "title": "China’s A.I. Freakout Is Coming. Just Wait.",
+    "source": "The New York Times",
+    "published_at": "2026-11-23T10:01:58+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "4c0befd1d24ab39f",
+    "url": "https://www.propublica.org/article/immigration-domestic-violence",
+    "title": "If They Call 911 About Domestic Abuse, Will They Be Deported?",
+    "source": "ProPublica",
+    "published_at": "2026-11-23T10:00:00+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "fe5435f47ac9de5c",
+    "url": "https://www.economist.com/podcasts/2026/11/23/an-alliance-of-autocrats-threatens-the-west",
+    "title": "An alliance of autocrats threatens the West",
+    "source": "The Economist",
+    "published_at": "2026-11-23T09:57:31+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "3d2af44c86d998ff",
+    "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
+    "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+    "source": "BBC News",
+    "published_at": "2026-11-23T08:53:01+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "b0eaad06d055eef7",
+    "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+    "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+    "source": "BBC News",
+    "published_at": "2026-11-23T05:33:17+00:00",
+    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
+  },
+  {
+    "id": "ca50e27920630fd1",
+    "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+    "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+    "source": "BBC News",
+    "published_at": "2026-11-23T05:15:06+00:00",
+    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
     "id": "b13008ec7d2697ce",
     "url": "https://philpapers.org/rec/NIUTAO",
     "title": "Niu, Gangbei: The Author of Yesterday: Strong Causality, Recursive Cosmology, and the Retrospective Reconstruction of Human Memory by Artificial Intelligence",
@@ -32,30 +560,6 @@
     "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
   },
   {
-    "id": "245f707a36e31ea1",
-    "url": "https://philpapers.org/rec/HUAADO-17",
-    "title": "Huang, Wanhong: A Discussion of Archival Representation and Generative Inheritance in Self-Evolving AI Inquiry",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.107661+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
-    "id": "41f802842d9e4cdf",
-    "url": "https://philpapers.org/rec/LPECIO",
-    "title": "López Villanueva, Ignacio: Corpus IGLV: Operational Viability, Relational Persistence, and Architectural Closure",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.107381+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
-    "id": "b4933fbfad224119",
-    "url": "https://philpapers.org/rec/HUAEPI-2",
-    "title": "Huang, Wanhong: Evaluative Power in Self-Evolving AI Knowledge Systems: Temporal and Relational Formation",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.107106+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
     "id": "9af82fa4c890dbd7",
     "url": "https://philpapers.org/rec/BULDAF",
     "title": "Bulgaria, Jamel: Detangling Accepting From Constricting and Pairing With Boosting in the Core Emotion Framework and ACT",
@@ -64,35 +568,11 @@
     "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
   },
   {
-    "id": "9412328d41de9f63",
-    "url": "https://philpapers.org/rec/HUAAII-4",
-    "title": "Huang, Wanhong: An Inquiry into Evaluative Norm Formation and Justice in Self-Evolving AI Knowledge Systems",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.106656+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
     "id": "4e41d5eba3c215b2",
     "url": "https://philpapers.org/rec/KOSTPP",
     "title": "Koschel, Gottfried: The Primary Phenomenon: What Appears and What Can Be Known About It",
     "source": "PhilPapers",
     "published_at": "2026-11-23T04:31:20.106531+00:00",
-    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
-  },
-  {
-    "id": "86d8f99409475686",
-    "url": "https://philpapers.org/rec/SINTAO-15",
-    "title": "Singh, Mayank: The Arrogance of Reproduction: Patriarchal Continuity, Bloodline Consciousness, & the Unexamined Necessity of Human Existence",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.106422+00:00",
-    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
-  },
-  {
-    "id": "dfd0224e3a14345c",
-    "url": "https://philpapers.org/rec/BULTCE-25",
-    "title": "Bulgaria, Jamel: The Core Emotion Framework as a Clinical Meta-Index: Integrative Architecture, Modality Remedies, and Verification Audit",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.106298+00:00",
     "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
   },
   {
@@ -104,59 +584,11 @@
     "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
   },
   {
-    "id": "10d0f094fa78208a",
-    "url": "https://philpapers.org/rec/SINGBL",
-    "title": "Singh, Mayank: GOD:The Biggest Lie of Humanity Turned Into Deepest Truth",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.105899+00:00",
-    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
-  },
-  {
-    "id": "ef4793c1191f89ff",
-    "url": "https://philpapers.org/rec/HUACRO-2",
-    "title": "Huang, Wanhong: Computational Roles of Vacuum Detection in Second-Quantized and Anyonic Systems: A Preliminary Study",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.105560+00:00",
-    "first_shown_at": "2026-11-22T13:48:06.427397+00:00"
-  },
-  {
-    "id": "3b8fa365bfa0df36",
-    "url": "https://philpapers.org/rec/SINTPO-60",
-    "title": "Singh, Mayank: The Paradox of Living: Humanity's Psychological Avoidance of Direct Experience, Impermanence and the Interconnected Reality of Existence",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.105427+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
-    "id": "d611a6a016629551",
-    "url": "https://philpapers.org/rec/FUJSAC",
-    "title": "Fujie, Naoto: Scientific and Conspiratorial Operational Shapes A Comparative Observational Experiment Across 300,000 Operational Configurations: Toward the Repair of Xenoscience Beyond Popperian Falsification",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.105067+00:00",
-    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
-  },
-  {
-    "id": "20b9552fcf26a673",
-    "url": "https://philpapers.org/rec/BULTCE-26",
-    "title": "Bulgaria, Jamel: The Core Emotion Framework at Two Hundred: Canonical Synthesis of Structural-Constructivist Affective Ontology, Operator Algebra, and Open-Science Validation",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.104903+00:00",
-    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
-  },
-  {
     "id": "502da3351db8916d",
     "url": "https://philpapers.org/rec/SURTRT",
     "title": "Surkes, Michael A.: The Reification Test",
     "source": "PhilPapers",
     "published_at": "2026-11-23T04:31:20.104844+00:00",
-    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
-  },
-  {
-    "id": "84d5760e1094c86e",
-    "url": "https://philpapers.org/rec/DEABCC",
-    "title": "De Angelis, J. Anthony: Before Causal Collapse: The Constitutional Conditions of Experience",
-    "source": "PhilPapers",
-    "published_at": "2026-11-23T04:31:20.104574+00:00",
     "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
   },
   {
@@ -168,28 +600,20 @@
     "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
   },
   {
-    "id": "2b240001538629c1",
-    "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-    "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-    "source": "BBC News",
-    "published_at": "2026-11-23T02:59:35+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
-    "id": "b0eaad06d055eef7",
-    "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-    "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-    "source": "BBC News",
-    "published_at": "2026-11-23T02:37:02+00:00",
-    "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
-  },
-  {
     "id": "6efc9a656820cfa3",
     "url": "https://www.nytimes.com/2026/11/22/us/politics/alice-huang-china-spy-agency-nvidia.html",
     "title": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
     "source": "The New York Times",
     "published_at": "2026-11-23T02:17:16+00:00",
     "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
+  },
+  {
+    "id": "1d3044196ef7ade0",
+    "url": "https://github.com/njgreb/n64fireplace",
+    "title": "Show HN: Hearth 64 – A cozy fireplace screensaver ROM for real N64 hardware",
+    "source": "Hacker News",
+    "published_at": "2026-11-23T01:52:12+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
   },
   {
     "id": "7993e8c0c2e80f61",
@@ -206,22 +630,6 @@
     "source": "The New York Times",
     "published_at": "2026-11-23T01:26:59+00:00",
     "first_shown_at": "2026-11-23T04:36:17.854511+00:00"
-  },
-  {
-    "id": "3ed909c38e48a6d0",
-    "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-    "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-    "source": "BBC News",
-    "published_at": "2026-11-23T01:23:43+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
-  },
-  {
-    "id": "ca50e27920630fd1",
-    "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-    "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-    "source": "BBC News",
-    "published_at": "2026-11-23T00:50:35+00:00",
-    "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
   },
   {
     "id": "6bc6938e2ca51318",
@@ -318,6 +726,14 @@
     "source": "The Economist",
     "published_at": "2026-11-22T22:26:59+00:00",
     "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "36e3d505308bce7f",
+    "url": "https://www.economist.com/international/2026/11/22/the-messy-breakdown-of-the-uns-climate-conference",
+    "title": "The messy breakdown of the UN’s climate conference",
+    "source": "The Economist",
+    "published_at": "2026-11-22T22:26:59+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
   },
   {
     "id": "b0adccdaf9fa959f",
@@ -1632,6 +2048,14 @@
     "first_shown_at": "2026-11-21T13:54:13.142830+00:00"
   },
   {
+    "id": "6cb76110ae4ac578",
+    "url": "https://arxiv.org/abs/2611.27967v1",
+    "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
+    "source": "arXiv",
+    "published_at": "2026-11-20T18:48:12+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
     "id": "1324f71d6005db14",
     "url": "https://www.nytimes.com/2026/11/20/books/jonathan-yardley-dead.html",
     "title": "Jonathan Yardley, Who Reviewed 3,000 Books and Pulled Zero Punches, Has Died",
@@ -1640,12 +2064,44 @@
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
   },
   {
+    "id": "f18dd2dcd84759b0",
+    "url": "https://arxiv.org/abs/2611.27953v1",
+    "title": "Real-time neuromorphic audio and vision perception for autonomous robotic applications: Integration and experimental evaluation on a rover platform",
+    "source": "arXiv",
+    "published_at": "2026-11-20T18:27:26+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "98470c77af160a32",
+    "url": "https://arxiv.org/abs/2611.27939v1",
+    "title": "What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage",
+    "source": "arXiv",
+    "published_at": "2026-11-20T18:12:49+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "0a0fbfa4d958c738",
+    "url": "https://arxiv.org/abs/2611.27932v1",
+    "title": "Interactive Semi-Parametric On-Track Learning for Vehicle Dynamics in Autonomous Racing",
+    "source": "arXiv",
+    "published_at": "2026-11-20T18:08:14+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
     "id": "a7362ff86af85ab0",
     "url": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html",
     "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
     "source": "The New York Times",
     "published_at": "2026-11-20T18:05:36+00:00",
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
+  },
+  {
+    "id": "cb9800fa73449363",
+    "url": "https://arxiv.org/abs/2611.27915v1",
+    "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+    "source": "arXiv",
+    "published_at": "2026-11-20T17:52:02+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
   },
   {
     "id": "767c2779862d27ef",
@@ -1696,6 +2152,14 @@
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
   },
   {
+    "id": "ad4707ed448f4a97",
+    "url": "https://arxiv.org/abs/2611.27845v1",
+    "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
+    "source": "arXiv",
+    "published_at": "2026-11-20T16:58:59+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
     "id": "c44500a4d940549d",
     "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
     "title": "Cost of living protests sweep across Europe",
@@ -1704,12 +2168,44 @@
     "first_shown_at": "2026-11-20T23:32:09.234480+00:00"
   },
   {
+    "id": "e611b84f0c07cfc6",
+    "url": "https://arxiv.org/abs/2611.27817v1",
+    "title": "BRINA: Bottom-Referenced Inertial Navigation with AKAZE, a Sonar SLAM for Autonomous Marine Vehicles",
+    "source": "arXiv",
+    "published_at": "2026-11-20T16:43:43+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "ea007b4d143a46c8",
+    "url": "https://arxiv.org/abs/2611.27804v1",
+    "title": "Generalist Action Critic: Harnessing Frontier Models in Autonomous Driving",
+    "source": "arXiv",
+    "published_at": "2026-11-20T16:32:53+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
+    "id": "f96c921d6b60927a",
+    "url": "https://arxiv.org/abs/2611.27797v1",
+    "title": "EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection",
+    "source": "arXiv",
+    "published_at": "2026-11-20T16:28:51+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
+  },
+  {
     "id": "5ef547e2a9ae722e",
     "url": "https://cooking.nytimes.com/article/easy-thanksgiving-recipes-no-oven-space",
     "title": "Easy Thanksgiving Recipes That Take Up Absolutely No Oven Space",
     "source": "The New York Times",
     "published_at": "2026-11-20T16:20:37+00:00",
     "first_shown_at": "2026-11-22T22:59:17.791044+00:00"
+  },
+  {
+    "id": "0783156baef66494",
+    "url": "https://arxiv.org/abs/2611.27782v1",
+    "title": "An Autonomous Adaptive Learning System for Robotic Grasping in the Circular Factory",
+    "source": "arXiv",
+    "published_at": "2026-11-20T16:10:16+00:00",
+    "first_shown_at": "2026-11-23T16:48:14.775046+00:00"
   },
   {
     "id": "f2509da3bbaa1f8e",
@@ -2702,501 +3198,5 @@
     "source": "BBC News",
     "published_at": "2026-11-19T17:38:22+00:00",
     "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "5fcf0e7099fa6157",
-    "url": "https://www.rockpapershotgun.com/space-station-horror-fps-derelikt-is-a-lively-retro-throwback-to-alien-resurrection-though-its-better-at-shooting-than-scaring",
-    "title": "Space station horror-FPS Derelikt is a lively retro throwback to Alien: Resurrection, though it's better at shooting than scaring",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T17:36:40+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "932324fde5afa96b",
-    "url": "https://www.nytimes.com/2026/11/19/world/asia/russia-china-united-states-oil-joint-statement.html",
-    "title": "At APEC Summit, U.S., China and Russia Vow to Increase Oil Supply Amid Global Energy Transition",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T17:25:17+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "f1f6e4f97f504f1c",
-    "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
-    "title": "Susan Smith denied parole again 32 years after drowning her two sons",
-    "source": "BBC News",
-    "published_at": "2026-11-19T17:23:34+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "9dc520d963ae4bf8",
-    "url": "https://arxiv.org/abs/2611.26444v1",
-    "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-    "source": "arXiv",
-    "published_at": "2026-11-19T17:15:38+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "179f1a989fa0b9ee",
-    "url": "https://arxiv.org/abs/2611.26434v1",
-    "title": "HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation",
-    "source": "arXiv",
-    "published_at": "2026-11-19T17:09:25+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "e0380a3d951d77b9",
-    "url": "https://www.rockpapershotgun.com/ignore-that-other-game-about-crime-thats-out-and-burgle-some-ugly-farmhouses-in-keepsake-county-a-midwestern-stealth-game-with-a-2000s-cartoon-network-vibe",
-    "title": "Ignore that other game about crime that's out and burgle some ugly farmhouses in Keepsake County, a \"midwestern stealth game\" with a 2000s Cartoon Network vibe",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T17:05:40+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "a65b9574f7fd1969",
-    "url": "https://www.nytimes.com/2026/11/19/us/politics/trump-summit-power.html",
-    "title": "At Summit With Xi and Putin, Trump Seeks to Project Power Abroad While Sharing It at Home",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T17:05:18+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "d05bd9d51e878f4b",
-    "url": "https://alexanderpruss.blogspot.com/2026/11/dimensions-and-substantial-change.html",
-    "title": "Dimensions and substantial change",
-    "source": "Alexander Pruss's Blog",
-    "published_at": "2026-11-19T17:03:57+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "c3261a1d086e0f1f",
-    "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-    "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
-    "source": "BBC News",
-    "published_at": "2026-11-19T17:03:23+00:00",
-    "first_shown_at": "2026-11-18T23:44:22.435264+00:00"
-  },
-  {
-    "id": "21d7cc6940b806a8",
-    "url": "https://arxiv.org/abs/2611.26420v1",
-    "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
-    "source": "arXiv",
-    "published_at": "2026-11-19T17:03:03+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "8a74e57f08a20c01",
-    "url": "https://www.youtube.com/watch?v=F9b-FsYq_zU",
-    "title": "Why Good Karma Cannot End Suffering | Swami Sarvapriyananda",
-    "source": "Closer to Truth",
-    "published_at": "2026-11-19T17:00:13+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "118525a93fdce3d2",
-    "url": "https://www.readtangle.com/tech-outages-ai-disruptions/",
-    "title": "The tech outages.",
-    "source": "Tangle",
-    "published_at": "2026-11-19T16:54:54+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "63772037897b27ad",
-    "url": "https://arxiv.org/abs/2611.26405v1",
-    "title": "TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action",
-    "source": "arXiv",
-    "published_at": "2026-11-19T16:53:19+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "4971f418ed279473",
-    "url": "https://arxiv.org/abs/2611.26390v1",
-    "title": "SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting",
-    "source": "arXiv",
-    "published_at": "2026-11-19T16:44:10+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "742214e3e57a4a2e",
-    "url": "https://www.readtangle.com/the-problem-with-the-everything-is-breaking-theory/",
-    "title": "The Problem With the “Everything Is Breaking” Theory",
-    "source": "Tangle",
-    "published_at": "2026-11-19T16:41:24+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "382e4b45203e65ae",
-    "url": "https://arxiv.org/abs/2611.26385v1",
-    "title": "Beyond the Sink Interpretation: Radial Attention in Flow-Based VLA Policies",
-    "source": "arXiv",
-    "published_at": "2026-11-19T16:41:07+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "8efb4fc37a51797b",
-    "url": "https://arxiv.org/abs/2611.26376v1",
-    "title": "Alignment Drives Reuse: Learning Generalizable Robot-Use Agents from Heterogeneous Experience",
-    "source": "arXiv",
-    "published_at": "2026-11-19T16:37:10+00:00",
-    "first_shown_at": "2026-11-20T05:54:20.287862+00:00"
-  },
-  {
-    "id": "fcfd73beb3525d34",
-    "url": "https://www.propublica.org/article/civilian-workers-war-injuries-insurance-companies",
-    "title": "The U.S. Paid Insurers Billions to Cover Civilians Harmed in War. Even the Government Says the System Is Ripe for Fraud.",
-    "source": "ProPublica",
-    "published_at": "2026-11-19T16:15:00+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "6426226bc62ad8ba",
-    "url": "https://www.rockpapershotgun.com/ubisoft-lay-off-166-more-staff-this-time-at-their-montreal-and-quebec-city-studios-while-mumbling-about-current-production-priorities-and-business-needs",
-    "title": "Ubisoft lay off 166 more staff, this time at their Montreal and Quebec City studios, while mumbling about \"current production priorities and business needs\"",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T16:12:50+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "8ad8ee75f92d96fb",
-    "url": "https://www.nytimes.com/2026/11/19/magazine/grand-theft-auto-six.html",
-    "title": "Grand Theft Auto Used to Satirize American Life. Now We’ve Caught Up With It.",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T16:12:19+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "8a8850b6d8944f34",
-    "url": "https://www.nytimes.com/video/world/asia/100000011287890/inside-a-rohingya-camp-after-a-genocide-ruling.html",
-    "title": "Inside a Rohingya Camp After a Genocide Ruling",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T16:10:44+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "73da2a659e8eb17c",
-    "url": "https://www.nytimes.com/2026/11/19/world/asia/myanmar-genocide-refugee-camp.html",
-    "title": "In a Rohingya Refugee Camp, Jubilation but Also Apprehension",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T16:07:50+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "76f727165f287a1c",
-    "url": "https://www.propublica.org/article/corpus-christi-water-crisis-groundwater",
-    "title": "Corpus Christi Started Pumping Groundwater at “Lightning Speed.” Rural Residents Fear the Consequences.",
-    "source": "ProPublica",
-    "published_at": "2026-11-19T16:00:00+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "2cddf338ba79f083",
-    "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-    "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-    "source": "BBC News",
-    "published_at": "2026-11-19T15:52:26+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "82dccdff1c4b48dc",
-    "url": "https://thedataexchange.media/pete-warden-moonshine/",
-    "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
-    "source": "Hacker News",
-    "published_at": "2026-11-19T15:38:12+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "c5a788d7efb7df80",
-    "url": "https://tabbyml.github.io/weight-space-playground/",
-    "title": "Show HN: Watch weight-space programming in action with WebGPU",
-    "source": "Hacker News",
-    "published_at": "2026-11-19T15:32:47+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "5f44cdb84daf2dc0",
-    "url": "https://www.economist.com/culture/2026/11/19/the-best-video-games-of-2026",
-    "title": "The best video games of 2026",
-    "source": "The Economist",
-    "published_at": "2026-11-19T15:31:10+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "4f7f70a6250406e8",
-    "url": "https://www.rockpapershotgun.com/fish-with-a-sniper-rifle-takes-aim-at-tim-sweeneys-hopes-and-dreams-as-genai-free-meme-game-tops-epic-games-vibe-coding-megajam",
-    "title": "Fish with a sniper rifle takes aim at Tim Sweeney's hopes and dreams, as genAI-free meme game tops Epic Games' vibe-coding megajam",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T15:30:00+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "d4099efe501aad80",
-    "url": "https://www.rockpapershotgun.com/remembering-the-back-alley-brawls-of-the-warriors-a-rockstar-city-game-that-isnt-an-open-world",
-    "title": "Remembering the back alley brawls of The Warriors, a Rockstar city game that isn't an open world",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T15:00:00+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "ed169867e75e7edb",
-    "url": "https://philpapers.org/rec/FUJCRU",
-    "title": "Fujie, Naoto: CYBERNETIC REVISION UNDER CONSTRAINT Norbert Wiener, Operational Equivalence, and the Reach of Intervention",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T14:50:55.216857+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "8f361dbc03faba66",
-    "url": "https://philpapers.org/rec/NEURAT-4",
-    "title": "Neumann, Daniel: Reinach and the Givenness of States of Affairs",
-    "source": "PhilPapers",
-    "published_at": "2026-11-19T14:50:55.216025+00:00",
-    "first_shown_at": "2026-11-18T14:48:14.845418+00:00"
-  },
-  {
-    "id": "da3bf346dc9181d8",
-    "url": "https://www.nytimes.com/2026/11/19/us/boston-citgo-sign-fenway-park.html",
-    "title": "Boston’s Beloved Citgo Sign Returns After Rebuild, 30 Feet Higher",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T14:32:55+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "cd9f5f503834094d",
-    "url": "https://www.readtangle.com/who-is-he-hes-my-friend-trump-says-as-he-arrives-for-meeting-with-putin/",
-    "title": "“Who is he? He’s my friend.” Trump says as he arrives for meeting with Putin.",
-    "source": "Tangle",
-    "published_at": "2026-11-19T14:26:40+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "b88845b4eaf98edd",
-    "url": "https://www.nytimes.com/2026/11/18/business/dealbook/dealbook-summit-musk-altman-ellison.html",
-    "title": "Takeaways From the 2026 DealBook Summit",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T14:08:33+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
-    "id": "3033c02ee2ad1912",
-    "url": "https://www.economist.com/the-world-this-week/2026/11/19/cartoon-the-meeting-of-donald-trump-xi-jinping-and-vladimir-putin",
-    "title": "Cartoon: The meeting of Donald Trump, Xi Jinping and Vladimir Putin",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:03:33+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "19aa748979e7aab6",
-    "url": "https://www.economist.com/obituary/2026/11/19/vladimir-uglev-saw-his-lifes-work-denied-by-russia",
-    "title": "Vladimir Uglev saw his life’s work denied by Russia",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "929f2360d3dd15c2",
-    "url": "https://www.economist.com/culture/2026/11/19/why-there-are-so-many-bizarre-national-days",
-    "title": "Why there are so many bizarre national days",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "d4857adc4b203bc4",
-    "url": "https://www.economist.com/culture/2026/11/19/the-most-important-economics-mind-youve-never-heard-of",
-    "title": "The most important economics mind you’ve never heard of",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "ba32143fd2f32ca1",
-    "url": "https://www.economist.com/economic-and-financial-indicators/2026/11/19/economic-data-commodities-and-markets",
-    "title": "Economic data, commodities and markets",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "f073941ab6442a60",
-    "url": "https://www.economist.com/culture/2026/11/19/the-oddball-who-founded-ups-and-changed-the-world",
-    "title": "The oddball who founded UPS—and changed the world",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "dda067dba7ee41eb",
-    "url": "https://www.economist.com/business/2026/11/19/the-worlds-carmakers-are-revving-up-in-america",
-    "title": "The world’s carmakers are revving up in America",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "64716bfdbb22155b",
-    "url": "https://www.economist.com/business/2026/11/19/the-global-souths-smartphone-king-goes-big-on-ai",
-    "title": "The global south’s smartphone king goes big on AI",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "c2f60c13cbe06bac",
-    "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
-    "title": "Jensen Huang’s fall is bad news for Silicon Valley’s accelerationists",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "054c7952b1f30224",
-    "url": "https://www.economist.com/china/2026/11/19/chinas-prison-for-the-elite-is-massively-expanding",
-    "title": "China’s prison for the elite is massively expanding",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "6d124d6d00e21a4a",
-    "url": "https://www.economist.com/china/2026/11/19/chinas-buddhists-are-releasing-animals-where-they-do-not-belong",
-    "title": "China’s Buddhists are releasing animals where they do not belong",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "3163f1414f4eea8b",
-    "url": "https://www.economist.com/china/2026/11/19/chinas-efforts-to-strengthen-its-safety-net-fuel-public-anger",
-    "title": "China’s efforts to strengthen its safety net fuel public anger",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "b5d149824691a64d",
-    "url": "https://www.economist.com/asia/2026/11/19/thailands-fertility-rate-is-collapsing",
-    "title": "Thailand’s fertility rate is collapsing",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "6f8d437ba62d8b2a",
-    "url": "https://www.economist.com/asia/2026/11/19/china-is-kicking-up-a-fuss-over-a-japanese-spy-show",
-    "title": "China is kicking up a fuss over a Japanese spy show",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "974d8dcde063dca7",
-    "url": "https://www.economist.com/the-americas/2026/11/19/what-a-robot-olympiad-reveals-about-latin-americas-future",
-    "title": "What a robot Olympiad reveals about Latin America’s future",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "3ba6a1b3c9a4cc20",
-    "url": "https://www.economist.com/the-americas/2026/11/19/latin-america-would-like-to-be-the-next-data-centre-frontier",
-    "title": "Latin America would like to be the next data-centre frontier",
-    "source": "The Economist",
-    "published_at": "2026-11-19T14:01:02+00:00",
-    "first_shown_at": "2026-11-20T00:03:10.751142+00:00"
-  },
-  {
-    "id": "b16facea9bde3be0",
-    "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
-    "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-    "source": "BBC News",
-    "published_at": "2026-11-19T13:31:23+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "ac547cb1cef4db8e",
-    "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-dustin-moskovitz.html",
-    "title": "Dustin Moskovitz, an Early Anthropic Investor, Feels a Bit Uneasy About the IPO",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T13:28:13+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "4bf48d5812470eaa",
-    "url": "https://www.nytimes.com/2026/11/19/us/politics/three-maga-women-who-defined-an-era-in-congress-are-exiting.html",
-    "title": "Three MAGA Women Who Defined an Era in Congress Are Exiting",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T13:27:13+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "7377e6f77e06d5d3",
-    "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html",
-    "title": "Anthropic’s Trillion-Dollar Debut Is Watershed Moment for A.I.’s Risks and Rewards",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T13:20:40+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "8944b9bf2f7dff44",
-    "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-    "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-    "source": "BBC News",
-    "published_at": "2026-11-19T13:07:35+00:00",
-    "first_shown_at": "2026-11-19T04:56:15.384550+00:00"
-  },
-  {
-    "id": "1307b302fdbcb507",
-    "url": "https://www.rockpapershotgun.com/theyre-more-complicated-and-more-expensive-than-lcd-screens-but-your-next-gaming-monitor-should-still-be-an-oled",
-    "title": "They're more complicated and more expensive than LCD screens, but your next gaming monitor should still be an OLED",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T13:00:00+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "5171e29e1360b775",
-    "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
-    "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-    "source": "BBC News",
-    "published_at": "2026-11-19T12:56:30+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "157cfcc0b5e5816b",
-    "url": "https://www.nytimes.com/2026/11/19/business/cop31-energy-iea.html",
-    "title": "How the War in Iran Will Remake the Global Energy Order",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T12:51:17+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "f2c1c663e9e4196e",
-    "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html",
-    "title": "Behind Trump Meeting, Xi and Putin Share a Vision of Usurping U.S. Power",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T12:41:50+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "ef87c30f051608e2",
-    "url": "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html",
-    "title": "A Village Burned, Its People Killed or Exiled. A Court Ruled It Was Genocide.",
-    "source": "The New York Times",
-    "published_at": "2026-11-19T12:23:29+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "8011ccba91951021",
-    "url": "https://www.rockpapershotgun.com/hour-long-total-war-warhammer-40000-campaign-stream-shows-off-ship-battle-less-fleet-management-makes-clear-how-not-ideal-getting-space-marine-armies-killed-is",
-    "title": "Hour-long Total War: Warhammer 40,000 campaign stream shows off ship battle-less fleet management, makes clear how not ideal getting Space Marine armies killed is",
-    "source": "Rock Paper Shotgun",
-    "published_at": "2026-11-19T12:22:20+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
-  },
-  {
-    "id": "f815695fb56495de",
-    "url": "https://dailynous.com/2026/11/19/what-question-have-you-been-working-on-lately/",
-    "title": "What Question Have You Been Working On Lately?",
-    "source": "Daily Nous",
-    "published_at": "2026-11-19T12:17:50+00:00",
-    "first_shown_at": "2026-11-19T14:55:14.061940+00:00"
   }
 ]
